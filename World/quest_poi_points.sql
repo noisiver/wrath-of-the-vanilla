@@ -76,6 +76,9 @@ DELETE FROM `quest_poi_points` WHERE `QuestID`=176;
 -- Westbrook Garrison Needs Help!
 DELETE FROM `quest_poi_points` WHERE `QuestID`=239;
 
+-- Stormpike's Delivery
+DELETE FROM `quest_poi_points` WHERE `QuestID`=353;
+
 -- A Threat Within
 DELETE FROM `quest_poi_points` WHERE `QuestID`=783;
 

@@ -1,3 +1,6 @@
+-- Transport Stormwind to Auberdine
+DELETE FROM `transports` WHERE `guid`=2;
+
 -- Transport to Azuremyst Isle
 DELETE FROM `transports` WHERE `guid`=9;
 
