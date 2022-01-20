@@ -1,5 +1,6 @@
+DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=15 AND `SourceGroup` IN (0, 10056, 10078, 10078, 10173, 10265, 10371, 10767, 10768, 1403, 141, 1503, 1522, 1942, 1949, 1951, 21221, 21267, 2144, 2168, 2304, 2351, 2352, 2381, 2383, 2384, 3284, 3330, 3354, 3355, 3519, 3532, 3558, 3572, 3642, 3643, 3644, 3645, 381, 3921, 3924, 3925, 3926, 3984, 4007, 4008, 4009, 401, 4010, 4011, 4012, 4017, 4023, 4091, 4092, 410, 4101, 4103, 4104, 411, 421, 435, 436, 4463, 4464, 4466, 4467, 4468, 4469, 4470, 4471, 4472, 4473, 4474, 4475, 4481, 4482, 4484, 4485, 4486, 4502, 4503, 4504, 4505, 4506, 4507, 4508, 4509, 4511, 4512, 4513, 4515, 4516, 4517, 4518, 4519, 4520, 4521, 4522, 4523, 4524, 4525, 4526, 4527, 4528, 4529, 4530, 4531, 4532, 4533, 4534, 4535, 4537, 4538, 4539, 4540, 4541, 4542, 4543, 4544, 4545, 4546, 4547, 4548, 4549, 4550, 4551, 4552, 4556, 4557, 4558, 4559, 4561, 4562, 4566, 4567, 4568, 4569, 4570, 4571, 4572, 4573, 4574, 4575, 4576, 4577, 4578, 4579, 4581, 4603, 4604, 4605, 4606, 4607, 4609, 4610, 4621, 4641, 4642, 4643, 4645, 4646, 4647, 4648, 4649, 4650, 4651, 4652, 4653, 4654, 4655, 4656, 4657, 4658, 4659, 4660, 4661, 4662, 4665, 4666, 4667, 4674, 4675, 4676, 4677, 4678, 4679, 4680, 4681, 4682, 4683, 4684, 4685, 4686, 4687, 4688, 4690, 4691, 4692, 4693, 4694, 4695, 4696, 4697, 4801, 5061, 5123, 523, 63, 64, 655, 656, 6628, 6647, 6648, 6649, 6650, 6652, 7260, 7262, 7263, 7264, 7265, 7349, 7357, 7366, 7368, 7377, 7437, 7438, 7467, 751, 7522, 7566, 7567, 7649, 7667, 7667, 7787, 7788, 7788, 8110, 8111, 8137, 8138, 8138, 8205, 8205, 8326, 8403, 8424, 85, 9580, 9691, 9692, 9693, 9990);
+
 -- Dual Talent Specialization
-DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=15 AND `SourceGroup` IN (0, 63, 64, 85, 141, 381, 410, 411, 436, 523, 655, 656, 1403, 1503, 1522, 2304, 2381, 2383, 2384, 3642, 3643, 3644, 3645, 3921, 3924, 3925, 3926, 3984, 4007, 4008, 4009, 4010, 4011, 4012, 4017, 4023, 4091, 4092, 4101, 4103, 4104, 4463, 4464, 4466, 4467, 4468, 4469, 4470, 4471, 4472, 4473, 4474, 4475, 4481, 4482, 4484, 4485, 4486, 4502, 4503, 4504, 4505, 4506, 4507, 4508, 4509, 4511, 4512, 4513, 4515, 4516, 4517, 4518, 4519, 4520, 4521, 4522, 4523, 4524, 4525, 4526, 4527, 4528, 4529, 4530, 4531, 4532, 4533, 4534, 4535, 4537, 4538, 4539, 4540, 4541, 4542, 4543, 4544, 4545, 4546, 4547, 4548, 4549, 4550, 4551, 4552, 4556, 4557, 4558, 4559, 4561, 4562, 4566, 4567, 4568, 4569, 4570, 4571, 4572, 4573, 4574, 4575, 4576, 4577, 4578, 4579, 4581, 4603, 4604, 4605, 4606, 4607, 4609, 4610, 4621, 4641, 4642, 4643, 4645, 4646, 4647, 4648, 4649, 4650, 4651, 4652, 4653, 4654, 4655, 4656, 4657, 4658, 4659, 4660, 4661, 4662, 4665, 4666, 4667, 4674, 4675, 4676, 4677, 4678, 4679, 4680, 4681, 4682, 4683, 4684, 4685, 4686, 4687, 4688, 4690, 4691, 4692, 4693, 4694, 4695, 4696, 4697, 4801, 5061, 5123, 6628, 6647, 6648, 6649, 6650, 6652, 7260, 7262, 7263, 7264, 7265, 7349, 7357, 7366, 7368, 7377, 7437, 7438, 7467, 7522, 7566, 7567, 8110, 8111, 9580, 9691, 9692, 9693, 9990, 10371, 21221);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 0, 16, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 63, 2, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 64, 2, 27, 80, 3);
@@ -218,7 +219,6 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 21221, 2, 27, 80, 3);
 
 -- Inscription
-DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=15 AND `SourceGroup` IN (421, 751, 1942, 1951, 2168, 2351, 2352, 3284, 3330, 3355, 3532, 3558, 3572, 7667, 7788, 8138, 8205, 10056, 10078, 10265, 10767);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 421, 8, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 751, 7, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 1942, 8, 27, 80, 3);
@@ -242,7 +242,6 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 10767, 8, 27, 80, 3);
 
 -- Jewelcrafting
-DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=15 AND `SourceGroup` IN (7667, 7788, 8138, 8205, 8326, 8403, 8424, 10078, 10173, 21267);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 7667, 9, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 7788, 8, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 8138, 9, 27, 80, 3);
@@ -255,16 +254,24 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 21267, 3, 27, 80, 3);
 
 -- Paladin Trainer (Horde)
-DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=15 AND `SourceGroup` IN (1949, 3354, 7649, 10768);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 1949, 7, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 3354, 1, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 7649, 3, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 10768, 1, 27, 80, 3);
 
 -- Shaman Trainer (Alliance)
-DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=15 AND `SourceGroup` IN (401, 2144, 3519, 7787, 8137);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 401, 6, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 2144, 7, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 3519, 6, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 7787, 5, 27, 80, 3);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 8137, 5, 27, 80, 3);
+
+-- Stormwind Harbor, Barber (Alliance)
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 435, 2, 27, 80, 3);
+
+-- Barber
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 435, 12, 27, 80, 3);
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 1951, 11, 27, 80, 3);
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 2121, 10, 27, 80, 3);
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 10043, 3, 27, 80, 3);
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 10769, 2, 27, 80, 3);
