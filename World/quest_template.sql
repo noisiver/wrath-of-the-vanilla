@@ -2,7 +2,7 @@
 UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=6;
 
 -- Kobold Camp Cleanup
-UPDATE `quest_template` SET `Flags`=0, `RequiredNpcOrGoCount1`=10 WHERE `ID`=7;
+UPDATE `quest_template` SET `Flags`=0, `LogDescription`='Kill 10 Kobold Vermin, then return to Marshal McBride.', `RequiredNpcOrGoCount1`=10 WHERE `ID`=7;
 
 -- Investigate Echo Ridge
 UPDATE `quest_template` SET `Flags`=0, `LogDescription`='Kill 10 Kobold Workers, then report back to Marshal McBride.', `QuestDescription`='$N, my scouts tell me that the kobold infestation is larger than we had thought.  A group of kobold workers has camped near the Echo Ridge Mine to the north.$B$BGo to the mine and remove them.  We know there are at least 10.  Kill them, see if there are more, then report back to me.', `RequiredNpcOrGoCount1`=10 WHERE `ID`=15;
