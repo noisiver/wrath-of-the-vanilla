@@ -37,8 +37,17 @@ UPDATE `creature_template` SET `subname`='Arcane Goods Vendor' WHERE `entry`=125
 -- Kyra Boucher <Reagents>
 UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1275;
 
+-- Lawrence Schneider <Apprentice Tailor>
+UPDATE `creature_template` SET `subname`='Journeyman Tailor' WHERE `entry`=1300;
+
+-- Owen Vaughn <Reagents>
+UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1308;
+
 -- Lucan Cordell <Enchanting Trainer>
 UPDATE `creature_template` SET `subname`='Expert Enchanter' WHERE `entry`=1317;
+
+-- Georgio Bolero <Tailoring Trainer>
+UPDATE `creature_template` SET `subname`='Artisan Tailor' WHERE `entry`=1346;
 
 -- Brother Cassius <Reagents>
 UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1351;
@@ -52,6 +61,15 @@ UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=1976;
 -- Rebecca Laughlin <Tabard Designer>
 UPDATE `creature_template` SET `subname`='Tabard Vendor' WHERE `entry`=5193;
 
+-- Lilyssia Nightbreeze <Alchemy Trainer>
+UPDATE `creature_template` SET `subname`='Expert Alchemist' WHERE `entry`=5499;
+
+-- Tel'Athir <Apprentice Alchemist>
+UPDATE `creature_template` SET `subname`='Journeyman Alchemist' WHERE `entry`=5500;
+
+-- Eldraeith <Herbalism Supplies>
+UPDATE `creature_template` SET `subname`='Herbalism Supplier' WHERE `entry`=5503;
+
 -- Therum Deepforge <Blacksmithing Trainer>
 UPDATE `creature_template` SET `subname`='Expert Blacksmith' WHERE `entry`=5511;
 
@@ -60,6 +78,9 @@ UPDATE `creature_template` SET `subname`='Expert Engineer' WHERE `entry`=5518;
 
 -- Simon Tanner <Leatherworking Trainer>
 UPDATE `creature_template` SET `subname`='Expert Leatherworker' WHERE `entry`=5564;
+
+-- Sellandus <Apprentice Tailor>
+UPDATE `creature_template` SET `subname`='Expert Tailor' WHERE `entry`=5567;
 
 -- Borgus Steelhand <Weaponsmith Trainer>
 UPDATE `creature_template` SET `subname`='Weapon Crafter' WHERE `entry`=7232;
