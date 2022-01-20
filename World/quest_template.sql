@@ -19,6 +19,9 @@ UPDATE `quest_template` SET `Flags`=0, `LogDescription`='Bring 8 pieces of Tough
 -- Report to Goldshire
 UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=54;
 
+-- A Threat Within
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=783;
+
 -- Rest and Relaxation
 UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=2158;
 

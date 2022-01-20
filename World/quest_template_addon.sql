@@ -10,7 +10,7 @@ UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=15;
 -- Brotherhood of Thieves
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=18;
 
--- Brotherhood of Thieves
+-- Skirmish at Echo Ridge
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=21;
 
 -- Wolves Across the Border
@@ -18,6 +18,9 @@ UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=33;
 
 -- Report to Goldshire
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=54;
+
+-- A Threat Within
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=783;
 
 -- Rest and Relaxation
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=2158;

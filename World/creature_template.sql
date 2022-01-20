@@ -16,5 +16,8 @@ UPDATE `creature_template` SET `modelid1`=10912 WHERE `entry`=257;
 -- Diseased Young Wolf
 UPDATE `creature_template` SET `modelid1`=447, `name`='Young Wolf' WHERE `entry`=299;
 
+-- Smith Argus
+UPDATE `creature_template` SET `subname`='Journeyman Blacksmith' WHERE `entry`=514;
+
 -- Northshire Guard
 UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=1642;
