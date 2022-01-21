@@ -12,7 +12,7 @@ If I missed something in a zone, or something turns out to be wrong after my cha
 The loot tables are not being worked on until I've gotten quite a bit of the map done. Dungeons and raids are also on hold until I have done a larger amount of zones. The same goes for spawn points of creatures and objects.
 
 # Important information
-Do **not** import spell_proc_event.sql. It's there to prevent errors caused by my changes to the talent trees.
+Do **not** import the file spell_proc_event.sql found in the folder called extra. It's there for me to prevent errors caused by my changes to the talent trees.
 
 # Credit
 A lot of credit goes to the wonderful people working on [AzerothCore](https://github.com/azerothcore/azerothcore-wotlk) and [vMaNGOS](https://github.com/vmangos).
