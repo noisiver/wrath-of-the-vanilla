@@ -5,6 +5,8 @@ I never liked the limitations of the vanilla client, and the mechanics of the ga
 
 I removed certain talents from the trees to make them look like the original layouts but those changes require changes to both the server and the client files. I will not be sharing those changes here for legal reasons.
 
+I will add more changes as I go, zone by zone, and I will be fixing things in zones I've already done if something is wrong or if I missed something.
+
 # Important information
 Do **not** import spell_proc_event.sql. It's there to prevent errors caused by my changes to the talent trees.
 
