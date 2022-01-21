@@ -6,6 +6,8 @@ I never liked the limitations of the vanilla client, and the mechanics of the ga
 I removed certain talents from the trees to make them look like the original layouts but those changes require changes to both the server and the client files. I will not be sharing those changes here for legal reasons.
 
 # Important information
+Do **not** import spell_proc_event.sql. It's there to prevent errors caused by my changes to the talent trees.
+
 There is a lot of work to do to get this up to the point where it can be used by the public.
 
 I will be going through each zone, comparing [AzerothCore](https://github.com/azerothcore/azerothcore-wotlk) to [vMaNGOS](https://github.com/vmangos) and changing values as needed.
