@@ -37,6 +37,9 @@ UPDATE `creature_template` SET `subname`='Arcane Goods Vendor' WHERE `entry`=125
 -- Kyra Boucher <Reagents>
 UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1275;
 
+-- Edna Mullby <Trade Supplies>
+UPDATE `creature_template` SET `subname`='Trade Supplier' WHERE `entry`=1286;
+
 -- Lawrence Schneider <Apprentice Tailor>
 UPDATE `creature_template` SET `subname`='Journeyman Tailor' WHERE `entry`=1300;
 
@@ -54,6 +57,9 @@ UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1351;
 
 -- Northshire Guard
 UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=1642;
+
+-- Stormwind Royal Guard
+UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `entry`=1756;
 
 -- Stormwind City Patroller
 UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=1976;
@@ -114,3 +120,9 @@ UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14423;
 
 -- Officer Pomeroy
 UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14438;
+
+-- Alliance Brigadier General
+UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `entry`=15351;
+
+-- King Varian Wrynn
+UPDATE `creature_template` SET `minlevel`=63, `maxlevel`=63 WHERE `entry`=29611;

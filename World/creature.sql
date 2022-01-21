@@ -10,6 +10,10 @@ DELETE FROM `creature` WHERE `id1`=3581;
 -- Auberdine Sentinel
 DELETE FROM `creature` WHERE `id1`=6086 AND `map`=0;
 
+-- Thelman Slatefist <Alterac Valley Battlemaster>
+DELETE FROM `creature` WHERE `id1`=7410;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (7410, 0, -8424.43, 342.967, 120.886, 3.82018, 300);
+
 -- Hank the Hammer <The Mitrhil Order>
 DELETE FROM `creature` WHERE `id1`=7798;
 INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (7798, 0, -8422.17, 630.877, 95.8402, 5.044, 430);
@@ -53,11 +57,26 @@ INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, 
 DELETE FROM `creature` WHERE `id1`=12805;
 INSERT INTO `creature` (`id1`, `map`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (12805, 0, 1, -8759.18, 389.112, 101.056, 0.648394, 430);
 
+-- Elfarran <Warsong Gulch Battlemaster>
+DELETE FROM `creature` WHERE `id1`=14981;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (14981, 0, -8454.77, 318.784, 120.886, 0.661303, 300);
+
+-- Lady Hoteshem <Arathi Basin Battlemaster>
+DELETE FROM `creature` WHERE `id1`=15008;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15008, 0, -8420.4, 328.664, 120.886, 3.04106, 300);
+
 -- Alliance Brigadier General
 DELETE FROM `creature` WHERE `id1`=15351;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15351, 0, -8441.78, 311.602, 120.886, 1.45456, 300);
+
+-- Emissary Taluun
+DELETE FROM `creature` WHERE `id1`=17103;
 
 -- Harbringer Ennarth
 DELETE FROM `creature` WHERE `id1`=19848;
+
+-- Beka Zipwhistle <Arena Battlemaster>
+DELETE FROM `creature` WHERE `id1`=19911;
 
 -- Farseer Umbrua <Shaman Trainer>
 DELETE FROM `creature` WHERE `id1`=20407;
@@ -71,6 +90,12 @@ DELETE FROM `creature` WHERE `id1`=25058;
 -- Leesha Tannerby <Dockmaster>
 DELETE FROM `creature` WHERE `id1`=26548;
 
+-- Miles Sidney <Poison Supplies>
+DELETE FROM `creature` WHERE `id1`=28347;
+
+-- Wright Williams
+DELETE FROM `creature` WHERE `id1`=28355;
+
 -- Nayura <Dockmaster>
 DELETE FROM `creature` WHERE `id1`=28650;
 
@@ -82,6 +107,9 @@ DELETE FROM `creature` WHERE `id1`=29019;
 
 -- Stormwind Cannoneer
 DELETE FROM `creature` WHERE `id1`=29088;
+
+-- Jelinek Sharpshear <Barber>
+DELETE FROM `creature` WHERE `id1`=29142;
 
 -- Refurbished Steam Tank
 DELETE FROM `creature` WHERE `id1`=29144;
@@ -167,5 +195,17 @@ DELETE FROM `creature` WHERE `id1`=34081;
 -- Knight-Lieutenant Moonstrike <Northrend Armor Quartermaster>
 DELETE FROM `creature` WHERE `id1`=34084;
 
+-- Devin Fardale
+DELETE FROM `creature` WHERE `id1`=34997;
+
+-- Alison Devay <Battlemaster>
+DELETE FROM `creature` WHERE `id1`=34998;
+
+-- Behsten <Experience Eliminator>
+DELETE FROM `creature` WHERE `id1`=35365;
+
 -- Little Adeline
 DELETE FROM `creature` WHERE `id1`=35477;
+
+-- Arcanist Paharin <Wintergrasp Battle-Mage>
+DELETE FROM `creature` WHERE `id1`=35598;
