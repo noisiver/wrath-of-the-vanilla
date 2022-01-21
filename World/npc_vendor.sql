@@ -37,6 +37,9 @@ DELETE FROM `npc_vendor` WHERE `entry`=1347 AND `item`=38426;
 -- Brother Cassius <Reagent Vendor>
 DELETE FROM `npc_vendor` WHERE `entry`=1351 AND `item` IN (22147, 22148, 37201);
 
+-- Thomas Miller <Baker>
+DELETE FROM `npc_vendor` WHERE `entry`=3518 AND `item` IN (27855, 33449, 35950);
+
 -- Bren Trias <Apprentice of Cheese>
 DELETE FROM `npc_vendor` WHERE `entry`=4981 AND `item` IN (27857, 28399, 33443, 33444, 33445, 35952, 35954);
 

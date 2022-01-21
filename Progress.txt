@@ -1,0 +1,13 @@
+**Stormwind City**
+[X] Change the name, subname, level and rank of all creatures (The king of stormwind remains the same, except that the level is set to 63, until I decide how to handle it)
+[X] Change the items being sold by NPCs (Items sold by the PVP vendors needs extended cost)
+[X] Change all the profession trainers (Alchemy, Blacksmithing, Cooking, Enchanting, Engineering, First Aid, Fishing, Herbalism, Leatherworking, Mining, Skinning, Tailoring) (NEEDS TESTING!)
+[ ] Change all the class trainers
+[ ] Change all the quests
+
+**Elwynn Forest**
+[X] Change the name, subname, level and rank of all creatures
+[ ] Change the items being sold by NPCs
+[ ] Change all the profession trainers
+[X] Change the riding trainer
+[X] Change all the quests (NEEDS TESTING!)

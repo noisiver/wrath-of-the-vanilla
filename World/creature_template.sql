@@ -29,7 +29,7 @@ UPDATE `creature_template` SET `minlevel`=62, `maxlevel`=62 WHERE `entry`=466;
 UPDATE `creature_template` SET `subname`='Journeyman Blacksmith' WHERE `entry`=514;
 
 -- Dane Lindgren <Apprentice Blacksmith>
-UPDATE `creature_template` SET `subname`='Journeyman Blacksmith' WHERE `entry`=957;
+UPDATE `creature_template` SET `subname`='Journeyman Blacksmith', `npcflag`=81, `trainer_type`=2 WHERE `entry`=957;
 
 -- Keldric Boucher <Alchemy Supplies & Reagents>
 UPDATE `creature_template` SET `subname`='Arcane Goods Vendor' WHERE `entry`=1257;
@@ -41,7 +41,7 @@ UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1275;
 UPDATE `creature_template` SET `subname`='Trade Supplier' WHERE `entry`=1286;
 
 -- Lawrence Schneider <Apprentice Tailor>
-UPDATE `creature_template` SET `subname`='Journeyman Tailor' WHERE `entry`=1300;
+UPDATE `creature_template` SET `subname`='Journeyman Tailor', `npcflag`=81, `trainer_type`=2 WHERE `entry`=1300;
 
 -- Owen Vaughn <Reagents>
 UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1308;
@@ -71,7 +71,7 @@ UPDATE `creature_template` SET `subname`='Tabard Vendor' WHERE `entry`=5193;
 UPDATE `creature_template` SET `subname`='Expert Alchemist' WHERE `entry`=5499;
 
 -- Tel'Athir <Apprentice Alchemist>
-UPDATE `creature_template` SET `subname`='Journeyman Alchemist' WHERE `entry`=5500;
+UPDATE `creature_template` SET `subname`='Journeyman Alchemist', `npcflag`=81, `trainer_type`=2 WHERE `entry`=5500;
 
 -- Eldraeith <Herbalism Supplies>
 UPDATE `creature_template` SET `subname`='Herbalism Supplier' WHERE `entry`=5503;
@@ -86,19 +86,19 @@ UPDATE `creature_template` SET `subname`='Expert Engineer' WHERE `entry`=5518;
 UPDATE `creature_template` SET `subname`='Expert Leatherworker' WHERE `entry`=5564;
 
 -- Sellandus <Apprentice Tailor>
-UPDATE `creature_template` SET `subname`='Expert Tailor' WHERE `entry`=5567;
+UPDATE `creature_template` SET `subname`='Expert Tailor', `npcflag`=81, `trainer_type`=2 WHERE `entry`=5567;
 
 -- Borgus Steelhand <Weaponsmith Trainer>
 UPDATE `creature_template` SET `subname`='Weapon Crafter' WHERE `entry`=7232;
 
 -- Sprite Jumpsprocket <Apprentice Engineer>
-UPDATE `creature_template` SET `subname`='Journeyman Engineer' WHERE `entry`=11026;
+UPDATE `creature_template` SET `subname`='Journeyman Engineer', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11026;
 
 -- Betty Quin <Apprentice Enchanter>
-UPDATE `creature_template` SET `subname`='Journeyman Enchanter' WHERE `entry`=11068;
+UPDATE `creature_template` SET `subname`='Journeyman Enchanter', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11068;
 
 -- Randal Worth <Apprentice Leatherworker>
-UPDATE `creature_template` SET `subname`='Journeyman Leatherworker' WHERE `entry`=11096;
+UPDATE `creature_template` SET `subname`='Journeyman Leatherworker', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11096;
 
 -- Lieutenant Rachel Vaccar <Outland Armor Quartermaster>
 UPDATE `creature_template` SET `subname`=NULL, `minlevel`=55, `maxlevel`=55, `npcflag`=0 WHERE `entry`=12778;
