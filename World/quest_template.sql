@@ -25,6 +25,12 @@ UPDATE `quest_template` SET `Flags`=9, `LogDescription`='Kill a Cold Eye Basilis
 -- A Threat Within
 UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=783;
 
+-- Vile Familiars (Warlock)
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=792;
+
+-- Beginnings (Warlock)
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=1599;
+
 -- Rest and Relaxation
 UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=2158;
 

@@ -1,3 +1,7 @@
+-- Quests
+-- Summon Felsteed (Warlock)
+DELETE FROM `disables`WHERE `sourceType`=1 AND `entry` IN (3631, 4487, 4488, 4489, 4490);
+
 -- Arenas
 DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=4;
 INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 4, 'Nagrand Arena / Ring of Trials');

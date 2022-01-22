@@ -22,6 +22,27 @@ UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=54;
 -- A Threat Within
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=783;
 
+-- Vile Familiars (Warlock)
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=792;
+
+-- Beginnings (Warlock)
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=1599;
+
+-- Devourer of Souls (Warlock)
+UPDATE `quest_template_addon` SET `PrevQuestID`=0 WHERE `ID`=1716;
+
+-- Shard of a Felhound (Warlock)
+UPDATE `quest_template_addon` SET `PrevQuestID`=1799 WHERE `id`=4962;
+
+-- Shard of an Infernal (Warlock)
+UPDATE `quest_template_addon` SET `PrevQuestID`=1799 WHERE `id`=4963;
+
+-- The Completed Orb of Dar'Orahil (Warlock)
+UPDATE `quest_template_addon` SET `PrevQuestID`=4962 WHERE `id`=4964;
+
+-- The Completed Orb of Noh'Orahil (Warlock)
+UPDATE `quest_template_addon` SET `PrevQuestID`=4963 WHERE `id`=4975;
+
 -- Rest and Relaxation
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=2158;
 

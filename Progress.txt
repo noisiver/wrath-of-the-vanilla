@@ -17,8 +17,8 @@
 [ ] Priest
 [ ] Shaman
 [ ] Mage
-[ ] Warlock
-[ ] Druid
+[X] Warlock
+[X] Druid
 
 [Stormwind City]
 [X] Change the name, subname, level and rank of all creatures (The king of stormwind remains the same, except that the level is set to 63, until I decide how to handle it)
