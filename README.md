@@ -3,7 +3,7 @@ This is a collection of my work towards turning a server running [AzerothCore](h
 
 I never liked the limitations of the vanilla client, and the mechanics of the game weren't exactly my favorite. This helps me getting around those issues, running Wrath of the Lich King mechanics with classic content.
 
-I removed certain talents from the trees to make them look like the original layouts but those changes require changes to both the server and the client files. I will not be sharing those changes here for legal reasons.
+I removed certain talents from the trees to make them look like the original layouts but those changes require changes to both the server and the client files. I will not be sharing those changes here for legal reasons. I can share those if necessary, just look me up on the [AzerothCore](https://github.com/azerothcore/azerothcore-wotlk) discord server - my username is Revision. I'm including screenshots of all talent trees for reference.
 
 I'm working my way through one zone at a time, it will take a very long time to finish the entire world and I will work on it when I have the time to.
 

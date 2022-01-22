@@ -301,3 +301,9 @@ DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=86;
 INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 86, 0, 'Perry Gatner');
 DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=87;
 INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 87, 0, 'Scarlet Oracle');
+
+-- Maps
+DELETE FROM `disables` WHERE `sourceType`=2 AND `entry`=530;
+INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (2, 530, 0, 'Outland');
+DELETE FROM `disables` WHERE `sourceType`=2 AND `entry`=571;
+INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (2, 571, 0, 'Northrend');
