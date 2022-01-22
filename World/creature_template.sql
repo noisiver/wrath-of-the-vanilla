@@ -121,6 +121,9 @@ UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14423;
 -- Officer Pomeroy
 UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14438;
 
+-- Officer Brady
+UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14439;
+
 -- Alliance Brigadier General
 UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `entry`=15351;
 

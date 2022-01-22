@@ -57,3 +57,6 @@ UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=3905;
 
 -- Eagan Peltskinner
 UPDATE `quest_template` SET `Flags`=0, `QuestDescription`='Eagan Peltskinner is looking for someone to hunt wolves for him.  That\'s good news, because we\'re seeing a lot more wolves in Northshire Valley lately.$B$BIf you\'re interested then speak with Eagan.  He\'s around the side of the abbey, to the left.' WHERE `ID`=5261;
+
+-- Chillwind Camp
+UPDATE `quest_template` SET `LogTitle`='Chillwind Point' WHERE `ID`=8415;
