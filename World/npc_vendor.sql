@@ -1,6 +1,12 @@
 -- Elaine Trias <Mistress of Cheese>
 DELETE FROM `npc_vendor` WHERE `entry`=483 AND `item` IN (27857, 33443, 35952);
 
+-- Antonio Perelli <Traveling Salesman>
+DELETE FROM `npc_vendor` WHERE `entry`=844 AND `item`=40411;
+
+-- Dawn Brightstar <Arcane Goods>
+DELETE FROM `npc_vendor` WHERE `entry`=958 AND `item` IN (22147, 22148, 37201, 40411);
+
 -- Keldric Boucher <Alchemy Supplies & Reagents>
 DELETE FROM `npc_vendor` WHERE `entry`=1257 AND `item` IN (22147, 22148, 37201, 40411);
 

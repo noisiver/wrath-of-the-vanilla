@@ -31,6 +31,12 @@ UPDATE `creature_template` SET `subname`='Journeyman Blacksmith' WHERE `entry`=5
 -- Dane Lindgren <Apprentice Blacksmith>
 UPDATE `creature_template` SET `subname`='Journeyman Blacksmith', `npcflag`=81, `trainer_type`=2 WHERE `entry`=957;
 
+-- Eldrin <Journeyman Tailor>
+UPDATE `creature_template` SET `subname`='Journeyman Tailor' WHERE `entry`=1103;
+
+-- Alchemist Mallory <Journeyman Alchemist>
+UPDATE `creature_template` SET `subname`='Journeyman Alchemist' WHERE `entry`=1215;
+
 -- Keldric Boucher <Alchemy Supplies & Reagents>
 UPDATE `creature_template` SET `subname`='Arcane Goods Vendor' WHERE `entry`=1257;
 
@@ -55,8 +61,14 @@ UPDATE `creature_template` SET `subname`='Artisan Tailor' WHERE `entry`=1346;
 -- Brother Cassius <Reagents>
 UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1351;
 
+-- Adele Fielder <Journeyman Leatherworker>
+UPDATE `creature_template` SET `subname`='Journeyman Leatherworker' WHERE `entry`=1632;
+
 -- Northshire Guard
 UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=1642;
+
+-- Lee Brown <Fisherman>
+UPDATE `creature_template` SET `subname`='Fisherman' WHERE `entry`=1651;
 
 -- Stormwind Royal Guard
 UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `entry`=1756;
@@ -87,6 +99,9 @@ UPDATE `creature_template` SET `subname`='Expert Leatherworker' WHERE `entry`=55
 
 -- Sellandus <Apprentice Tailor>
 UPDATE `creature_template` SET `subname`='Expert Tailor', `npcflag`=81, `trainer_type`=2 WHERE `entry`=5567;
+
+-- Helene Peltskinner <Skinner>
+UPDATE `creature_template` SET `subname`='Skinner' WHERE `entry`=6306;
 
 -- Borgus Steelhand <Weaponsmith Trainer>
 UPDATE `creature_template` SET `subname`='Weapon Crafter' WHERE `entry`=7232;
