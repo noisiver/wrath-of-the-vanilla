@@ -25,14 +25,38 @@ UPDATE `quest_template` SET `Flags`=9, `LogDescription`='Kill a Cold Eye Basilis
 -- A Threat Within
 UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=783;
 
--- Vile Familiars (Warlock)
-UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=792;
+-- Cutting Teeth
+UPDATE `quest_template` SET `Flags`=0, `LogDescription`='Kill 10 Mottled Boars then return to Gornek at the Den.', `RequiredNpcOrGoCount1`=10 WHERE `ID`=788;
+
+-- Sting of the Scorpid
+UPDATE `quest_template` SET `Flags`=0, `LogDescription`='Get 10 Scorpid Worker Tails for Gornek in the Den.', `RequiredItemCount1`=10 WHERE `ID`=789;
+
+-- Sarkoth
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=790;
+
+-- Vile Familiars
+UPDATE `quest_template` SET `Flags`=0, `LogDescription`='Kill 12 Vile Familiars.$b$bReturn to Zureetha Fargaze outside the Den.', `RequiredNpcOrGoCount1`=12 WHERE `ID`=792;
+
+-- Burning Blade Medallion
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=794;
+
+-- Sarkoth
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=804;
+
+-- Report to Sen'jin Village
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=805;
 
 -- Beginnings (Warlock)
 UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=1599;
 
 -- Rest and Relaxation
 UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=2158;
+
+-- A Peon's Burden
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=2161;
+
+-- Simple Parchment
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=2383;
 
 -- Simple Letter
 UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=3100;
@@ -61,8 +85,20 @@ UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=3904;
 -- Grape Manifest
 UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=3905;
 
+-- Galgar's Cactus Apple Surprise
+UPDATE `quest_template` SET `Flags`=0, `LogDescription`='Bring Galgar 10 Cactus Apples. You remember him saying that they could be found near cactuses.', `RequiredItemCount1`=10 WHERE `ID`=4402;
+
+-- Your Place In The World
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=4641;
+
 -- Eagan Peltskinner
 UPDATE `quest_template` SET `Flags`=0, `QuestDescription`='Eagan Peltskinner is looking for someone to hunt wolves for him.  That\'s good news, because we\'re seeing a lot more wolves in Northshire Valley lately.$B$BIf you\'re interested then speak with Eagan.  He\'s around the side of the abbey, to the left.' WHERE `ID`=5261;
+
+-- Lazy Peons
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=5441;
+
+-- Thazz'ril's Pick
+UPDATE `quest_template` SET `Flags`=0 WHERE `ID`=6394;
 
 -- Chillwind Camp
 UPDATE `quest_template` SET `LogTitle`='Chillwind Point' WHERE `ID`=8415;

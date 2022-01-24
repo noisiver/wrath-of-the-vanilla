@@ -14,6 +14,9 @@ INSERT INTO `creature_questender` (`id`, `quest`) VALUES (460, 1599);
 DELETE FROM `creature_questender` WHERE `id`=459 AND `quest`=1598;
 INSERT INTO `creature_questender` (`id`, `quest`) VALUES (459, 1598);
 
+-- Nazgrel <Advisor to Thrall>
+DELETE FROM `creature_questender` WHERE `id`=3230;
+
 -- Tome of Nobility (Quest for alliance paladin warhorse mount)
 DELETE FROM `creature_questender` WHERE `id`=6171 AND `quest`=1661;
 INSERT INTO `creature_questender` (`id`, `quest`) VALUES (6171, 1661);

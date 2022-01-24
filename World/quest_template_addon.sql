@@ -22,8 +22,26 @@ UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=54;
 -- A Threat Within
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=783;
 
--- Vile Familiars (Warlock)
+-- Cutting Teeth
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=788;
+
+-- Sting of the Scorpid
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=789;
+
+-- Sarkoth
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=790;
+
+-- Vile Familiars
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=792;
+
+-- Burning Blade Medallion
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=794;
+
+-- Sarkoth
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=804;
+
+-- Report to Sen'jin Village
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=805;
 
 -- Beginnings (Warlock)
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=1599;
@@ -31,20 +49,14 @@ UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=1599;
 -- Devourer of Souls (Warlock)
 UPDATE `quest_template_addon` SET `PrevQuestID`=0 WHERE `ID`=1716;
 
--- Shard of a Felhound (Warlock)
-UPDATE `quest_template_addon` SET `PrevQuestID`=1799 WHERE `id`=4962;
-
--- Shard of an Infernal (Warlock)
-UPDATE `quest_template_addon` SET `PrevQuestID`=1799 WHERE `id`=4963;
-
--- The Completed Orb of Dar'Orahil (Warlock)
-UPDATE `quest_template_addon` SET `PrevQuestID`=4962 WHERE `id`=4964;
-
--- The Completed Orb of Noh'Orahil (Warlock)
-UPDATE `quest_template_addon` SET `PrevQuestID`=4963 WHERE `id`=4975;
-
 -- Rest and Relaxation
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=2158;
+
+-- A Peon's Burden
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=2161;
+
+-- Simple Parchment
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=2383;
 
 -- Simple Letter
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=3100;
@@ -73,5 +85,29 @@ UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=3904;
 -- Grape Manifest
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=3905;
 
+-- Galgar's Cactus Apple Surprise
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=4402;
+
+-- Your Place In The World
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=4641;
+
+-- Shard of a Felhound (Warlock)
+UPDATE `quest_template_addon` SET `PrevQuestID`=1799 WHERE `id`=4962;
+
+-- Shard of an Infernal (Warlock)
+UPDATE `quest_template_addon` SET `PrevQuestID`=1799 WHERE `id`=4963;
+
+-- The Completed Orb of Dar'Orahil (Warlock)
+UPDATE `quest_template_addon` SET `PrevQuestID`=4962 WHERE `id`=4964;
+
+-- The Completed Orb of Noh'Orahil (Warlock)
+UPDATE `quest_template_addon` SET `PrevQuestID`=4963 WHERE `id`=4975;
+
 -- Eagan Peltskinner
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=5261;
+
+-- Lazy Peons
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=5441;
+
+-- Thazz'ril's Pick
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=6394;

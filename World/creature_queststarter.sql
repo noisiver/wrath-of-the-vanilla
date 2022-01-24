@@ -18,6 +18,9 @@ INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (459, 1598);
 DELETE FROM `creature_queststarter` WHERE `id`=6171 AND `quest`=1661;
 INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (6171, 1661);
 
+-- Nazgrel <Advisor to Thrall>
+DELETE FROM `creature_queststarter` WHERE `id`=3230;
+
 -- Summon Felsteed (Warlock)
 DELETE FROM `creature_queststarter` WHERE `id`=3326 AND `quest`=3631;
 INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (3326, 3631);

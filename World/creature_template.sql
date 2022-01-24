@@ -28,6 +28,9 @@ UPDATE `creature_template` SET `minlevel`=62, `maxlevel`=62 WHERE `entry`=466;
 -- Smith Argus
 UPDATE `creature_template` SET `subname`='Journeyman Blacksmith' WHERE `entry`=514;
 
+-- Defias Messenger
+UPDATE `creature_template` SET `minlevel`=14, `maxlevel`=15 WHERE `entry`=550;
+
 -- Dane Lindgren <Apprentice Blacksmith>
 UPDATE `creature_template` SET `subname`='Journeyman Blacksmith', `npcflag`=81, `trainer_type`=2 WHERE `entry`=957;
 
@@ -55,6 +58,9 @@ UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1308;
 -- Lucan Cordell <Enchanting Trainer>
 UPDATE `creature_template` SET `subname`='Expert Enchanter' WHERE `entry`=1317;
 
+-- Sloan McCoy <Poison Supplier>
+UPDATE `creature_template` SET `subname`='Poison Supplier' WHERE `entry`=1326;
+
 -- Georgio Bolero <Tailoring Trainer>
 UPDATE `creature_template` SET `subname`='Artisan Tailor' WHERE `entry`=1346;
 
@@ -75,6 +81,69 @@ UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `ent
 
 -- Stormwind City Patroller
 UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=1976;
+
+-- Snang <Journeyman Tailor>
+UPDATE `creature_template` SET `subname`='Journeyman Tailor', `npcflag`=81, `trainer_type`=2 WHERE `entry`=2855;
+
+-- Vile Familiars
+UPDATE `creature_template` SET `faction`=14 WHERE `entry`=3101;
+
+-- Felstalker
+UPDATE `creature_template` SET `faction`=14 WHERE `entry`=3102;
+
+-- Yarrog Baneshadow
+UPDATE `creature_template` SET `faction`=16 WHERE `entry`=3183;
+
+-- Nazgrel <Advisor to Thrall>
+UPDATE `creature_template` SET `scale`=0.7, `npcflag`=0, `faction`=29, `gossip_menu_id`=0 WHERE `entry`=3230;
+
+-- Orgrimmar Grunt
+UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=3296;
+
+-- Doras <Wind Rider Master>
+UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=3310;
+
+-- Trak'gen <General Goods Merchant>
+UPDATE `creature_template` SET `subname`='General Goods Merchant' WHERE `entry`=3313;
+
+-- Kaja <Guns and Ammo Merchant>
+UPDATE `creature_template` SET `subname`='Guns and Ammo Merchant' WHERE `entry`=3322;
+
+-- Horthus <Reagents Vendor>
+UPDATE `creature_template` SET `subname`='Reagents Vendor' WHERE `entry`=3323;
+
+-- Rekkul <Poison Vendor>
+UPDATE `creature_template` SET `subname`='Poison Vendor' WHERE `entry`=3334;
+
+-- Hagrus <Reagents Vendor>
+UPDATE `creature_template` SET `subname`='Reagents Vendor' WHERE `entry`=3335;
+
+-- Godan <Expert Enchanter>
+UPDATE `creature_template` SET `subname`='Expert Enchanter' WHERE `entry`=3345;
+
+-- Yelmak <Expert Alchemist>
+UPDATE `creature_template` SET `subname`='Expert Alchemist' WHERE `entry`=3347;
+
+-- Asoran <General Goods Vendor>
+UPDATE `creature_template` SET `subname`='General Goods Vendor' WHERE `entry`=3350;
+
+-- Magenius <Reagents Vendor>
+UPDATE `creature_template` SET `subname`='Reagents Vendor' WHERE `entry`=3351;
+
+-- Magar <Expert Tailor>
+UPDATE `creature_template` SET `subname`='Expert Tailor' WHERE `entry`=3363;
+
+-- Karolek <Expert Leatherworker>
+UPDATE `creature_template` SET `subname`='Expert Leatherworker' WHERE `entry`=3365;
+
+-- Felika <General Trade Goods Merchant>
+UPDATE `creature_template` SET `subname`='General Trade Goods Merchant' WHERE `entry`=3367;
+
+-- Xen'to <Cooking Supplier>
+UPDATE `creature_template` SET `subname`='Cooking Supplier' WHERE `entry`=3400;
+
+-- Thrall <Warchief>
+UPDATE `creature_template` SET `minlevel`=63, `maxlevel`=63 WHERE `entry`=4949;
 
 -- Rebecca Laughlin <Tabard Designer>
 UPDATE `creature_template` SET `subname`='Tabard Vendor' WHERE `entry`=5193;
@@ -100,14 +169,35 @@ UPDATE `creature_template` SET `subname`='Expert Leatherworker' WHERE `entry`=55
 -- Sellandus <Apprentice Tailor>
 UPDATE `creature_template` SET `subname`='Expert Tailor', `npcflag`=81, `trainer_type`=2 WHERE `entry`=5567;
 
+-- Kamari <Journeyman Leatherworker>
+UPDATE `creature_template` SET `subname`='Journeyman Leatherworker', `npcflag`=81, `trainer_type`=2 WHERE `entry`=5811;
+
+-- Shimra <General Trade Goods Merchant>
+UPDATE `creature_template` SET `subname`='General Trade Goods Merchant' WHERE `entry`=5817;
+
+-- Den Grunt
+UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=5952;
+
 -- Helene Peltskinner <Skinner>
 UPDATE `creature_template` SET `subname`='Skinner' WHERE `entry`=6306;
 
 -- Borgus Steelhand <Weaponsmith Trainer>
 UPDATE `creature_template` SET `subname`='Weapon Crafter' WHERE `entry`=7232;
 
+-- Christopher Hewen <General Trade Goods Vendor>
+UPDATE `creature_template` SET `subname`='General Trade Goods Vendor' WHERE `entry`=8934;
+
+-- Vol'jin <King of Darkspear Trolls>
+UPDATE `creature_template` SET `subname`='King of Darkspear Trolls', `minlevel`=60, `maxlevel`=60 WHERE `entry`=8934;
+
 -- Sprite Jumpsprocket <Apprentice Engineer>
 UPDATE `creature_template` SET `subname`='Journeyman Engineer', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11026;
+
+-- Whuut <Journeyman Alchemist>
+UPDATE `creature_template` SET `subname`='Journeyman Alchemist', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11046;
+
+-- Jhag <Journeyman Enchanter>
+UPDATE `creature_template` SET `subname`='Journeyman Enchanter', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11066;
 
 -- Betty Quin <Apprentice Enchanter>
 UPDATE `creature_template` SET `subname`='Journeyman Enchanter', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11068;
@@ -130,6 +220,36 @@ UPDATE `creature_template` SET `subname`='Mount Vendor' WHERE `entry`=12783;
 -- Sergeant Major Clate <Legacy Armor Quartermaster>
 UPDATE `creature_template` SET `subname`='Food and Drink' WHERE `entry`=12785;
 
+-- Legionnaire Teena
+UPDATE `creature_template` SET `subname`=NULL, `npcflag`=0, `faction`=85 WHERE `entry`=12788;
+
+-- Lady Palanseer <Armor Quartermaster>
+UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=12792;
+
+-- Brave Stonehide <Officer Accessories Quartermaster>
+UPDATE `creature_template` SET `subname`='Officer Accessories Quartermaster' WHERE `entry`=12793;
+
+-- First Sergeant Hola'mahi <Reagent Vendor>
+UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=12795;
+
+-- Stone Guard Zarg <Food and Drink>
+UPDATE `creature_template` SET `subname`='Food and Drink' WHERE `entry`=12794;
+
+-- Raider Bork <Mount Quartermaster>
+UPDATE `creature_template` SET `subname`='Mount Quartermaster' WHERE `entry`=12796;
+
+-- Kor'kron Elite
+UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `entry`=14304;
+
+-- Scout Stronghand
+UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14375;
+
+-- Scout Manslayer
+UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14376;
+
+-- Scout Tharr
+UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14377;
+
 -- Officer Jaxon
 UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14423;
 
@@ -138,6 +258,12 @@ UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14438;
 
 -- Officer Brady
 UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60 WHERE `entry`=14439;
+
+-- Sergeant Thunderhorn <Weapons Quartermaster>
+UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=14581;
+
+-- High Overlord Saurfang
+UPDATE `creature_template` SET `minlevel`=62, `maxlevel`=62 WHERE `entry`=14720;
 
 -- Alliance Brigadier General
 UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `entry`=15351;

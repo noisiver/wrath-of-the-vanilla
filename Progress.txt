@@ -37,3 +37,15 @@
 [ ] Change the items being sold by NPCs
 [ ] Change all the trainers
 [ ] Change all the quests
+
+[Orgrimmar]
+[ ] Change the name, subname, level and rank of all creatures
+[ ] Change the items being sold by NPCs
+[ ] Change all the trainers
+[ ] Change all the quests
+
+[Durotar]
+[ ] Change the name, subname, level and rank of all creatures
+[ ] Change the items being sold by NPCs
+[ ] Change all the trainers
+[ ] Change all the quests
