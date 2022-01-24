@@ -89,6 +89,12 @@ DELETE FROM `npc_vendor` WHERE `entry`=3350 AND `item` IN (28053, 28060);
 -- Magenius <Reagents Vendor>
 DELETE FROM `npc_vendor` WHERE `entry`=3351 AND `item` IN (22147, 22148, 37201);
 
+-- Gorina <Mining Supplier>
+DELETE FROM `npc_vendor` WHERE `entry`=3358 AND `item` IN (20815, 20824);
+
+-- Ogunaro Wolfrunner <Kennel Master>
+DELETE FROM `npc_vendor` WHERE `entry`=3362 AND `item`=46099;
+
 -- Borya <Tailoring Supplies>
 DELETE FROM `npc_vendor` WHERE `entry`=3364 AND `item`=38426;
 
@@ -111,6 +117,12 @@ DELETE FROM `npc_vendor` WHERE `entry`=3518 AND `item` IN (27855, 33449, 35950);
 
 -- Xen'to <Cooking Supplier>
 DELETE FROM `npc_vendor` WHERE `entry`=3400 AND `item`=30817;
+
+-- Jin'sora <Bow Merchant>
+DELETE FROM `npc_vendor` WHERE `entry`=3410 AND `item` IN (11303, 11306, 11307, 28053);
+
+-- Sovik <Engineering Supplies>
+DELETE FROM `npc_vendor` WHERE `entry`=3413 AND `item` IN (22729, 39684, 40533);
 
 -- Bren Trias <Apprentice of Cheese>
 DELETE FROM `npc_vendor` WHERE `entry`=4981 AND `item` IN (27857, 28399, 33443, 33444, 33445, 35952, 35954);

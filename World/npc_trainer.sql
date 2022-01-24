@@ -32,6 +32,10 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1317, -330001);
 DELETE FROM `npc_trainer` WHERE `ID`=1346;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1346, -410002);
 
+-- Snarl <Expert Blacksmith>
+DELETE FROM `npc_trainer` WHERE `ID`=1383;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1383, -310001);
+
 -- Tomas <Cook>
 DELETE FROM `npc_trainer` WHERE `ID`=1430;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1430, -320000);
@@ -56,6 +60,14 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2329, -350000);
 DELETE FROM `npc_trainer` WHERE `ID`=2855;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2855, -410000);
 
+-- Thund <Journeyman Engineer>
+DELETE FROM `npc_trainer` WHERE `ID`=2857;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2857, -340000);
+
+-- Lumak <Fishing Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=3332;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3332, -360000);
+
 -- Godan <Expert Enchanter>
 DELETE FROM `npc_trainer` WHERE `ID`=3345;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3345, -330001);
@@ -63,6 +75,14 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3345, -330001);
 -- Yelmak <Expert Alchemist>
 DELETE FROM `npc_trainer` WHERE `ID`=3347;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3347, -300001);
+
+-- Saru Steelfury <Artisan Blacksmith>
+DELETE FROM `npc_trainer` WHERE `ID`=3355;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3355, -310002);
+
+-- Makaru <Mining Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=3357;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3357, -390000);
 
 -- Magar <Expert Tailor>
 DELETE FROM `npc_trainer` WHERE `ID`=3363;
@@ -79,6 +99,34 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3373, -350000);
 -- Zamja <Cooking Trainer>
 DELETE FROM `npc_trainer` WHERE `ID`=3399;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3399, -320000);
+
+-- Nogg <Expert Engineer>
+DELETE FROM `npc_trainer` WHERE `ID`=3412;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3412, -340001);
+
+-- Kar Stormsinger <Riding Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=3690;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3690, -450000);
+
+-- Randal Hunter <Riding Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=4732;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4732, -450000);
+
+-- Kildar <Riding Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=4752;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4752, -450000);
+
+-- Jartsam <Riding Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=4753;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4753, -450000);
+
+-- Ultham Ironhorn <Riding Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=4772;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4772, -450000);
+
+-- Velma Warnam <Riding Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=4773;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4773, -450000);
 
 -- Arnold Leland <Fishing Trainer>
 DELETE FROM `npc_trainer` WHERE `ID`=5493;
@@ -124,6 +172,22 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5811, -380000);
 DELETE FROM `npc_trainer` WHERE `ID`=7088;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7088, -400000);
 
+-- Xar'Ti <Riding Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=7953;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7953, -450000);
+
+-- Binjy Featherwhistle <Mechanostrider Pilot>
+DELETE FROM `npc_trainer` WHERE `ID`=7954;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7954, -450000);
+
+-- Ug'thok <Journeyman Blacksmith>
+DELETE FROM `npc_trainer` WHERE `ID`=10266;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10266, -310000);
+
+-- Roxxik <Artisan Engineer>
+DELETE FROM `npc_trainer` WHERE `ID`=11017;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11017, -340002);
+
 -- Jhag <Journeyman Enchanter>
 DELETE FROM `npc_trainer` WHERE `ID`=11066;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11066, -330000);
@@ -132,7 +196,7 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11066, -330000);
 DELETE FROM `npc_trainer` WHERE `ID`=11068;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11068, -330000);
 
--- Sprite Jumpsprocket <Apprentice Engineer>
+-- Sprite Jumpsprocket <Journeyman Engineer>
 DELETE FROM `npc_trainer` WHERE `ID`=11026;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11026, -340000);
 
@@ -255,6 +319,27 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSki
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310001, 14379, 250, 164, 150, 0);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310001, 19667, 250, 164, 150, 0);
 
+-- Expert Blacksmith
+DELETE FROM `npc_trainer` WHERE `ID`=310002;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 3539, 4500, 164, 125, 20);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 3506, 900, 164, 155, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 3501, 900, 164, 165, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 3502, 1150, 164, 170, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 15972, 7000, 164, 180, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 3508, 7000, 164, 180, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 7223, 900, 164, 185, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 9920, 2300, 164, 200, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 9918, 2300, 164, 200, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 9921, 2300, 164, 200, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 9916, 2300, 164, 200, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 14380, 2300, 164, 200, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 19668, 2300, 164, 200, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 9928, 4500, 164, 205, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 9926, 4500, 164, 205, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 9931, 4500, 164, 205, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 9993, 9000, 164, 210, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (310002, 9935, 4500, 164, 215, 0);
+
 -- Cooking
 DELETE FROM `npc_trainer` WHERE `ID`=320000;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (320000, 2551, 100, 0, 0, 5);
@@ -368,6 +453,27 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSki
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340001, 3955, 700, 202, 150, 0);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340001, 12584, 1000, 202, 150, 0);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340001, 3956, 700, 202, 150, 0);
+
+-- Expert Engineer
+DELETE FROM `npc_trainer` WHERE `ID`=340002;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 4041, 4500, 202, 125, 20);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 3958, 800, 202, 160, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 3961, 850, 202, 170, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 3963, 900, 202, 175, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 12590, 900, 202, 175, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 3962, 900, 202, 175, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 12585, 900, 202, 175, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 12586, 900, 202, 175, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 3965, 1100, 202, 185, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 3967, 1250, 202, 190, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 12589, 1250, 202, 195, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 15255, 1400, 202, 200, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 12591, 1400, 202, 200, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 12594, 1500, 202, 205, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 12595, 1500, 202, 205, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 12596, 1600, 202, 210, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 12599, 1650, 202, 215, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (340002, 12603, 1700, 202, 215, 0);
 
 -- First Aid
 DELETE FROM `npc_trainer` WHERE `ID`=350000;
@@ -525,3 +631,8 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSki
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (410002, 12067, 5000, 197, 225, 0);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (410002, 12069, 5000, 197, 225, 0);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (410002, 12070, 5000, 197, 225, 0);
+
+-- Riding
+DELETE FROM `npc_trainer` WHERE `ID`=450000;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (450000, 33388, 900000, 762, 0, 40);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (450000, 33391, 9000000, 762, 75, 60);

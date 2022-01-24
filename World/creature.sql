@@ -15,6 +15,10 @@ DELETE FROM `creature` WHERE `id1`=3520;
 -- Sewer Beast
 DELETE FROM `creature` WHERE `id1`=3581;
 
+-- Brakgul Deathbringer <Warsong Gulch Battlemaster>
+DELETE FROM `creature` WHERE `id1`=3890;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (3890, 1, 1990.64, -4794.13, 56.0472, 3.22013, 300);
+
 -- Auberdine Sentinel
 DELETE FROM `creature` WHERE `id1`=6086 AND `map`=0;
 
@@ -102,19 +106,39 @@ INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, 
 DELETE FROM `creature` WHERE `id1`=14720;
 INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (14720, 1, 1565.79, -4395.27, 6.9866, 3.35103, 600);
 
+-- Kartra Bloodsnarl <Alterac Valley Battlemaster>
+DELETE FROM `creature` WHERE `id1`=14942;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (14942, 1, 1980.9, -4787.78, 55.8796, 5.13127, 600);
+
 -- Elfarran <Warsong Gulch Battlemaster>
 DELETE FROM `creature` WHERE `id1`=14981;
-INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (14981, 0, -8454.77, 318.784, 120.886, 0.661303, 300);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (14981, 0, -8454.62, 318.853, 120.969, 0.698132, 180);
+
+-- Deze Snowbane <Arathis Basin Battlemaster>
+DELETE FROM `creature` WHERE `id1`=15006;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15006, 1, 2002.26, -4796.74, 56.8471, 3.00197, 600);
 
 -- Lady Hoteshem <Arathi Basin Battlemaster>
 DELETE FROM `creature` WHERE `id1`=15008;
-INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15008, 0, -8420.4, 328.664, 120.886, 3.04106, 300);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15008, 0, -8420.48, 328.711, 120.886, 3.06638, 180);
 
 -- Horde Warbringer (Temporary)
 DELETE FROM `creature` WHERE `id1`=15350;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15350, 1, -1381.13, -87.0034, 159.532, 3.14159, 250);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15350, 1, 1988.5, -4812.28, 56.8494, 1.5708, 300);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15350, 0, 1251.41, 313.892, -63.6062, 0.139626, 120);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15350, 0, -832.362, -3512.62, 72.3318, 4.55531, 25);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15350, 0, 382.498, -983.076, 109.979, 2.82743, 25);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15350, 1, 1026.33, -2110.51, 123.1, 5.49779, 25);
 
 -- Alliance Brigadier General (Temporary)
 DELETE FROM `creature` WHERE `id1`=15351;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15351, 0, -5049.99, -1270.26, 510.408, 0.0349066, 300);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15351, 1, 9994.73, 2324.28, 1330.87, 3.24631, 300);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15351, 0, -8441.76, 311.67, 120.969, 1.53589, 300);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15351, 0, -1231.22, -2510.21, 23.1758, 4.36332, 300);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15351, 0, -36.7805, -316.826, 130.69, 4.7822, 25);
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (15351, 1, 1450.77, -1872.06, 126.998, 0.436332, 25);
 
 -- Ambassador Dawnsinger
 DELETE FROM `creature` WHERE `id1`=17098;
@@ -130,6 +154,9 @@ DELETE FROM `creature` WHERE `id1`=19850;
 
 -- Beka Zipwhistle <Arena Battlemaster>
 DELETE FROM `creature` WHERE `id1`=19911;
+
+-- Zeggon Botstap <Arena Battlemaster>
+DELETE FROM `creature` WHERE `id1`=19912;
 
 -- Farseer Umbrua <Shaman Trainer>
 DELETE FROM `creature` WHERE `id1`=20407;
@@ -230,6 +257,12 @@ DELETE FROM `creature` WHERE `id1`=29712;
 -- Benik Boltshear <Locksmith>
 DELETE FROM `creature` WHERE `id1`=29725;
 
+-- War-Hunter Molog <Arena Battlemaster>
+DELETE FROM `creature` WHERE `id1`=30610;
+
+-- Greela "The Grunt" Crankchain <Arena Organizer>
+DELETE FROM `creature` WHERE `id1`=30611;
+
 -- Jo'mah <Inscription Trainer>
 DELETE FROM `creature` WHERE `id1`=30706;
 
@@ -275,14 +308,23 @@ DELETE FROM `creature` WHERE `id1`=34081;
 -- Knight-Lieutenant Moonstrike <Northrend Armor Quartermaster>
 DELETE FROM `creature` WHERE `id1`=34084;
 
+-- Karg Skullgore <Battlemaster>
+DELETE FROM `creature` WHERE `id1`=34955;
+
 -- Devin Fardale
 DELETE FROM `creature` WHERE `id1`=34997;
 
 -- Alison Devay <Battlemaster>
 DELETE FROM `creature` WHERE `id1`=34998;
 
+-- Sawemba <Battlemaster>
+DELETE FROM `creature` WHERE `id1`=35008;
+
 -- Gotura Fourwinds <The Earthen Ring>
 DELETE FROM `creature` WHERE `id1`=35068;
+
+-- Slahtz <Experience Eliminator>
+DELETE FROM `creature` WHERE `id1`=35364;
 
 -- Behsten <Experience Eliminator>
 DELETE FROM `creature` WHERE `id1`=35365;
@@ -292,6 +334,9 @@ DELETE FROM `creature` WHERE `id1`=35477;
 
 -- Arcanist Paharin <Wintergrasp Battle-Mage>
 DELETE FROM `creature` WHERE `id1`=35598;
+
+-- Magister Savarin <Wintergrasp Battle-Mage>
+DELETE FROM `creature` WHERE `id1`=35602;
 
 -- Rogg
 DELETE FROM `creature` WHERE `id1`=37072;

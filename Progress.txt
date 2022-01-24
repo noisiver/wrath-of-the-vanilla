@@ -20,13 +20,13 @@
 [X] Warlock
 [X] Druid
 
-[Stormwind City] - Needs testing
+[Stormwind City]
 [X] Change the name, subname, level and rank of all creatures (The king of stormwind remains the same, except that the level is set to 63, until I decide how to handle it)
 [X] Change the items being sold by NPCs (Items sold by the PVP vendors needs extended cost)
 [X] Change all the trainers (Alchemy, Blacksmithing, Cooking, Enchanting, Engineering, First Aid, Fishing, Herbalism, Leatherworking, Mining, Skinning, Tailoring)
 [ ] Change all the quests
 
-[Elwynn Forest] - Needs testing
+[Elwynn Forest]
 [X] Change the name, subname, level and rank of all creatures
 [X] Change the items being sold by NPCs
 [X] Change all the trainers
@@ -39,9 +39,9 @@
 [ ] Change all the quests
 
 [Orgrimmar]
-[ ] Change the name, subname, level and rank of all creatures
-[ ] Change the items being sold by NPCs
-[ ] Change all the trainers
+[X] Change the name, subname, level and rank of all creatures
+[X] Change the items being sold by NPCs
+[X] Change all the trainers
 [ ] Change all the quests
 
 [Durotar]
