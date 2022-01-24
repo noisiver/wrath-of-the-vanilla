@@ -1,9 +1,3 @@
--- Riding
--- Apprentice
-UPDATE `npc_trainer` SET `MoneyCost`=900000, ReqLevel=40 WHERE `SpellID`=33388;
--- Journeyman
-UPDATE `npc_trainer` SET `MoneyCost`=9000000, ReqLevel=60 WHERE `SpellID`=33391;
-
 -- Smith Argus <Journeyman Blacksmith>
 DELETE FROM `npc_trainer` WHERE `ID`=514;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (514, -310000);
