@@ -124,6 +124,9 @@ DELETE FROM `npc_vendor` WHERE `entry`=3410 AND `item` IN (11303, 11306, 11307, 
 -- Sovik <Engineering Supplies>
 DELETE FROM `npc_vendor` WHERE `entry`=3413 AND `item` IN (22729, 39684, 40533);
 
+-- Harb Clawhoof <Kodo Mounts>
+DELETE FROM `npc_vendor` WHERE `entry`=3685 AND `item`=46100;
+
 -- Bren Trias <Apprentice of Cheese>
 DELETE FROM `npc_vendor` WHERE `entry`=4981 AND `item` IN (27857, 28399, 33443, 33444, 33445, 35952, 35954);
 
