@@ -97,8 +97,20 @@ UPDATE `creature_template` SET `faction`=14 WHERE `entry`=3101;
 -- Felstalker
 UPDATE `creature_template` SET `faction`=14 WHERE `entry`=3102;
 
+-- Dwukk <Journeyman Blacksmith>
+UPDATE `creature_template` SET `subname`='Journeyman Blacksmith' WHERE `entry`=3174;
+
+-- Krunn <Miner>
+UPDATE `creature_template` SET `subname`='Miner' WHERE `entry`=3175;
+
 -- Yarrog Baneshadow
 UPDATE `creature_template` SET `faction`=16 WHERE `entry`=3183;
+
+-- Miao'zan <Journeyman Alchemist>
+UPDATE `creature_template` SET `subname`='Journeyman Alchemist' WHERE `entry`=3184;
+
+-- Mishiki <Herbalist>
+UPDATE `creature_template` SET `subname`='Herbalist' WHERE `entry`=3185;
 
 -- Nazgrel <Advisor to Thrall>
 UPDATE `creature_template` SET `scale`=0.7, `npcflag`=0, `faction`=29, `gossip_menu_id`=0 WHERE `entry`=3230;
@@ -214,11 +226,17 @@ UPDATE `creature_template` SET `subname`='General Trade Goods Vendor' WHERE `ent
 -- Vol'jin <King of Darkspear Trolls>
 UPDATE `creature_template` SET `subname`='King of Darkspear Trolls', `minlevel`=60, `maxlevel`=60 WHERE `entry`=8934;
 
+-- Frezza <Zeppelin Master>
+UPDATE `creature_template` SET `subname`='Zeppelin Master' WHERE `entry`=9564;
+
 -- Ug'thok <Journeyman Blacksmith>
 UPDATE `creature_template` SET `subname`='Journeyman Blacksmith', `npcflag`=81, `trainer_type`=2 WHERE `entry`=10266;
 
 -- Roxxik <Artisan Engineer>
 UPDATE `creature_template` SET `subname`='Artisan Engineer', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11017;
+
+-- Mukdrak <Journeyman Engineer>
+UPDATE `creature_template` SET `subname`='Journeyman Engineer' WHERE `entry`=11025;
 
 -- Sprite Jumpsprocket <Apprentice Engineer>
 UPDATE `creature_template` SET `subname`='Journeyman Engineer', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11026;
@@ -234,6 +252,9 @@ UPDATE `creature_template` SET `subname`='Journeyman Enchanter', `npcflag`=81, `
 
 -- Randal Worth <Apprentice Leatherworker>
 UPDATE `creature_template` SET `subname`='Journeyman Leatherworker', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11096;
+
+-- Snurk Bucksquick <Zeppelin Master>
+UPDATE `creature_template` SET `subname`='Zeppelin Master' WHERE `entry`=12136;
 
 -- Lieutenant Rachel Vaccar <Outland Armor Quartermaster>
 UPDATE `creature_template` SET `subname`=NULL, `minlevel`=55, `maxlevel`=55, `npcflag`=0 WHERE `entry`=12778;
@@ -300,6 +321,9 @@ UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `ent
 
 -- Alliance Brigadier General
 UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `entry`=15351;
+
+-- Steamwheedle Bruiser
+UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=16096;
 
 -- King Varian Wrynn
 UPDATE `creature_template` SET `minlevel`=63, `maxlevel`=63 WHERE `entry`=29611;

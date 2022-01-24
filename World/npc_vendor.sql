@@ -52,6 +52,15 @@ DELETE FROM `npc_vendor` WHERE `entry`=1347 AND `item`=38426;
 -- Brother Cassius <Reagent Vendor>
 DELETE FROM `npc_vendor` WHERE `entry`=1351 AND `item` IN (22147, 22148, 37201);
 
+-- Wuark <Armorer & Shieldcrafter>
+DELETE FROM `npc_vendor` WHERE `entry`=3167 AND `item` IN (20815, 20824);
+
+-- Flakk <Trade Supplies>
+DELETE FROM `npc_vendor` WHERE `entry`=3168 AND `item` IN (10648, 30817, 39354);
+
+-- Tai'tasi <Trade Supplies>
+DELETE FROM `npc_vendor` WHERE `entry`=3187 AND `item` IN (10648, 30817, 39354);
+
 -- Olvia <Meat Vendor>
 DELETE FROM `npc_vendor` WHERE `entry`=3312 AND `item` IN (27854, 33454, 35953);
 
@@ -150,6 +159,9 @@ DELETE FROM `npc_vendor` WHERE `entry`=5565 AND `item`=38426;
 
 -- Shimra <General Trade Goods Merchant>
 DELETE FROM `npc_vendor` WHERE `entry`=5817 AND `item` IN (10648, 14341, 18256, 30817, 39354);
+
+-- Zansoa <Fishing Supplies>
+DELETE FROM `npc_vendor` WHERE `entry`=5942 AND `item` IN (6365, 6533);
 
 -- Innkeeper Allison <Innkeeper>
 DELETE FROM `npc_vendor` WHERE `entry`=6740 AND `item` IN (4536, 4537, 4538, 4539, 4602, 8953, 27855, 27856, 28399, 33444, 33445, 33449, 35948, 35949, 35950, 35954);

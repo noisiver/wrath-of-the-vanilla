@@ -1,12 +1,15 @@
 -- Billy
 DELETE FROM `creature` WHERE `id1`=1367;
 
+-- Rhinag
+DELETE FROM `creature` WHERE `id1`=3190;
+
 -- Nazgrel <Advisor to Thrall>
 DELETE FROM `creature` WHERE `id1`=3230;
 INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (3230, 1, 1938.55, -4133.22, 41.1424, 4.07636, 300);
 
 -- Orgrimmar Grunt
-DELETE FROM `creature` WHERE `guid`=10299;
+DELETE FROM `creature` WHERE `guid` IN (10299, 203492, 203493, 203494, 203495);
 INSERT INTO `creature` (`guid`, `id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (10299, 3296, 1, 1620.45, -4252.84, 47.5273, 3.7001, 300);
 
 -- Ol' Emma
@@ -170,8 +173,65 @@ DELETE FROM `creature` WHERE `id1`=23128;
 -- Blood Knight Honor Guard
 DELETE FROM `creature` WHERE `id1`=23131;
 
+-- Sky-Captain Bomblast <The Iron Eagle>
+DELETE FROM `creature` WHERE `id1`=24924;
+
+-- Chief Officer Brassbolt <The Iron Eagle>
+DELETE FROM `creature` WHERE `id1`=24926;
+
+-- Navigator Sparksizzle <The Iron Eagle>
+DELETE FROM `creature` WHERE `id1`=24927;
+
+-- Crewman Crosswire <The Iron Eagle>
+DELETE FROM `creature` WHERE `id1`=24929;
+
+-- Crewman Gazzlegear <The Iron Eagle>
+DELETE FROM `creature` WHERE `id1`=24930;
+
+-- Crewman Fastwrench <The Iron Eagle>
+DELETE FROM `creature` WHERE `id1`=24931;
+
+-- Snack-O-Matic IV
+DELETE FROM `creature` WHERE `id1`=24934;
+
+-- Vend-O-Tron D-Luxe
+DELETE FROM `creature` WHERE `id1`=24935;
+
 -- Fuzz
 DELETE FROM `creature` WHERE `id1`=25058;
+
+-- Chief Officer Coppernut <The Thundercaller>
+DELETE FROM `creature` WHERE `id1`=25070;
+
+-- Crewman Rusthammer <The Thundercaller>
+DELETE FROM `creature` WHERE `id1`=25071;
+
+-- Crewman Quickfix <The Thundercaller>
+DELETE FROM `creature` WHERE `id1`=25072;
+
+-- Crewman Sparkfly <The Thundercaller>
+DELETE FROM `creature` WHERE `id1`=25074;
+
+-- Navigator Fairweather <The Thundercaller>
+DELETE FROM `creature` WHERE `id1`=25076;
+
+-- Sky-Captain Cloudkicker <The Thundercaller>
+DELETE FROM `creature` WHERE `id1`=25077;
+
+-- Deathguard Fowles <The Thundercaller>
+DELETE FROM `creature` WHERE `id1`=25079;
+
+-- Grunt Umgor
+DELETE FROM `creature` WHERE `id1`=25080;
+
+-- Grunt Ounda
+DELETE FROM `creature` WHERE `id1`=25081;
+
+-- Deathguard Lawson <The Thundercaller>
+DELETE FROM `creature` WHERE `id1`=25083;
+
+-- Greeb Ramrocket <Borean Tundra Zeppelin Master>
+DELETE FROM `creature` WHERE `id1`=26537;
 
 -- Leesha Tannerby <Dockmaster>
 DELETE FROM `creature` WHERE `id1`=26548;
@@ -307,6 +367,9 @@ DELETE FROM `creature` WHERE `id1`=34081;
 
 -- Knight-Lieutenant Moonstrike <Northrend Armor Quartermaster>
 DELETE FROM `creature` WHERE `id1`=34084;
+
+-- Zelli Hotnozzle <Thunder Bluff Zeppelin Master>
+DELETE FROM `creature` WHERE `id1`=34765;
 
 -- Karg Skullgore <Battlemaster>
 DELETE FROM `creature` WHERE `id1`=34955;

@@ -58,6 +58,22 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2855, -410000);
 DELETE FROM `npc_trainer` WHERE `ID`=2857;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2857, -340000);
 
+-- Dwukk <Journeyman Blacksmith>
+DELETE FROM `npc_trainer` WHERE `ID`=3174;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3174, -310000);
+
+-- Krunn <Miner>
+DELETE FROM `npc_trainer` WHERE `ID`=3175;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3175, -390000);
+
+-- Miao'zan <Journeyman Alchemist>
+DELETE FROM `npc_trainer` WHERE `ID`=3184;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3184, -300000);
+
+-- Mishiki <Herbalist>
+DELETE FROM `npc_trainer` WHERE `ID`=3185;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3185, -370000);
+
 -- Lumak <Fishing Trainer>
 DELETE FROM `npc_trainer` WHERE `ID`=3332;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3332, -360000);
@@ -162,6 +178,10 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5567, -410001);
 DELETE FROM `npc_trainer` WHERE `ID`=5811;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5811, -380000);
 
+-- Rawrk <First Aid Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=5943;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5943, -350000);
+
 -- Thuwd <Skinning Trainer>
 DELETE FROM `npc_trainer` WHERE `ID`=7088;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7088, -400000);
@@ -182,13 +202,9 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10266, -310000);
 DELETE FROM `npc_trainer` WHERE `ID`=11017;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11017, -340002);
 
--- Jhag <Journeyman Enchanter>
-DELETE FROM `npc_trainer` WHERE `ID`=11066;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11066, -330000);
-
--- Betty Quin <Journeyman Enchanter>
-DELETE FROM `npc_trainer` WHERE `ID`=11068;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11068, -330000);
+-- Mukdrak <Journeyman Engineer>
+DELETE FROM `npc_trainer` WHERE `ID`=11025;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11025, -340000);
 
 -- Sprite Jumpsprocket <Journeyman Engineer>
 DELETE FROM `npc_trainer` WHERE `ID`=11026;
@@ -197,6 +213,14 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11026, -340000);
 -- Whuut <Journeyman Alchemist>
 DELETE FROM `npc_trainer` WHERE `ID`=11046;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11046, -300000);
+
+-- Jhag <Journeyman Enchanter>
+DELETE FROM `npc_trainer` WHERE `ID`=11066;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11066, -330000);
+
+-- Betty Quin <Journeyman Enchanter>
+DELETE FROM `npc_trainer` WHERE `ID`=11068;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11068, -330000);
 
 -- Kitta Firewind <Enchanting Trainer>
 DELETE FROM `npc_trainer` WHERE `ID`=11072;
@@ -483,6 +507,13 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSki
 DELETE FROM `npc_trainer` WHERE `ID`=360000;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (360000, 7733, 100, 0, 0, 5);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (360000, 7734, 500, 356, 50, 10);
+
+-- Herbalism
+DELETE FROM `npc_trainer` WHERE `ID`=370000;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (370000, 2372, 10, 0, 0, 1);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (370000, 2373, 500, 182, 50, 1);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (370000, 3571, 5000, 182, 125, 10);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (370000, 11994, 50000, 182, 200, 25);
 
 -- Apprentice Leatherworker
 DELETE FROM `npc_trainer` WHERE `ID`=380000;
