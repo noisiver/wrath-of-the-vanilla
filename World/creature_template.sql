@@ -91,6 +91,30 @@ UPDATE `creature_template` SET `subname`='Journeyman Tailor', `npcflag`=81, `tra
 -- Thund <Journeyman Engineer>
 UPDATE `creature_template` SET `subname`='Journeyman Engineer', `npcflag`=81, `trainer_type`=2 WHERE `entry`=2857;
 
+-- Bristleback Quilboar
+UPDATE `creature_template` SET `faction`=111 WHERE `entry`=2952;
+
+-- Bristleback Shaman
+UPDATE `creature_template` SET `faction`=111 WHERE `entry`=2953;
+
+-- Bristleback Battleboar
+UPDATE `creature_template` SET `faction`=111 WHERE `entry`=2954;
+
+-- Battleboar
+UPDATE `creature_template` SET `faction`=14 WHERE `entry`=2966;
+
+-- Bael'dun Digger
+UPDATE `creature_template` SET `faction`=57 WHERE `entry`=2989;
+
+-- Bael'dun Appraiser
+UPDATE `creature_template` SET `faction`=57 WHERE `entry`=2990;
+
+-- Chaw Stronghide <Journeyman Leatherworker>
+UPDATE `creature_template` SET `subname`='Journeyman Leatherworker' WHERE `entry`=3069;
+
+-- Bronk Steelrage
+UPDATE `creature_template` SET `subname`='Armorer and Shieldcrafter' WHERE `entry`=3075;
+
 -- Vile Familiars
 UPDATE `creature_template` SET `faction`=14 WHERE `entry`=3101;
 
@@ -111,6 +135,9 @@ UPDATE `creature_template` SET `subname`='Journeyman Alchemist' WHERE `entry`=31
 
 -- Mishiki <Herbalist>
 UPDATE `creature_template` SET `subname`='Herbalist' WHERE `entry`=3185;
+
+-- Brave Proudsnout
+UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=3210;
 
 -- Nazgrel <Advisor to Thrall>
 UPDATE `creature_template` SET `scale`=0.7, `npcflag`=0, `faction`=29, `gossip_menu_id`=0 WHERE `entry`=3230;
@@ -205,8 +232,14 @@ UPDATE `creature_template` SET `subname`='Journeyman Leatherworker', `npcflag`=8
 -- Shimra <General Trade Goods Merchant>
 UPDATE `creature_template` SET `subname`='General Trade Goods Merchant' WHERE `entry`=5817;
 
+-- Uthan Stillwater <Fisherman>
+UPDATE `creature_template` SET `subname`='Fisherman' WHERE `entry`=5938;
+
 -- Den Grunt
 UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=5952;
+
+-- Yonn Deepcut <Skinner>
+UPDATE `creature_template` SET `subname`='Skinner' WHERE `entry`=6290;
 
 -- Helene Peltskinner <Skinner>
 UPDATE `creature_template` SET `subname`='Skinner' WHERE `entry`=6306;
@@ -219,6 +252,12 @@ UPDATE `creature_template` SET `subname`='Weapon Crafter' WHERE `entry`=7231;
 
 -- Borgus Steelhand <Weapon Crafter>
 UPDATE `creature_template` SET `subname`='Weapon Crafter' WHERE `entry`=7232;
+
+-- Mulgore Protector
+UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=7975;
+
+-- Chief Sharptusk Thornmantle
+UPDATE `creature_template` SET `faction`=14 WHERE `entry`=8554;
 
 -- Christopher Hewen <General Trade Goods Vendor>
 UPDATE `creature_template` SET `subname`='General Trade Goods Vendor' WHERE `entry`=8934;

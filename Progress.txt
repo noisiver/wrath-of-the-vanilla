@@ -15,7 +15,7 @@
 [ ] Hunter
 [ ] Rogue
 [ ] Priest
-[ ] Shaman
+[X] Shaman
 [ ] Mage
 [X] Warlock
 [X] Druid
@@ -45,7 +45,13 @@
 [ ] Change all the quests
 
 [Durotar]
-[ ] Change the name, subname, level and rank of all creatures
+[X] Change the name, subname, level and rank of all creatures
 [X] Change the items being sold by NPCs
 [X] Change all the trainers
-[ ] Change all the quests
+[X] Change all the quests
+
+[Mulgore]
+[X] Change the name, subname, level and rank of all creatures
+[X] Change the items being sold by NPCs
+[X] Change all the trainers
+[X] Change all the quests

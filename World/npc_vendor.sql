@@ -52,6 +52,9 @@ DELETE FROM `npc_vendor` WHERE `entry`=1347 AND `item`=38426;
 -- Brother Cassius <Reagent Vendor>
 DELETE FROM `npc_vendor` WHERE `entry`=1351 AND `item` IN (22147, 22148, 37201);
 
+-- Wunna Darkmane <Trade Goods>
+DELETE FROM `npc_vendor` WHERE `entry`=3081 AND `item` IN (10648, 30817, 39354);
+
 -- Wuark <Armorer & Shieldcrafter>
 DELETE FROM `npc_vendor` WHERE `entry`=3167 AND `item` IN (20815, 20824);
 

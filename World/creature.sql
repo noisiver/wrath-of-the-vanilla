@@ -33,6 +33,10 @@ INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, 
 DELETE FROM `creature` WHERE `id1`=7798;
 INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (7798, 0, -8422.17, 630.877, 95.8402, 5.044, 430);
 
+-- Vorn Skyseer
+DELETE FROM `creature` WHERE `id1`=11944;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (11944, 1, -2909.55, -231.807, 53.9186, 5.16617, 375);
+
 -- Lieutenant Karter <War Mount Quartermaster>
 DELETE FROM `creature` WHERE `id1`=12783;
 INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (12783, 0, -8779.7, 432.158, 105.233, 5.36374, 300);
@@ -172,6 +176,12 @@ DELETE FROM `creature` WHERE `id1`=23128;
 
 -- Blood Knight Honor Guard
 DELETE FROM `creature` WHERE `id1`=23131;
+
+-- Kyle the Frenzied
+DELETE FROM `creature` WHERE `id1`=23616;
+
+-- Ahab Wheathoof
+DELETE FROM `creature` WHERE `id1`=23618;
 
 -- Sky-Captain Bomblast <The Iron Eagle>
 DELETE FROM `creature` WHERE `id1`=24924;

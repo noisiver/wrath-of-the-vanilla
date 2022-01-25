@@ -40,3 +40,6 @@ INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (3326, 4967);
 -- An Imp's Request (Warlock)
 DELETE FROM `creature_queststarter` WHERE `id` IN (3324, 3325, 3326, 4564, 5495, 5496) AND `quest`=8419;
 INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (3326, 8419);
+
+-- Relic of the Earthen Ring
+DELETE FROM `creature_queststarter` WHERE `quest` IN (14100, 14111);

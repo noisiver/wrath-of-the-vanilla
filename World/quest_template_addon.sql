@@ -19,6 +19,30 @@ UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=33;
 -- Report to Goldshire
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=54;
 
+-- The Hunt Begins
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=747;
+
+-- The Hunt Continues
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=750;
+
+-- A Humble Task
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=752;
+
+-- A Humble Task
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=753;
+
+-- Rites of the Earthmother
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=755;
+
+-- Rite of Strength
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=757;
+
+-- Rites of the Earthmother
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=763;
+
+-- The Battleboars
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=780;
+
 -- A Threat Within
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=783;
 
@@ -43,8 +67,26 @@ UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=804;
 -- Report to Sen'jin Village
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=805;
 
+-- Call of Earth (Shaman)
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=1516;
+
+-- Call of Earth (Shaman)
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=1517;
+
+-- Call of Earth (Shaman)
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=1518;
+
+-- Call of Earth (Shaman)
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=1520;
+
+-- Call of Earth (Shaman)
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=1521;
+
 -- Beginnings (Warlock)
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=1599;
+
+-- A Task Unfinished
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=1656;
 
 -- Devourer of Souls (Warlock)
 UPDATE `quest_template_addon` SET `PrevQuestID`=0 WHERE `ID`=1716;
@@ -57,6 +99,9 @@ UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=2161;
 
 -- Simple Parchment
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=2383;
+
+-- Rune-Inscribed Note
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=3093;
 
 -- Simple Letter
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=3100;
@@ -75,6 +120,9 @@ UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=3104;
 
 -- Tainted Letter
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=3105;
+
+-- Break Sharptusk!
+UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=3376;
 
 -- Milly Osworth
 UPDATE `quest_template_addon` SET `SpecialFlags`=0 WHERE `ID`=3903;

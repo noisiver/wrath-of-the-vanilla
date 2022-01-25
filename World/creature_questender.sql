@@ -32,3 +32,6 @@ DELETE FROM `creature_questender` WHERE `id`=6251 AND `quest`=4489;
 INSERT INTO `creature_questender` (`id`, `quest`) VALUES (6251, 4489);
 DELETE FROM `creature_questender` WHERE `id`=6251 AND `quest`=4490;
 INSERT INTO `creature_questender` (`id`, `quest`) VALUES (6251, 4490);
+
+-- Relic of the Earthen Ring
+DELETE FROM `creature_questender` WHERE `quest` IN (14100, 14111);
