@@ -72,6 +72,14 @@ UPDATE `creature_loot_template` SET `Chance`=3.5 WHERE `Entry`=1732 AND `Item`=1
 DELETE FROM `creature_loot_template` WHERE `Entry`=1732 AND `Item`=2771;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (1732, 2771, 99.345, 1, 1, 'Defias Squallshaper - Tin Ore');
 
+-- Son of Arugal
+DELETE FROM `creature_loot_template` WHERE `Entry`=2529 AND `Item` IN (785, 2770, 2771, 2996, 2997);
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (2529, 785, 0.02, 1, 1, 'Son of Arugal - Mageroyal');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (2529, 2770, 0.02, 1, 1, 'Son of Arugal - Copper Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (2529, 2771, 0.02, 1, 1, 'Son of Arugal - Tin Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (2529, 2996, 0.02, 1, 1, 'Son of Arugal - Bolt of Linen Cloth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (2529, 2997, 0.02, 1, 1, 'Son of Arugal - Bolt of Woolen Cloth');
+
 -- Defias Companion
 DELETE FROM `creature_loot_template` WHERE `Entry`=3450 AND `Item` IN (1179, 2287, 2453, 2455, 2771, 4541, 4605, 5573, 5574);
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3450, 1179, 80, 1, 1, 'Defias Companion - Ice Cold Milk');
@@ -83,6 +91,80 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `Ma
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3450, 4605, 40, 1, 1, 'Defias Companion - Red-speckled Mushroom');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3450, 5573, 9.09, 1, 1, 'Defias Companion - Green Leather Bag');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3450, 5574, 18.18, 1, 1, 'Defias Companion - White Leather Bag');
+
+-- Shadowfang Moonwalker
+DELETE FROM `creature_loot_template` WHERE `Entry`=3853 AND `Item` IN (785, 2770, 2771, 2775, 2996);
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3853, 785, 0.02, 1, 1, 'Shadowfang Moonwalker - Mageroyal');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3853, 2770, 0.02, 1, 1, 'Shadowfang Moonwalker - Copper Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3853, 2771, 0.04, 1, 1, 'Shadowfang Moonwalker - Tin Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3853, 2775, 0.02, 1, 1, 'Shadowfang Moonwalker - Silver Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3853, 2996, 0.02, 1, 1, 'Shadowfang Moonwalker - Bolt of Linen Cloth');
+
+-- Shadowfang Darksoul
+UPDATE `creature_loot_template` SET `chance`=25 WHERE `Entry`=3855 AND `Item`=6915;
+DELETE FROM `creature_loot_template` WHERE `Entry`=3855 AND `Item`=2996;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3855, 2996, 0.02, 1, 1, 'Shadowfang Darksoul - Bolt of Linen Cloth');
+
+-- Shadowfang Ragetooth
+DELETE FROM `creature_loot_template` WHERE `Entry`=3859 AND `Item` IN (785, 2770, 2771, 2775, 2996, 2997);
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3859, 785, 0.02, 1, 1, 'Shadowfang Ragetooth - Mageroyal');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3859, 2770, 0.02, 1, 1, 'Shadowfang Ragetooth - Copper Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3859, 2771, 0.02, 1, 1, 'Shadowfang Ragetooth - Tin Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3859, 2775, 0.02, 1, 1, 'Shadowfang Ragetooth - Silver Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3859, 2996, 0.02, 1, 1, 'Shadowfang Ragetooth - Bolt of Linen Cloth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3859, 2997, 0.02, 1, 1, 'Shadowfang Ragetooth - Bolt of Woolen Cloth');
+
+-- Slavering Worg
+DELETE FROM `creature_loot_template` WHERE `Entry`=3862 AND `Item` IN (785, 2770, 2771, 2775, 2996);
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3862, 785, 0.02, 1, 1, 'Slavering Worg - Mageroyal');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3862, 2770, 0.02, 1, 1, 'Slavering Worg - Copper Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3862, 2771, 0.02, 1, 1, 'Slavering Worg - Tin Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3862, 2775, 0.02, 1, 1, 'Slavering Worg - Silver Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3862, 2996, 0.02, 1, 1, 'Slavering Worg - Bolt of Linen Cloth');
+
+-- Lupine Horror
+DELETE FROM `creature_loot_template` WHERE `Entry`=3863 AND `Item` IN (785, 2770, 2771, 2775, 2996, 2997);
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3863, 785, 0.02, 1, 1, 'Lupine Horror - Mageroyal');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3863, 2770, 0.04, 1, 1, 'Lupine Horror - Copper Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3863, 2771, 0.02, 1, 1, 'Lupine Horror - Tin Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3863, 2775, 0.02, 1, 1, 'Lupine Horror - Silver Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3863, 2996, 0.04, 1, 1, 'Lupine Horror - Bolt of Linen Cloth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3863, 2997, 0.02, 1, 1, 'Lupine Horror - Bolt of Woolen Cloth');
+
+-- Fel Steed
+DELETE FROM `creature_loot_template` WHERE `Entry`=3864 AND `Item` IN (785, 2770);
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3864, 785, 0.02, 1, 1, 'Fel Steed - Mageroyal');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3864, 2770, 0.02, 1, 1, 'Fel Steed - Copper Ore');
+
+-- Vile Bat
+DELETE FROM `creature_loot_template` WHERE `Entry`=3866 AND `Item`=785;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3866, 785, 0.02, 1, 1, 'Vile Bat - Mageroyal');
+
+-- Tormented Officer
+DELETE FROM `creature_loot_template` WHERE `Entry`=3873 AND `Item` IN (785, 2770, 2771, 2775, 2996, 2997);
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3873, 785, 0.02, 1, 1, 'Tormented Officer - Mageroyal');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3873, 2770, 0.02, 1, 1, 'Tormented Officer - Copper Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3873, 2771, 0.02, 1, 1, 'Tormented Officer - Tin Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3873, 2775, 0.02, 1, 1, 'Tormented Officer - Silver Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3873, 2996, 0.02, 1, 1, 'Tormented Officer - Bolt of Linen Cloth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3873, 2997, 0.02, 1, 1, 'Tormented Officer - Bolt of Woolen Cloth');
+
+-- Haunted Servitor
+DELETE FROM `creature_loot_template` WHERE `Entry`=3875 AND `Item` IN (785, 2770, 2771, 2775, 2996, 2997);
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3875, 785, 0.02, 1, 1, 'Haunted Servitor - Mageroyal');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3875, 2770, 0.02, 1, 1, 'Haunted Servitor - Copper Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3875, 2771, 0.02, 1, 1, 'Haunted Servitor - Tin Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3875, 2775, 0.02, 1, 1, 'Haunted Servitor - Silver Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3875, 2996, 0.02, 1, 1, 'Haunted Servitor - Bolt of Linen Cloth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3875, 2997, 0.02, 1, 1, 'Haunted Servitor - Bolt of Woolen Cloth');
+
+-- Wailing Guardsman
+DELETE FROM `creature_loot_template` WHERE `Entry`=3877 AND `Item` IN (2770, 2771, 2775, 2996, 2997);
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3877, 2770, 0.02, 1, 1, 'Wailing Guardsman - Copper Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3877, 2771, 0.02, 1, 1, 'Wailing Guardsman - Tin Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3877, 2775, 0.02, 1, 1, 'Wailing Guardsman - Silver Ore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3877, 2996, 0.02, 1, 1, 'Wailing Guardsman - Bolt of Linen Cloth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `MinCount`, `MaxCount`, `Comment`) VALUES (3877, 2997, 0.02, 1, 1, 'Wailing Guardsman - Bolt of Woolen Cloth');
 
 -- Goblin Shipbuilder
 DELETE FROM `creature_loot_template` WHERE `Entry`=3947 AND `Item` IN (785, 1943, 2770, 2771, 2775, 2996);

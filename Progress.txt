@@ -24,7 +24,7 @@
 [X] Ragefire Chasm
 [X] The Deadmines
 [ ] Wailing Caverns
-[ ] Shadowfang Keep
+[X] Shadowfang Keep
 [ ] Blackfathom Deeps
 [ ] The Stockade
 [ ] Razorfen Kraul
