@@ -20,8 +20,37 @@
 [X] Warlock
 [X] Druid
 
+[Dungeons]
+[X] Ragefire Chasm
+[X] The Deadmines
+[ ] Wailing Caverns
+[ ] Shadowfang Keep
+[ ] Blackfathom Deeps
+[ ] The Stockade
+[ ] Razorfen Kraul
+[ ] Gnomeregan
+[ ] Scarlet Monastery
+[ ] Razorfen Downs
+[ ] Uldaman
+[ ] Maraudon
+[ ] Zul'Farrak
+[ ] The Temple of Atal'Hakkar
+[ ] Blackrock Depths
+[ ] Dire Maul
+[ ] Scholomance
+[ ] Stratholme
+[ ] Blackrock Spire
+
+[Raids]
+[ ] Zul'Gurub
+[ ] Ruins of Ahn'Qiraj
+[ ] Temple of Ahn'Qiraj
+[ ] Blackwing Lair
+[-] Onyxia's Lair - Not Possible
+[-] Naxxramas - Not possible
+
 [Stormwind City]
-[X] Change the name, subname, level and rank of all creatures (The king of stormwind remains the same, except that the level is set to 63, until I decide how to handle it)
+[X] Change the name, subname, level and rank of all creatures (The king of stormwind remains the same, his level is set to 63, until I decide how to handle it)
 [X] Change the items being sold by NPCs
 [X] Change all the trainers
 [ ] Change all the quests
@@ -33,6 +62,18 @@
 [X] Change all the quests
 
 [Westfall]
+[ ] Change the name, subname, level and rank of all creatures
+[ ] Change the items being sold by NPCs
+[ ] Change all the trainers
+[ ] Change all the quests
+
+[Ironforge]
+[ ] Change the name, subname, level and rank of all creatures
+[ ] Change the items being sold by NPCs
+[ ] Change all the trainers
+[ ] Change all the quests
+
+[Darnassus]
 [ ] Change the name, subname, level and rank of all creatures
 [ ] Change the items being sold by NPCs
 [ ] Change all the trainers
@@ -50,8 +91,20 @@
 [X] Change all the trainers
 [X] Change all the quests
 
+[Thunder Bluff]
+[ ] Change the name, subname, level and rank of all creatures
+[ ] Change the items being sold by NPCs
+[ ] Change all the trainers
+[ ] Change all the quests
+
 [Mulgore]
 [X] Change the name, subname, level and rank of all creatures
 [X] Change the items being sold by NPCs
 [X] Change all the trainers
 [X] Change all the quests
+
+[Undercity]
+[ ] Change the name, subname, level and rank of all creatures
+[ ] Change the items being sold by NPCs
+[ ] Change all the trainers
+[ ] Change all the quests

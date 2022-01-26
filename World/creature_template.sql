@@ -31,6 +31,12 @@ UPDATE `creature_template` SET `subname`='Journeyman Blacksmith' WHERE `entry`=5
 -- Defias Messenger
 UPDATE `creature_template` SET `minlevel`=14, `maxlevel`=15 WHERE `entry`=550;
 
+-- Defias Blackguard
+UPDATE `creature_template` SET `maxlevel`=20 WHERE `entry`=636;
+
+-- Edwin VanCleef <Defias Kingpin>
+UPDATE `creature_template` SET `minlevel`=21, `maxlevel`=21 WHERE `entry`=639;
+
 -- Dane Lindgren <Apprentice Blacksmith>
 UPDATE `creature_template` SET `subname`='Journeyman Blacksmith', `npcflag`=81, `trainer_type`=2 WHERE `entry`=957;
 
@@ -48,6 +54,9 @@ UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1275;
 
 -- Edna Mullby <Trade Supplies>
 UPDATE `creature_template` SET `subname`='Trade Supplier' WHERE `entry`=1286;
+
+-- Defias Watchman (The Deadmines)
+UPDATE `creature_template` SET `minlevel`=16, `rank`=1 WHERE `entry`=1725;
 
 -- Lawrence Schneider <Apprentice Tailor>
 UPDATE `creature_template` SET `subname`='Journeyman Tailor', `npcflag`=81, `trainer_type`=2 WHERE `entry`=1300;
@@ -78,6 +87,9 @@ UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=1642;
 
 -- Lee Brown <Fisherman>
 UPDATE `creature_template` SET `subname`='Fisherman' WHERE `entry`=1651;
+
+-- Defias Squallshaper
+UPDATE `creature_template` SET `maxlevel`=20 WHERE `entry`=1732;
 
 -- Stormwind Royal Guard
 UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `entry`=1756;
@@ -114,6 +126,9 @@ UPDATE `creature_template` SET `subname`='Journeyman Leatherworker' WHERE `entry
 
 -- Bronk Steelrage
 UPDATE `creature_template` SET `subname`='Armorer and Shieldcrafter' WHERE `entry`=3075;
+
+-- Bluffwatcher
+UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55, `faction`=105 WHERE `entry`=3084;
 
 -- Vile Familiars
 UPDATE `creature_template` SET `faction`=14 WHERE `entry`=3101;
@@ -198,6 +213,12 @@ UPDATE `creature_template` SET `subname`='Cooking Supplier' WHERE `entry`=3400;
 
 -- Nogg <Expert Engineer>
 UPDATE `creature_template` SET `subname`='Expert Engineer', `npcflag`=81, `trainer_type`=2 WHERE `entry`=3412;
+
+-- Defias Companion
+UPDATE `creature_template` SET `lootid`=3450 WHERE `entry`=3450;
+
+-- Miner Johnson
+UPDATE `creature_template` SET `faction`=14 WHERE `entry`=3586;
 
 -- Thrall <Warchief>
 UPDATE `creature_template` SET `minlevel`=63, `maxlevel`=63 WHERE `entry`=4949;
@@ -291,6 +312,9 @@ UPDATE `creature_template` SET `subname`='Journeyman Enchanter', `npcflag`=81, `
 
 -- Randal Worth <Apprentice Leatherworker>
 UPDATE `creature_template` SET `subname`='Journeyman Leatherworker', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11096;
+
+-- Molten Elemental (Ragefire Chasm)
+UPDATE `creature_template` SET `minlevel`=13, `maxlevel`=15 WHERE `entry`=11321;
 
 -- Snurk Bucksquick <Zeppelin Master>
 UPDATE `creature_template` SET `subname`='Zeppelin Master' WHERE `entry`=12136;
