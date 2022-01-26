@@ -50,6 +50,10 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2327, -350000);
 DELETE FROM `npc_trainer` WHERE `ID`=2329;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2329, -350000);
 
+-- Pand Stonebinder <First Aid Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=2798;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2798, -350000);
+
 -- Snang <Journeyman Tailor>
 DELETE FROM `npc_trainer` WHERE `ID`=2855;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2855, -410000);
@@ -57,6 +61,46 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2855, -410000);
 -- Thund <Journeyman Engineer>
 DELETE FROM `npc_trainer` WHERE `ID`=2857;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2857, -340000);
+
+-- Karn Stonehoof <Expert Blacksmith>
+DELETE FROM `npc_trainer` WHERE `ID`=2998;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2998, -310001);
+
+-- Brek Stonehoof <Mining Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=3001;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3001, -390000);
+
+-- Tepa <Expert Tailor>
+DELETE FROM `npc_trainer` WHERE `ID`=3004;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3004, -410001);
+
+-- Una <Artisan Leatherworker>
+DELETE FROM `npc_trainer` WHERE `ID`=3007;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3007, -380002);
+
+-- Mak <Journeyman Leatherworker>
+DELETE FROM `npc_trainer` WHERE `ID`=3008;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3008, -380000);
+
+-- Bena Winterhoof <Expert Alchemist>
+DELETE FROM `npc_trainer` WHERE `ID`=3009;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3009, -300001);
+
+-- Teg Dawnstrider <Expert Enchanter>
+DELETE FROM `npc_trainer` WHERE `ID`=3011;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3011, -330001);
+
+-- Komin Winterhoof
+DELETE FROM `npc_trainer` WHERE `ID`=3013;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3013, -370000);
+
+-- Aska Mistrunner <Cooking Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=3026;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3026, -320000);
+
+-- Kah Mistrunner
+DELETE FROM `npc_trainer` WHERE `ID`=3028;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3028, -360000);
 
 -- Chaw Stronghide <Journeyman Leatherworker>
 DELETE FROM `npc_trainer` WHERE `ID`=3069;
@@ -202,6 +246,10 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (6290, -400000);
 DELETE FROM `npc_trainer` WHERE `ID`=7088;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7088, -400000);
 
+-- Mooranta <Skinning Trainer>
+DELETE FROM `npc_trainer` WHERE `ID`=7089;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7089, -400000);
+
 -- Xar'Ti <Riding Trainer>
 DELETE FROM `npc_trainer` WHERE `ID`=7953;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7953, -450000);
@@ -213,6 +261,10 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7954, -450000);
 -- Ug'thok <Journeyman Blacksmith>
 DELETE FROM `npc_trainer` WHERE `ID`=10266;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10266, -310000);
+
+-- Thrag Stonehoof <Journeyman Blacksmith>
+DELETE FROM `npc_trainer` WHERE `ID`=10278;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10278, -310000);
 
 -- Roxxik <Artisan Engineer>
 DELETE FROM `npc_trainer` WHERE `ID`=11017;
@@ -230,6 +282,14 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11026, -340000);
 DELETE FROM `npc_trainer` WHERE `ID`=11046;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11046, -300000);
 
+-- Kray <Journeyman Alchemist>
+DELETE FROM `npc_trainer` WHERE `ID`=11047;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11047, -300000);
+
+-- Vhan <Journeyman Tailor>
+DELETE FROM `npc_trainer` WHERE `ID`=11051;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11051, -410000);
+
 -- Jhag <Journeyman Enchanter>
 DELETE FROM `npc_trainer` WHERE `ID`=11066;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11066, -330000);
@@ -238,9 +298,17 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11066, -330000);
 DELETE FROM `npc_trainer` WHERE `ID`=11068;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11068, -330000);
 
+-- Mot Dawnstrider <Journeyman Enchanter>
+DELETE FROM `npc_trainer` WHERE `ID`=11071;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11071, -330000);
+
 -- Kitta Firewind <Enchanting Trainer>
 DELETE FROM `npc_trainer` WHERE `ID`=11072;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11072, -330002);
+
+-- Tarn <Expert Leatherworker>
+DELETE FROM `npc_trainer` WHERE `ID`=11084;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11084, -380001);
 
 -- Randal Worth <Journeyman Leatherworker>
 DELETE FROM `npc_trainer` WHERE `ID`=11096;
@@ -572,6 +640,29 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSki
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380001, 9193, 2000, 164, 150, 0);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380001, 9194, 2000, 164, 150, 0);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380001, 20649, 1800, 164, 150, 0);
+
+-- Expert Leatherworker
+DELETE FROM `npc_trainer` WHERE `ID`=380002;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 3812, 5000, 164, 125, 20);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 3774, 2500, 164, 160, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 7147, 2500, 164, 160, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 7151, 2500, 164, 175, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 9196, 2500, 164, 175, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 10482, 2800, 164, 180, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 9201, 2800, 164, 180, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 9198, 2800, 164, 180, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 3776, 2800, 164, 180, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 20650, 2800, 164, 180, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 6661, 2800, 164, 190, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 7156, 2800, 164, 190, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 9206, 2800, 164, 195, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 10487, 3500, 164, 200, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 10507, 3500, 164, 205, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 10499, 3500, 164, 205, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 10518, 4000, 164, 210, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 10511, 4000, 164, 210, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 14930, 4000, 164, 225, 0);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`, `MoneyCost`, `ReqSkillLine`, `ReqSkillRank`, `ReqLevel`) VALUES (380002, 14932, 4000, 164, 225, 0);
 
 -- Mining
 DELETE FROM `npc_trainer` WHERE `ID`=390000;

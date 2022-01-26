@@ -52,6 +52,31 @@ DELETE FROM `npc_vendor` WHERE `entry`=1347 AND `item`=38426;
 -- Brother Cassius <Reagent Vendor>
 DELETE FROM `npc_vendor` WHERE `entry`=1351 AND `item` IN (22147, 22148, 37201);
 
+-- Kurm Stonehoof <Mining Supplier>
+DELETE FROM `npc_vendor` WHERE `entry`=3002 AND `item` IN (20815, 20824);
+
+-- Fyr Mistrunner <Bread Vendor>
+DELETE FROM `npc_vendor` WHERE `entry`=3003 AND `item` IN (27855, 33449, 35950);
+
+-- Mahu <Leatherworking & Tailoring Supplies>
+DELETE FROM `npc_vendor` WHERE `entry`=3005 AND `item`=38426;
+
+-- Nida Winterhoof <Herbalism Supplier>
+DELETE FROM `npc_vendor` WHERE `entry`=3014 AND `item`=40411;
+
+-- Kuna Thunderhorn <Bowyer & Fletching Goods>
+DELETE FROM `npc_vendor` WHERE `entry`=3015 AND `item`=28053;
+
+-- Nata Dawnstrider <Enchanting Supplies>
+DELETE FROM `npc_vendor` WHERE `entry`=3012 AND `item`=6342;
+INSERT INTO `npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`) VALUES (3012, 6342, 1, 7200);
+
+-- Kaga Mistrunner <Meat Vendor>
+DELETE FROM `npc_vendor` WHERE `entry`=3025 AND `item` IN (27854, 33454, 35953);
+
+-- Naal Mistrunner <Cooking Supplier>
+DELETE FROM `npc_vendor` WHERE `entry`=3027 AND `item`=30817;
+
 -- Wunna Darkmane <Trade Goods>
 DELETE FROM `npc_vendor` WHERE `entry`=3081 AND `item` IN (10648, 30817, 39354);
 
@@ -145,6 +170,9 @@ DELETE FROM `npc_vendor` WHERE `entry`=4981 AND `item` IN (27857, 28399, 33443, 
 -- Garyl <Tabard Vendor>
 DELETE FROM `npc_vendor` WHERE `entry`=5188 AND `item` IN (15197, 15199, 19031, 19505, 24004, 31773, 31775, 31776, 31777, 31778, 31779, 31780, 31781, 31804, 32445, 32828, 35221);
 
+-- Thrumn <Tabard Vendor>
+DELETE FROM `npc_vendor` WHERE `entry`=5189 AND `item` IN (15197, 15199, 19031, 19505, 24004, 31773, 31775, 31776, 31777, 31778, 31779, 31780, 31781, 31804, 32445, 32828, 35221);
+
 -- Rebecca Laughlin <Tabard Designer>
 DELETE FROM `npc_vendor` WHERE `entry`=5193 AND `item` IN (15196, 15198, 19032, 19506, 23999, 31774, 31775, 31776, 31777, 31778, 31779, 31780, 31781, 31804, 32445, 32828, 35221);
 
@@ -169,8 +197,14 @@ DELETE FROM `npc_vendor` WHERE `entry`=5942 AND `item` IN (6365, 6533);
 -- Innkeeper Allison <Innkeeper>
 DELETE FROM `npc_vendor` WHERE `entry`=6740 AND `item` IN (4536, 4537, 4538, 4539, 4602, 8953, 27855, 27856, 28399, 33444, 33445, 33449, 35948, 35949, 35950, 35954);
 
+-- Innkeeper Pala <Innkeeper>
+DELETE FROM `npc_vendor` WHERE `entry`=6746 AND `item` IN (27857, 28399, 33443, 33444, 33445, 35952, 35954);
+
 -- Innkeeper Gryshka <Innkeeper>
 DELETE FROM `npc_vendor` WHERE `entry`=6929 AND `item` IN (27854, 28399, 33444, 33445, 33454, 35953, 35954);
+
+-- Chepi <Reagent Vendor>
+DELETE FROM `npc_vendor` WHERE `entry`=8361 AND `item` IN (22147, 22148, 37201, 44605, 44614, 44615);
 
 -- Christopher Hewen <General Trade Goods Vendor>
 DELETE FROM `npc_vendor` WHERE `entry`=8934 AND `item` IN (10648, 14341, 18256, 30817, 39354);

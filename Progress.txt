@@ -92,9 +92,9 @@
 [X] Change all the quests
 
 [Thunder Bluff]
-[ ] Change the name, subname, level and rank of all creatures
-[ ] Change the items being sold by NPCs
-[ ] Change all the trainers
+[X] Change the name, subname, level and rank of all creatures
+[X] Change the items being sold by NPCs
+[X] Change all the trainers
 [ ] Change all the quests
 
 [Mulgore]

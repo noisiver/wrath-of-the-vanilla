@@ -29,13 +29,25 @@ DELETE FROM `creature` WHERE `id1`=6086 AND `map`=0;
 DELETE FROM `creature` WHERE `id1`=7410;
 INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (7410, 0, -8424.43, 342.967, 120.886, 3.82018, 300);
 
+-- Taim Ragetotem
+DELETE FROM `creature` WHERE `id1`=7427;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (7427, 1, -1384.29, -98.6163, 159.018, 2.87979, 300);
+
 -- Hank the Hammer <The Mitrhil Order>
 DELETE FROM `creature` WHERE `id1`=7798;
 INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (7798, 0, -8422.17, 630.877, 95.8402, 5.044, 430);
 
+-- Kergul Bloodaxe <Warsong Gulch Battlemaster>
+DELETE FROM `creature` WHERE `id1`=10360;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (10360, 1, -1381.29, -75.9809, 160.602, 3.19395, 300);
+
 -- Vorn Skyseer
 DELETE FROM `creature` WHERE `id1`=11944;
 INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (11944, 1, -2909.55, -231.807, 53.9186, 5.16617, 375);
+
+-- Martin Lindsey <Arathi Basin Battlemaster>
+DELETE FROM `creature` WHERE `id1`=12198;
+INSERT INTO `creature` (`id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`) VALUES (12198, 1, -995.143, 217.173, 104.729, 4.46804, 500);
 
 -- Lieutenant Karter <War Mount Quartermaster>
 DELETE FROM `creature` WHERE `id1`=12783;
@@ -167,6 +179,9 @@ DELETE FROM `creature` WHERE `id1`=19912;
 
 -- Farseer Umbrua <Shaman Trainer>
 DELETE FROM `creature` WHERE `id1`=20407;
+
+-- Fizim Blastwrench <Arena Battlemaster>
+DELETE FROM `creature` WHERE `id1`=20499;
 
 -- Little Noah
 DELETE FROM `creature` WHERE `id1`=23050;
@@ -336,11 +351,17 @@ DELETE FROM `creature` WHERE `id1`=30611;
 -- Jo'mah <Inscription Trainer>
 DELETE FROM `creature` WHERE `id1`=30706;
 
+-- Poshken Hardbinder <Inscription Trainer>
+DELETE FROM `creature` WHERE `id1`=30709;
+
 -- Catarina Stanford <Inscription Trainer>
 DELETE FROM `creature` WHERE `id1`=30713;
 
 -- Xantili <Inscription Supplies>
 DELETE FROM `creature` WHERE `id1`=30723;
+
+-- Mertle Murkpen <Inscription Supplies>
+DELETE FROM `creature` WHERE `id1`=30724;
 
 -- Stanly McCormick <Inscription Supplies>
 DELETE FROM `creature` WHERE `id1`=30730;
@@ -384,6 +405,12 @@ DELETE FROM `creature` WHERE `id1`=34765;
 -- Karg Skullgore <Battlemaster>
 DELETE FROM `creature` WHERE `id1`=34955;
 
+-- Ruk Warstomper <Battlemaster>
+DELETE FROM `creature` WHERE `id1`=34976;
+
+-- Mosha Starhorn <Battlemaster>
+DELETE FROM `creature` WHERE `id1`=34978;
+
 -- Devin Fardale
 DELETE FROM `creature` WHERE `id1`=34997;
 
@@ -410,6 +437,9 @@ DELETE FROM `creature` WHERE `id1`=35598;
 
 -- Magister Savarin <Wintergrasp Battle-Mage>
 DELETE FROM `creature` WHERE `id1`=35602;
+
+-- Magister Dalhyr <Wintergrasp Battle-Mage>
+DELETE FROM `creature` WHERE `id1`=35603;
 
 -- Rogg
 DELETE FROM `creature` WHERE `id1`=37072;
