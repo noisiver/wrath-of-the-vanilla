@@ -22,7 +22,7 @@
 
 [Dungeons]
 [X] Ragefire Chasm
-[X] The Deadmines
+[ ] The Deadmines
 [ ] Wailing Caverns
 [X] Shadowfang Keep
 [ ] Blackfathom Deeps

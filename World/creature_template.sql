@@ -55,7 +55,7 @@ UPDATE `creature_template` SET `subname`='Reagent Vendor' WHERE `entry`=1275;
 -- Edna Mullby <Trade Supplies>
 UPDATE `creature_template` SET `subname`='Trade Supplier' WHERE `entry`=1286;
 
--- Defias Watchman (The Deadmines)
+-- Defias Watchman
 UPDATE `creature_template` SET `minlevel`=16, `rank`=1 WHERE `entry`=1725;
 
 -- Lawrence Schneider <Apprentice Tailor>
@@ -256,9 +256,6 @@ UPDATE `creature_template` SET `subname`='Cooking Supplier' WHERE `entry`=3400;
 -- Nogg <Expert Engineer>
 UPDATE `creature_template` SET `subname`='Expert Engineer', `npcflag`=81, `trainer_type`=2 WHERE `entry`=3412;
 
--- Defias Companion
-UPDATE `creature_template` SET `lootid`=3450 WHERE `entry`=3450;
-
 -- Miner Johnson
 UPDATE `creature_template` SET `faction`=14 WHERE `entry`=3586;
 
@@ -445,7 +442,7 @@ UPDATE `creature_template` SET `subname`='Expert Leatherworker', `npcflag`=81, `
 -- Randal Worth <Apprentice Leatherworker>
 UPDATE `creature_template` SET `subname`='Journeyman Leatherworker', `npcflag`=81, `trainer_type`=2 WHERE `entry`=11096;
 
--- Molten Elemental (Ragefire Chasm)
+-- Molten Elemental
 UPDATE `creature_template` SET `minlevel`=13, `maxlevel`=15 WHERE `entry`=11321;
 
 -- Snurk Bucksquick <Zeppelin Master>
