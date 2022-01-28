@@ -1,3 +1,3 @@
 @echo off
-IF EXIST vanilla.sql DEL /F vanilla.sql
-FOR /R %%f IN (*.sql) DO (type "%%f" >> vanilla.sql)
+IF EXIST wotv.sql DEL /F wotv.sql
+FOR /R %%f IN (*.sql) DO (type "%%f" >> wotv.sql)
