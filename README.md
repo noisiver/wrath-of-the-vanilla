@@ -61,8 +61,8 @@ The spawn points and respawn times of creatures and objects will be worked on wh
 - [ ] Ruins of Ahn'Qiraj
 - [ ] Temple of Ahn'Qiraj
 - [ ] Blackwing Lair
-- [ ] [^1] Onyxia's Lair
-- [ ] [^1] Naxxramas
+- [ ] Onyxia's Lair [^1]
+- [ ] Naxxramas [^1]
 
 **Stormwind City**
 - [X] Change the name, subname, level and rank of all creatures
