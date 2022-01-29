@@ -64,85 +64,106 @@ The spawn points and respawn times of creatures and objects will be worked on wh
 - [ ] Onyxia's Lair [^1]
 - [ ] Naxxramas [^1]
 
+**General**
+- [ ] Change item prices
+- [ ] Change loot tables of chests found in the world
+- [ ] Change loot tables of mining veins and herbalism objects
+- [ ] Change the reputation gained from killing creatures and completing quests
+- [X] Disable transports that were added in the burning crusade and wrath of the lich king
+- [X] Change stat values of all characters and classes
+- [X] Create a module to disable achievements
+- [X] Disable jewelcrafting and inscription
+- [X] Disable events added in the burning crusade and wrath of the lich king
+- [X] Disable arenas and battlegrounds added in the burning crusade and wrath of the lich king
+- [X] Disable dungeons and raids added in the burning crusade and wrath of the lich king
+
 **Stormwind City**
 - [X] Change the name, subname, level and rank of all creatures
 - [X] Change the items sold by NPCs
-- [X] Change all the trainers
-- [ ] Change all the quests
+- [X] Change the trainers
+- [ ] Change the quests
 - [ ] Change the loot tables
-- [ ] Change all the spawn points and respawn times
+- [ ] Change the spawn points and respawn times
 
 **Elwynn Forest**
 - [X] Change the name, subname, level and rank of all creatures
 - [X] Change the items sold by NPCs
-- [X] Change all the trainers
-- [X] Change all the quests
+- [X] Change the trainers
+- [X] Change the quests
 - [ ] Change the loot tables
-- [ ] Change all the spawn points and respawn times
+- [ ] Change the spawn points and respawn times
 
 **Westfall**
 - [ ] Change the name, subname, level and rank of all creatures
 - [ ] Change the items sold by NPCs
-- [ ] Change all the trainers
-- [ ] Change all the quests
+- [ ] Change the trainers
+- [ ] Change the quests
 - [ ] Change the loot tables
-- [ ] Change all the spawn points and respawn times
+- [ ] Change the spawn points and respawn times
 
 **Ironforge**
 - [ ] Change the name, subname, level and rank of all creatures
 - [ ] Change the items sold by NPCs
-- [ ] Change all the trainers
-- [ ] Change all the quests
+- [ ] Change the trainers
+- [ ] Change the quests
 - [ ] Change the loot tables
-- [ ] Change all the spawn points and respawn times
+- [ ] Change the spawn points and respawn times
 
 **Darnassus**
 - [ ] Change the name, subname, level and rank of all creatures
 - [ ] Change the items sold by NPCs
-- [ ] Change all the trainers
-- [ ] Change all the quests
+- [ ] Change the trainers
+- [ ] Change the quests
 - [ ] Change the loot tables
-- [ ] Change all the spawn points and respawn times
+- [ ] Change the spawn points and respawn times
 
 **Orgrimmar**
 - [X] Change the name, subname, level and rank of all creatures
 - [X] Change the items sold by NPCs
-- [X] Change all the trainers
-- [ ] Change all the quests
+- [X] Change the trainers
+- [ ] Change the quests
 - [ ] Change the loot tables
-- [ ] Change all the spawn points and respawn times
+- [ ] Change the spawn points and respawn times
 
 **Durotar**
 - [X] Change the name, subname, level and rank of all creatures
 - [X] Change the items sold by NPCs
-- [X] Change all the trainers
-- [X] Change all the quests
-- [X] Change the loot tables
-- [ ] Change all the spawn points and respawn times
+- [X] Change the trainers
+- [X] Change the quests
+- [X] Change loot tables
+- [ ] Change the spawn points and respawn times
 
 **Thunder Bluff**
 - [X] Change the name, subname, level and rank of all creatures
 - [X] Change the items sold by NPCs
-- [X] Change all the trainers
-- [ ] Change all the quests
+- [X] Change the trainers
+- [ ] Change the quests
 - [ ] Change the loot tables
-- [ ] Change all the spawn points and respawn times
+- [ ] Change the spawn points and respawn times
 
 **Mulgore**
 - [X] Change the name, subname, level and rank of all creatures
 - [X] Change the items sold by NPCs
-- [X] Change all the trainers
-- [X] Change all the quests
+- [X] Change the trainers
+- [X] Change the quests
 - [X] Change the loot tables
-- [ ] Change all the spawn points and respawn times
+- [ ] Change the spawn points and respawn times
 
 **Undercity**
 - [ ] Change the name, subname, level and rank of all creatures
 - [ ] Change the items sold by NPCs
-- [ ] Change all the trainers
-- [ ] Change all the quests
+- [ ] Change the trainers
+- [ ] Change the quests
 - [ ] Change the loot tables
-- [ ] Change all the spawn points and respawn times
+- [ ] Change the spawn points and respawn times
+
+**Deadwind Pass**
+- [ ] Change the name, subname, level and rank of all creatures
+- [ ] Change the items sold by NPCs
+- [ ] Change the trainers
+- [ ] Change the quests
+- [ ] Change the loot tables
+- [ ] Change the spawn points and respawn times
 
 [^1]: This is, unfortunately, not possible using the 3.3.5 client. There may be a way around it, but for the time being it will be marked as not doable.
 
