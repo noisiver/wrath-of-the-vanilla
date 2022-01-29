@@ -158,11 +158,8 @@ The spawn points and respawn times of creatures and objects will be worked on wh
 - [ ] Change the spawn points and respawn times
 
 **Deadwind Pass**
-- [ ] Change the name, subname, level and rank of all creatures
-- [ ] Change the items sold by NPCs
-- [ ] Change the trainers
-- [ ] Change the quests
-- [ ] Change the loot tables
+- [X] Change the name, subname, level and rank of all creatures
+- [X] Change the loot tables
 - [ ] Change the spawn points and respawn times
 
 [^1]: This is, unfortunately, not possible using the 3.3.5 client. There may be a way around it, but for the time being it will be marked as not doable.
