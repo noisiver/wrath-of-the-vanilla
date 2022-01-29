@@ -61,6 +61,8 @@ The spawn points and respawn times of creatures and objects will be worked on wh
 - [ ] Ruins of Ahn'Qiraj
 - [ ] Temple of Ahn'Qiraj
 - [ ] Blackwing Lair
+- [ ] [^1] Onyxia's Lair
+- [ ] [^1] Naxxramas
 
 **Stormwind City**
 - [X] Change the name, subname, level and rank of all creatures
@@ -131,6 +133,8 @@ The spawn points and respawn times of creatures and objects will be worked on wh
 - [ ] Change all the trainers
 - [ ] Change all the quests
 - [ ] Change the loot tables
+
+[^1]: This is, unfortunately, not possible using the 3.3.5 client. There may be a way around it, but for the time being it will be marked as not doable.
 
 # Important information
 Do **not** import the file spell_proc_event.sql found in the folder called extra. It's there for me to prevent errors caused by my changes to the talent trees.
