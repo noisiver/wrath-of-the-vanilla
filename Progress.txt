@@ -43,6 +43,7 @@
 
 [Raids]
 [ ] Zul'Gurub
+[ ] Molten Core
 [ ] Ruins of Ahn'Qiraj
 [ ] Temple of Ahn'Qiraj
 [ ] Blackwing Lair
