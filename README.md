@@ -9,7 +9,7 @@ I'm working my way through one zone at a time, it will take a very long time to 
 
 If I missed something in a zone, or something turns out to be wrong after my changes, I will be fixing it if I'm told about it.
 
-The loot tables are not being worked on until I've gotten quite a bit of the map done. Dungeons and raids are also on hold until I have done a larger amount of zones. The same goes for spawn points of creatures and objects.
+The spawn points and respawn times of creatures and objects will be worked on when a lot of the maps are done. They will require a lot of work.
 
 The file called progress.txt contains information about whats been done.
 

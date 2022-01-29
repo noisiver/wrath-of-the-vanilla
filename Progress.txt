@@ -46,7 +46,7 @@
 [ ] Ruins of Ahn'Qiraj
 [ ] Temple of Ahn'Qiraj
 [ ] Blackwing Lair
-[-] Onyxia's Lair - Not Possible
+[-] Onyxia's Lair - Not possible
 [-] Naxxramas - Not possible
 
 [Stormwind City]
@@ -54,6 +54,7 @@
 [X] Change the items sold by NPCs
 [X] Change all the trainers
 [ ] Change all the quests
+[ ] Change the loot tables (?)
 
 [Elwynn Forest]
 [X] Change the name, subname, level and rank of all creatures
@@ -74,18 +75,21 @@
 [ ] Change the items sold by NPCs
 [ ] Change all the trainers
 [ ] Change all the quests
+[ ] Change the loot tables (?)
 
 [Darnassus]
 [ ] Change the name, subname, level and rank of all creatures
 [ ] Change the items sold by NPCs
 [ ] Change all the trainers
 [ ] Change all the quests
+[ ] Change the loot tables (?)
 
 [Orgrimmar]
 [X] Change the name, subname, level and rank of all creatures
 [X] Change the items sold by NPCs
 [X] Change all the trainers
 [ ] Change all the quests
+[ ] Change the loot tables (?)
 
 [Durotar]
 [X] Change the name, subname, level and rank of all creatures
@@ -99,6 +103,7 @@
 [X] Change the items sold by NPCs
 [X] Change all the trainers
 [ ] Change all the quests
+[ ] Change the loot tables (?)
 
 [Mulgore]
 [X] Change the name, subname, level and rank of all creatures
@@ -112,3 +117,4 @@
 [ ] Change the items sold by NPCs
 [ ] Change all the trainers
 [ ] Change all the quests
+[ ] Change the loot tables (?)
