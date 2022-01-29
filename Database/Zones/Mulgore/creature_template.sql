@@ -25,6 +25,9 @@ UPDATE `creature_template` SET `subname`='Armorer and Shieldcrafter' WHERE `entr
 -- Brave Proudsnout
 UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=3210;
 
+-- Brave Lightninghorn
+UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=3211;
+
 -- Uthan Stillwater <Fisherman>
 UPDATE `creature_template` SET `subname`='Fisherman' WHERE `entry`=5938;
 
@@ -36,3 +39,6 @@ UPDATE `creature_template` SET `minlevel`=55, `maxlevel`=55 WHERE `entry`=7975;
 
 -- Chief Sharptusk Thornmantle
 UPDATE `creature_template` SET `faction`=14 WHERE `entry`=8554;
+
+-- Twizwick Sprocketgrind <Journeyman Engineer>
+UPDATE `creature_template` SET `subname`='Journeyman Engineer' WHERE `entry`=10993;

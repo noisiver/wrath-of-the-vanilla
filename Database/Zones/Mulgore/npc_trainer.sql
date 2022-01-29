@@ -17,3 +17,7 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5939, -350000);
 -- Yonn Deepcut <Skinner>
 DELETE FROM `npc_trainer` WHERE `ID`=6290;
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (6290, -400000);
+
+-- Twizwick Sprocketgrind <Journeyman Engineer>
+DELETE FROM `npc_trainer` WHERE `ID`=10993;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10993, -340000);
