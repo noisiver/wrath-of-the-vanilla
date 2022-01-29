@@ -11,7 +11,126 @@ If I missed something in a zone, or something turns out to be wrong after my cha
 
 The spawn points and respawn times of creatures and objects will be worked on when a lot of the maps are done. They will require a lot of work.
 
-The file called progress.txt contains information about whats been done.
+# Progress
+**Class Trainers**
+- [X] Warrior
+- [X] Paladin
+- [X] Hunter
+- [X] Rogue
+- [X] Priest
+- [X] Shaman
+- [X] Mage
+- [X] Warlock
+- [X] Druid
+
+**Class Quests**
+- [ ] Warrior
+- [ ] Paladin
+- [ ] Hunter
+- [ ] Rogue
+- [ ] Priest
+- [X] Shaman
+- [ ] Mage
+- [X] Warlock
+- [X] Druid
+
+**Dungeons**
+- [X] Ragefire Chasm
+- [ ] The Deadmines
+- [ ] Wailing Caverns
+- [X] Shadowfang Keep
+- [ ] Blackfathom Deeps
+- [ ] The Stockade
+- [ ] Razorfen Kraul
+- [ ] Gnomeregan
+- [ ] Scarlet Monastery
+- [ ] Razorfen Downs
+- [ ] Uldaman
+- [ ] Maraudon
+- [ ] Zul'Farrak
+- [ ] The Temple of Atal'Hakkar
+- [ ] Blackrock Depths
+- [ ] Dire Maul
+- [ ] Scholomance
+- [ ] Stratholme
+- [ ] Blackrock Spire
+
+**Raids**
+- [ ] Zul'Gurub
+- [ ] Molten Core
+- [ ] Ruins of Ahn'Qiraj
+- [ ] Temple of Ahn'Qiraj
+- [ ] Blackwing Lair
+
+**Stormwind City**
+- [X] Change the name, subname, level and rank of all creatures
+- [X] Change the items sold by NPCs
+- [X] Change all the trainers
+- [ ] Change all the quests
+- [ ] Change the loot tables
+
+**Elwynn Forest**
+- [X] Change the name, subname, level and rank of all creatures
+- [X] Change the items sold by NPCs
+- [X] Change all the trainers
+- [X] Change all the quests
+- [ ] Change the loot tables
+
+**Westfall**
+- [ ] Change the name, subname, level and rank of all creatures
+- [ ] Change the items sold by NPCs
+- [ ] Change all the trainers
+- [ ] Change all the quests
+- [ ] Change the loot tables
+
+**Ironforge**
+- [ ] Change the name, subname, level and rank of all creatures
+- [ ] Change the items sold by NPCs
+- [ ] Change all the trainers
+- [ ] Change all the quests
+- [ ] Change the loot tables
+
+**Darnassus**
+- [ ] Change the name, subname, level and rank of all creatures
+- [ ] Change the items sold by NPCs
+- [ ] Change all the trainers
+- [ ] Change all the quests
+- [ ] Change the loot tables
+
+**Orgrimmar**
+- [X] Change the name, subname, level and rank of all creatures
+- [X] Change the items sold by NPCs
+- [X] Change all the trainers
+- [ ] Change all the quests
+- [ ] Change the loot tables
+
+**Durotar**
+- [X] Change the name, subname, level and rank of all creatures
+- [X] Change the items sold by NPCs
+- [X] Change all the trainers
+- [X] Change all the quests
+- [X] Change the loot tables
+
+**Thunder Bluff**
+- [X] Change the name, subname, level and rank of all creatures
+- [X] Change the items sold by NPCs
+- [X] Change all the trainers
+- [ ] Change all the quests
+- [ ] Change the loot tables
+
+**Mulgore**
+- [X] Change the name, subname, level and rank of all creatures
+- [X] Change the items sold by NPCs
+- [X] Change all the trainers
+- [X] Change all the quests
+- [X] Change the loot tables
+
+**Undercity**
+- [ ] Change the name, subname, level and rank of all creatures
+- [ ] Change the items sold by NPCs
+- [ ] Change all the trainers
+- [ ] Change all the quests
+- [ ] Change the loot tables
 
 # Important information
 Do **not** import the file spell_proc_event.sql found in the folder called extra. It's there for me to prevent errors caused by my changes to the talent trees.
