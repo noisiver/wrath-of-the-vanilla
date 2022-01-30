@@ -535,3 +535,6 @@ DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=15 AND `SourceGroup`=10
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 10043, 3, 27, 80, 3);
 DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=15 AND `SourceGroup`=10769 AND `SourceEntry`=2;
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `ConditionTypeOrReference`, `ConditionValue1`, `ConditionValue2`) VALUES (15, 10769, 2, 27, 80, 3);
+
+-- Delete these entries to prevent db errors caused by max player level being 60
+DELETE FROM `conditions` WHERE `ConditionTypeOrReference`=7 AND `ConditionValue2` > 300;
