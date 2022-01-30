@@ -161,12 +161,10 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [ ] Change the spawn points and respawn times
 
 **Deeprun Tram**
-- [ ] Change the name, subname, level, faction and rank of all creatures
-- [ ] Change the items sold by NPCs
-- [ ] Change the trainers
-- [ ] Change the quests
-- [ ] Change the loot tables
-- [ ] Change the spawn points and respawn times
+- [X] Change the name, subname, level, faction and rank of all creatures
+- [X] Change the items sold by NPCs
+- [X] Change the quests
+- [X] Change the spawn points and respawn times
 
 **Desolace**
 - [ ] Change the name, subname, level, faction and rank of all creatures
