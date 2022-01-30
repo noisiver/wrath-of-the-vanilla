@@ -40,7 +40,7 @@ The spawn points and respawn times of creatures and objects will be worked on wh
 - [ ] Wailing Caverns
 - [X] Shadowfang Keep
 - [ ] Blackfathom Deeps
-- [ ] The Stockade
+- [X] The Stockade
 - [ ] Razorfen Kraul
 - [ ] Gnomeregan
 - [ ] Scarlet Monastery

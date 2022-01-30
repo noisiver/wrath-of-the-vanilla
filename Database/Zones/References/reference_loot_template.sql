@@ -2361,3 +2361,270 @@ INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600060, 2099, 0, 0, 0, 1, 10, 1, 1, 'Dwarven Hand Cannon');
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600060, 2245, 0, 0, 0, 1, 10, 1, 1, 'Helm of Narv');
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600060, 2246, 0, 0, 0, 1, 10, 1, 1, 'Myrmidon\'s Signet');
+
+-- 30016 = 600061
+DELETE FROM `reference_loot_template` WHERE `Entry`=600061;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600061, 720, 0, 0, 0, 1, 1, 1, 1, 'Brawler Gloves');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600061, 3203, 0, 0, 0, 1, 1, 1, 1, 'Dense Triangle Mace');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600061, 13005, 0, 0, 0, 1, 1, 1, 1, 'Amy\'s Blanket');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600061, 13024, 0, 0, 0, 1, 1, 1, 1, 'Beazel\'s Basher');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600061, 13031, 0, 0, 0, 1, 1, 1, 1, 'Orb of Mistmantle');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600061, 13057, 0, 0, 0, 1, 1, 1, 1, 'Bloodpike');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600061, 13097, 0, 0, 0, 1, 1, 1, 1, 'Thunderbrow Ring');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600061, 13099, 0, 0, 0, 1, 1, 1, 1, 'Moccasins of the White Hare');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600061, 13131, 0, 0, 0, 1, 1, 1, 1, 'Sparkleshell Mantle');
+
+-- 30094 = 600062
+DELETE FROM `reference_loot_template` WHERE `Entry`=600062;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600062, 1478, 0, 0, 0, 1, 1, 1, 1, 'Scroll of Protection II');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600062, 1711, 0, 0, 0, 1, 1, 1, 1, 'Scroll of Stamina II');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600062, 1712, 0, 0, 0, 1, 1, 1, 1, 'Scroll of Spirit II');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600062, 2289, 0, 0, 0, 1, 1, 1, 1, 'Scroll of Strength II');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600062, 2290, 0, 0, 0, 1, 1, 1, 1, 'Scroll of Intellect II');
+
+-- 30099 = 600063
+DELETE FROM `reference_loot_template` WHERE `Entry`=600063;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600063, 929, 0, 0, 0, 1, 1, 1, 1, 'Healing Potion');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600063, 3358, 0, 0, 0, 1, 1, 1, 1, 'Khadgar\'s Whisker');
+
+-- 30100 = 600064
+DELETE FROM `reference_loot_template` WHERE `Entry`=600064;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600064, 2589, 0, 0, 0, 1, 1, 1, 5, 'Linen Cloth');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600064, 2592, 0, 0, 0, 1, 1, 1, 4, 'Wool Cloth');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600064, 4306, 0, 0, 0, 1, 1, 1, 3, 'Silk Cloth');
+
+-- 30054 = 600065
+DELETE FROM `reference_loot_template` WHERE `Entry`=600065;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 865, 0, 0, 0, 1, 1, 1, 1, 'Leaden Mace');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 3041, 0, 0, 0, 1, 1, 1, 1, '"Mage-Eye" Blunderbuss');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 3186, 0, 0, 0, 1, 1, 1, 1, 'Viking Sword');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 3210, 0, 0, 0, 1, 1, 1, 1, 'Brutal War Axe');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 4035, 0, 0, 0, 1, 1, 1, 1, 'Silver-thread Robe');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 4037, 0, 0, 0, 1, 1, 1, 1, 'Silver-thread Pants');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 4048, 0, 0, 0, 1, 1, 1, 1, 'Emblazoned Hat');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 4050, 0, 0, 0, 1, 1, 1, 1, 'Emblazoned Leggings');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 4051, 0, 0, 0, 1, 1, 1, 1, 'Emblazoned Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 4064, 0, 0, 0, 1, 1, 1, 1, 'Emblazoned Buckler');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 4071, 0, 0, 0, 1, 1, 1, 1, 'Glimmering Mail Breastplate');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 4072, 0, 0, 0, 1, 1, 1, 1, 'Glimmering Mail Gauntlets');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 4073, 0, 0, 0, 1, 1, 1, 1, 'Glimmering Mail Greaves');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 5002, 0, 0, 0, 1, 1, 1, 1, 'Glowing Green Talisman');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 5003, 0, 0, 0, 1, 1, 1, 1, 'Crystal Starfire Medallion');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 5007, 0, 0, 0, 1, 1, 1, 1, 'Band of Thorns');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 6386, 0, 0, 0, 1, 1, 1, 1, 'Glimmering Mail Legguards');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 6388, 0, 0, 0, 1, 1, 1, 1, 'Glimmering Mail Pauldrons');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 6389, 0, 0, 0, 1, 1, 1, 1, 'Glimmering Mail Coif');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 6399, 0, 0, 0, 1, 1, 1, 1, 'Emblazoned Shoulders');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 6400, 0, 0, 0, 1, 1, 1, 1, 'Glimmering Shield');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 6603, 0, 0, 0, 1, 1, 1, 1, 'Dervish Tunic');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 6607, 0, 0, 0, 1, 1, 1, 1, 'Dervish Leggings');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 6617, 0, 0, 0, 1, 1, 1, 1, 'Sage\'s Mantle');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 7110, 0, 0, 0, 1, 1, 1, 1, 'Silver-thread Armor');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 7355, 0, 0, 0, 1, 1, 1, 1, 'Elder\'s Bracers');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 7356, 0, 0, 0, 1, 1, 1, 1, 'Elder\'s Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 7370, 0, 0, 0, 1, 1, 1, 1, 'Elder\'s Sash');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 7410, 0, 0, 0, 1, 1, 1, 1, 'Infiltrator Bracers');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 7411, 0, 0, 0, 1, 1, 1, 1, 'Infiltrator Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 7416, 0, 0, 0, 1, 1, 1, 1, 'Phalanx Bracers');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 7419, 0, 0, 0, 1, 1, 1, 1, 'Phalanx Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 9820, 0, 0, 0, 1, 1, 1, 1, 'Durable Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 9821, 0, 0, 0, 1, 1, 1, 1, 'Durable Bracers');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 9823, 0, 0, 0, 1, 1, 1, 1, 'Durable Gloves');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 9827, 0, 0, 0, 1, 1, 1, 1, 'Scaled Leather Belt');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 9828, 0, 0, 0, 1, 1, 1, 1, 'Scaled Leather Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 9832, 0, 0, 0, 1, 1, 1, 1, 'Scaled Leather Gloves');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 9837, 0, 0, 0, 1, 1, 1, 1, 'Banded Bracers');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 9839, 0, 0, 0, 1, 1, 1, 1, 'Banded Gauntlets');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 9840, 0, 0, 0, 1, 1, 1, 1, 'Banded Girdle');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 10288, 0, 0, 0, 1, 1, 1, 1, 'Sage\'s Circlet');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 10404, 0, 0, 0, 1, 1, 1, 1, 'Durable Belt');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 12047, 0, 0, 0, 1, 1, 1, 1, 'Spectral Necklace');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14178, 0, 0, 0, 1, 1, 1, 1, 'Watcher\'s Cap');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14180, 0, 0, 0, 1, 1, 1, 1, 'Watcher\'s Jerkin');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14183, 0, 0, 0, 1, 1, 1, 1, 'Watcher\'s Leggings');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14184, 0, 0, 0, 1, 1, 1, 1, 'Watcher\'s Robes');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14190, 0, 0, 0, 1, 1, 1, 1, 'Raincaller Vest');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14191, 0, 0, 0, 1, 1, 1, 1, 'Raincaller Mitts');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14192, 0, 0, 0, 1, 1, 1, 1, 'Raincaller Robes');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14193, 0, 0, 0, 1, 1, 1, 1, 'Raincaller Pants');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14197, 0, 0, 0, 1, 1, 1, 1, 'Thistlefur Bands');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14198, 0, 0, 0, 1, 1, 1, 1, 'Thistlefur Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14399, 0, 0, 0, 1, 1, 1, 1, 'Resilient Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14403, 0, 0, 0, 1, 1, 1, 1, 'Resilient Handgrips');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14406, 0, 0, 0, 1, 1, 1, 1, 'Resilient Cord');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14579, 0, 0, 0, 1, 1, 1, 1, 'Dokebi Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14608, 0, 0, 0, 1, 1, 1, 1, 'Dokebi Buckler');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 14758, 0, 0, 0, 1, 1, 1, 1, 'Slayer\'s Shoulderguards');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15127, 0, 0, 0, 1, 1, 1, 1, 'Robust Shoulders');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15128, 0, 0, 0, 1, 1, 1, 1, 'Robust Tunic');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15129, 0, 0, 0, 1, 1, 1, 1, 'Robust Helm');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15135, 0, 0, 0, 1, 1, 1, 1, 'Cutthroat\'s Cape');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15136, 0, 0, 0, 1, 1, 1, 1, 'Cutthroat\'s Belt');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15231, 0, 0, 0, 1, 1, 1, 1, 'Splitting Hatchet');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15242, 0, 0, 0, 1, 1, 1, 1, 'Honed Stiletto');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15341, 0, 0, 0, 1, 1, 1, 1, 'Pathfinder Footpads');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15342, 0, 0, 0, 1, 1, 1, 1, 'Pathfinder Guard');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15343, 0, 0, 0, 1, 1, 1, 1, 'Pathfinder Gloves');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15344, 0, 0, 0, 1, 1, 1, 1, 'Pathfinder Pants');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15345, 0, 0, 0, 1, 1, 1, 1, 'Pathfinder Shoulder Pads');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15351, 0, 0, 0, 1, 1, 1, 1, 'Headhunter\'s Bands');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15518, 0, 0, 0, 1, 1, 1, 1, 'Spiked Chain Breastplate');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15524, 0, 0, 0, 1, 1, 1, 1, 'Sentry\'s Surcoat');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15530, 0, 0, 0, 1, 1, 1, 1, 'Sentry\'s Shield');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15531, 0, 0, 0, 1, 1, 1, 1, 'Sentry\'s Shoulderguards');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15533, 0, 0, 0, 1, 1, 1, 1, 'Sentry\'s Headdress');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15534, 0, 0, 0, 1, 1, 1, 1, 'Wicked Chain Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15538, 0, 0, 0, 1, 1, 1, 1, 'Wicked Chain Gauntlets');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15539, 0, 0, 0, 1, 1, 1, 1, 'Wicked Chain Waistband');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15545, 0, 0, 0, 1, 1, 1, 1, 'Thick Scale Bracelets');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15549, 0, 0, 0, 1, 1, 1, 1, 'Thick Scale Belt');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15559, 0, 0, 0, 1, 1, 1, 1, 'Pillager\'s Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15928, 0, 0, 0, 1, 1, 1, 1, 'Silver-thread Rod');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15973, 0, 0, 0, 1, 1, 1, 1, 'Watcher\'s Star');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600065, 15975, 0, 0, 0, 1, 1, 1, 1, 'Raincaller Scepter');
+
+-- 30055 = 600066
+DELETE FROM `reference_loot_template` WHERE `Entry`=600066;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 791, 0, 0, 0, 1, 1, 1, 1, 'Gnarled Ash Staff');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 1717, 0, 0, 0, 1, 1, 1, 1, 'Double Link Tunic');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 2278, 0, 0, 0, 1, 1, 1, 1, 'Forest Tracker Epaulets');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 2878, 0, 0, 0, 1, 1, 1, 1, 'Bearded Boneaxe');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 12974, 0, 0, 0, 1, 1, 1, 1, 'The Black Knight');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 13048, 0, 0, 0, 1, 1, 1, 1, 'Looming Gavel');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 13049, 0, 0, 0, 1, 1, 1, 1, 'Deanship Claymore');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 13079, 0, 0, 0, 1, 1, 1, 1, 'Shield of Thorsen');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 13094, 0, 0, 0, 1, 1, 1, 1, 'The Queen\'s Jewel');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 13106, 0, 0, 0, 1, 1, 1, 1, 'Glowing Magical Bracelets');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600066, 13114, 0, 0, 0, 1, 1, 1, 1, 'Troll\'s Bane Leggings');
+
+-- 30095 = 600067
+DELETE FROM `reference_loot_template` WHERE `Entry`=600067;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600067, 2592, 0, 0, 0, 1, 1, 1, 2, 'Wool Cloth');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600067, 4306, 0, 0, 0, 1, 1, 1, 2, 'Silk Cloth');
+
+-- 30096 = 600068
+DELETE FROM `reference_loot_template` WHERE `Entry`=600068;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600068, 929, 0, 0, 0, 1, 1, 1, 1, 'Healing Potion');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600068, 3385, 0, 0, 0, 1, 1, 1, 1, 'Lesser Mana Potion');
+
+-- 30097 = 600069
+DELETE FROM `reference_loot_template` WHERE `Entry`=600069;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600069, 1205, 0, 0, 0, 1, 1, 1, 1, 'Melon Juice');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600069, 4542, 0, 0, 0, 1, 1, 1, 1, 'Moist Cornbread');
+
+-- 30098 = 600070
+DELETE FROM `reference_loot_template` WHERE `Entry`=600070;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600070, 2280, 0, 0, 0, 1, 1, 1, 1, 'Kam\'s Walking Stick');
+
+-- 30056 = 600071
+DELETE FROM `reference_loot_template` WHERE `Entry`=600071;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 3042, 0, 0, 0, 1, 1, 1, 1, 'BKP "Sparrow" Smallbore');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 4716, 0, 0, 0, 1, 1, 1, 1, 'Combat Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 4719, 0, 0, 0, 1, 1, 1, 1, 'Nightsky Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 4720, 0, 0, 0, 1, 1, 1, 1, 'Nightsky Sash');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 4722, 0, 0, 0, 1, 1, 1, 1, 'Insignia Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 5214, 0, 0, 0, 1, 1, 1, 1, 'Wand of Eventide');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 6396, 0, 0, 0, 1, 1, 1, 1, 'Emblazoned Chestpiece');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 6403, 0, 0, 0, 1, 1, 1, 1, 'Mail Combat Armguards');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 6407, 0, 0, 0, 1, 1, 1, 1, 'Nightsky Wristbands');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 6410, 0, 0, 0, 1, 1, 1, 1, 'Insignia Bracers');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 6609, 0, 0, 0, 1, 1, 1, 1, 'Sage\'s Cloth');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 6610, 0, 0, 0, 1, 1, 1, 1, 'Sage\'s Robe');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 6616, 0, 0, 0, 1, 1, 1, 1, 'Sage\'s Pants');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7330, 0, 0, 0, 1, 1, 1, 1, 'Infiltrator Buckler');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7354, 0, 0, 0, 1, 1, 1, 1, 'Elder\'s Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7366, 0, 0, 0, 1, 1, 1, 1, 'Elder\'s Gloves');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7367, 0, 0, 0, 1, 1, 1, 1, 'Elder\'s Mantle');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7406, 0, 0, 0, 1, 1, 1, 1, 'Infiltrator Cord');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7408, 0, 0, 0, 1, 1, 1, 1, 'Infiltrator Shoulders');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7409, 0, 0, 0, 1, 1, 1, 1, 'Infiltrator Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7412, 0, 0, 0, 1, 1, 1, 1, 'Infiltrator Gloves');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7413, 0, 0, 0, 1, 1, 1, 1, 'Infiltrator Cap');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7420, 0, 0, 0, 1, 1, 1, 1, 'Phalanx Headguard');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7421, 0, 0, 0, 1, 1, 1, 1, 'Phalanx Gauntlets');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7422, 0, 0, 0, 1, 1, 1, 1, 'Phalanx Girdle');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 7424, 0, 0, 0, 1, 1, 1, 1, 'Phalanx Spaulders');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9824, 0, 0, 0, 1, 1, 1, 1, 'Durable Shoulders');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9825, 0, 0, 0, 1, 1, 1, 1, 'Durable Pants');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9830, 0, 0, 0, 1, 1, 1, 1, 'Scaled Shield');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9833, 0, 0, 0, 1, 1, 1, 1, 'Scaled Leather Leggings');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9834, 0, 0, 0, 1, 1, 1, 1, 'Scaled Leather Shoulders');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9835, 0, 0, 0, 1, 1, 1, 1, 'Scaled Leather Tunic');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9836, 0, 0, 0, 1, 1, 1, 1, 'Banded Armor');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9841, 0, 0, 0, 1, 1, 1, 1, 'Banded Leggings');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9842, 0, 0, 0, 1, 1, 1, 1, 'Banded Pauldrons');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9843, 0, 0, 0, 1, 1, 1, 1, 'Banded Shield');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9847, 0, 0, 0, 1, 1, 1, 1, 'Conjurer\'s Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 9867, 0, 0, 0, 1, 1, 1, 1, 'Renegade Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 10289, 0, 0, 0, 1, 1, 1, 1, 'Durable Hat');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 10406, 0, 0, 0, 1, 1, 1, 1, 'Scaled Leather Headband');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 10408, 0, 0, 0, 1, 1, 1, 1, 'Banded Helm');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 10409, 0, 0, 0, 1, 1, 1, 1, 'Banded Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 12009, 0, 0, 0, 1, 1, 1, 1, 'Tundra Ring');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 12019, 0, 0, 0, 1, 1, 1, 1, 'Cerulean Talisman');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 12028, 0, 0, 0, 1, 1, 1, 1, 'Basalt Necklace');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 12039, 0, 0, 0, 1, 1, 1, 1, 'Tundra Necklace');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14189, 0, 0, 0, 1, 1, 1, 1, 'Raincaller Cap');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14196, 0, 0, 0, 1, 1, 1, 1, 'Thistlefur Sandals');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14199, 0, 0, 0, 1, 1, 1, 1, 'Thistlefur Gloves');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14205, 0, 0, 0, 1, 1, 1, 1, 'Thistlefur Belt');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14206, 0, 0, 0, 1, 1, 1, 1, 'Vital Bracelets');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14209, 0, 0, 0, 1, 1, 1, 1, 'Vital Sash');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14210, 0, 0, 0, 1, 1, 1, 1, 'Vital Cape');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14397, 0, 0, 0, 1, 1, 1, 1, 'Resilient Mantle');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14398, 0, 0, 0, 1, 1, 1, 1, 'Resilient Tunic');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14401, 0, 0, 0, 1, 1, 1, 1, 'Resilient Cap');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14404, 0, 0, 0, 1, 1, 1, 1, 'Resilient Leggings');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14405, 0, 0, 0, 1, 1, 1, 1, 'Resilient Robe');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14409, 0, 0, 0, 1, 1, 1, 1, 'Stonecloth Cape');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14581, 0, 0, 0, 1, 1, 1, 1, 'Dokebi Chestguard');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14583, 0, 0, 0, 1, 1, 1, 1, 'Dokebi Gloves');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14585, 0, 0, 0, 1, 1, 1, 1, 'Dokebi Leggings');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14587, 0, 0, 0, 1, 1, 1, 1, 'Dokebi Mantle');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14751, 0, 0, 0, 1, 1, 1, 1, 'Slayer\'s Surcoat');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14753, 0, 0, 0, 1, 1, 1, 1, 'Slayer\'s Skullcap');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14757, 0, 0, 0, 1, 1, 1, 1, 'Slayer\'s Pants');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 14763, 0, 0, 0, 1, 1, 1, 1, 'Enduring Cape');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15131, 0, 0, 0, 1, 1, 1, 1, 'Cutthroat\'s Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15133, 0, 0, 0, 1, 1, 1, 1, 'Cutthroat\'s Buckler');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15137, 0, 0, 0, 1, 1, 1, 1, 'Cutthroat\'s Mitts');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15139, 0, 0, 0, 1, 1, 1, 1, 'Cutthroat\'s Pants');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15143, 0, 0, 0, 1, 1, 1, 1, 'Ghostwalker Bindings');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15147, 0, 0, 0, 1, 1, 1, 1, 'Ghostwalker Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15225, 0, 0, 0, 1, 1, 1, 1, 'Sequoia Hammer');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15232, 0, 0, 0, 1, 1, 1, 1, 'Hacking Cleaver');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15250, 0, 0, 0, 1, 1, 1, 1, 'Glimmering Flamberge');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15285, 0, 0, 0, 1, 1, 1, 1, 'Archer\'s Longbow');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15346, 0, 0, 0, 1, 1, 1, 1, 'Pathfinder Vest');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15349, 0, 0, 0, 1, 1, 1, 1, 'Headhunter\'s Belt');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15354, 0, 0, 0, 1, 1, 1, 1, 'Headhunter\'s Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15541, 0, 0, 0, 1, 1, 1, 1, 'Wicked Chain Legguards');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15542, 0, 0, 0, 1, 1, 1, 1, 'Wicked Chain Shoulder Pads');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15544, 0, 0, 0, 1, 1, 1, 1, 'Thick Scale Sabatons');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15548, 0, 0, 0, 1, 1, 1, 1, 'Thick Scale Gauntlets');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15554, 0, 0, 0, 1, 1, 1, 1, 'Pillager\'s Girdle');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15555, 0, 0, 0, 1, 1, 1, 1, 'Pillager\'s Boots');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15556, 0, 0, 0, 1, 1, 1, 1, 'Pillager\'s Bracers');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15568, 0, 0, 0, 1, 1, 1, 1, 'Marauder\'s Cloak');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15892, 0, 0, 0, 1, 1, 1, 1, 'Slayer\'s Shield');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15934, 0, 0, 0, 1, 1, 1, 1, 'Sage\'s Stave');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600071, 15962, 0, 0, 0, 1, 1, 1, 1, 'Satyr\'s Rod');
+
+-- 30057 = 600072
+DELETE FROM `reference_loot_template` WHERE `Entry`=600072;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600072, 2299, 0, 0, 0, 1, 1, 1, 1, 'Burning War Axe');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600072, 2721, 0, 0, 0, 1, 1, 1, 1, 'Holy Shroud');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600072, 2877, 0, 0, 0, 1, 1, 1, 1, 'Combatant Claymore');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600072, 2912, 0, 0, 0, 1, 1, 1, 1, 'Claw of the Shadowmancer');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600072, 3020, 0, 0, 0, 1, 1, 1, 1, 'Enduring Cap');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600072, 9405, 0, 0, 0, 1, 1, 1, 1, 'Girdle of Golem Strength');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600072, 13019, 0, 0, 0, 1, 1, 1, 1, 'Harpyclaw Short Bow');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600072, 13037, 0, 0, 0, 1, 1, 1, 1, 'Crystalpine Stinger');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600072, 13087, 0, 0, 0, 1, 1, 1, 1, 'River Pride Choker');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600072, 13127, 0, 0, 0, 1, 1, 1, 1, 'Frostreaver Crown');
+
+-- 30101 = 600073
+DELETE FROM `reference_loot_template` WHERE `Entry`=600073;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600073, 2941, 0, 0, 0, 1, 1, 1, 1, 'Prison Shank');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600073, 2942, 0, 0, 0, 1, 1, 1, 1, 'Iron Knuckles');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600073, 3228, 0, 0, 0, 1, 1, 1, 1, 'Jimmied Handcuffs');
