@@ -158,7 +158,7 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 **Deadwind Pass**
 - [X] Change the name, subname, level, faction and rank of all creatures
 - [X] Change the loot tables
-- [ ] Change the spawn points and respawn times
+- [X] Change the spawn points and respawn times
 
 **Deeprun Tram**
 - [X] Change the name, subname, level, faction and rank of all creatures

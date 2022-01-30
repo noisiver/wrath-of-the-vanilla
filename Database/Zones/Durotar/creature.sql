@@ -1,5 +1,32 @@
--- Rhinag
-DELETE FROM `creature` WHERE `id1`=3190;
+-- Vile Familiar
+UPDATE `creature` SET `spawntimesecs`=300 WHERE `id1`=3101;
+
+-- Felstalker
+UPDATE `creature` SET `spawntimesecs`=300 WHERE `id1`=3102;
+
+-- Clattering Scorpid
+UPDATE `creature` SET `spawntimesecs`=300 WHERE `id1`=3125;
+
+-- Corrupted Dreadmaw Crocolisk
+UPDATE `creature` SET `spawntimesecs`=300 WHERE `id1`=3231;
+
+-- Sarkoth
+UPDATE `creature` SET `spawntimesecs`=300 WHERE `id1`=3281;
+
+-- Sand Shark
+UPDATE `creature` SET `spawntimesecs`=300 WHERE `id1`=5435;
+
+-- Warlord Kolkanis
+UPDATE `creature` SET `spawntimesecs`=5400 WHERE `id1`=5808;
+
+-- Death Flayer
+UPDATE `creature` SET `spawntimesecs`=7200 WHERE `id1`=5823;
+
+-- Captain Flat Tusk <Captain of the Battleguard>
+UPDATE `creature` SET `spawntimesecs`=5400 WHERE `id1`=5824;
+
+-- Geolord Mottle
+UPDATE `creature` SET `spawntimesecs`=5400 WHERE `id1`=5826;
 
 -- Sky-Captain Bomblast <The Iron Eagle>
 DELETE FROM `creature` WHERE `id1`=24924;

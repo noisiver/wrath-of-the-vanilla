@@ -3553,6 +3553,24 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3281, 7101, 0, 25.2174, 0, 1, 0, 1, 2, 'Sarkoth - Bug Eye');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3281, 600006, 600006, 2.5, 0, 1, 0, 1, 1, 'Sarkoth - (ReferenceTable)');
 
+-- Sand Shark
+DELETE FROM `creature_loot_template` WHERE `Entry`=5435;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 537, 0, 69.2308, 0, 1, 0, 1, 1, 'Sand Shark - Dull Frenzy Scale');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 818, 0, 1.92, 0, 1, 0, 1, 1, 'Sand Shark - Tigerseye');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 2975, 0, 0.64, 0, 1, 0, 1, 1, 'Sand Shark - Hunting Boots');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 2979, 0, 0.24, 0, 1, 0, 1, 1, 'Sand Shark - Veteran Boots');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 4684, 0, 0.24, 0, 1, 0, 1, 1, 'Sand Shark - Spellbinder Belt');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 4874, 0, 7.6923, 0, 1, 0, 1, 1, 'Sand Shark - Clean Fishbones');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 6361, 0, 23.0769, 0, 1, 0, 1, 2, 'Sand Shark - Raw Rainbow Fin Albacore');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 9742, 0, 0.64, 0, 1, 0, 1, 1, 'Sand Shark - Simple Cord');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 9745, 0, 1.28, 0, 1, 0, 1, 1, 'Sand Shark - Simple Cape');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 9746, 0, 0.24, 0, 1, 0, 1, 1, 'Sand Shark - Simple Gloves');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 9751, 0, 0.64, 0, 1, 0, 1, 1, 'Sand Shark - Gypsy Sandals');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 9752, 0, 1.28, 0, 1, 0, 1, 1, 'Sand Shark - Gypsy Bands');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 600001, 600001, 1, 0, 1, 0, 1, 1, 'Sand Shark - (ReferenceTable)');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 600002, 600002, 1, 0, 1, 0, 1, 1, 'Sand Shark - (ReferenceTable)');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5435, 600004, 600004, 1, 0, 1, 0, 1, 1, 'Sand Shark - (ReferenceTable)');
+
 -- Warlord Kolkanis
 DELETE FROM `creature_loot_template` WHERE `Entry`=5808;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5808, 117, 0, 7.8534, 0, 1, 0, 1, 1, 'Warlord Kolkanis - Tough Jerky');
