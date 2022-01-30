@@ -188,7 +188,7 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [X] Change the trainers
 - [X] Change the quests
 - [X] Change loot tables
-- [ ] Change the spawn points and respawn times
+- [X] Change the spawn points and respawn times
 
 **Duskwood**
 - [ ] Change the name, subname, level, faction and rank of all creatures
