@@ -1,6 +1,9 @@
 -- Son of Arugal
 UPDATE `creature_template` SET `minlevel`=24, `maxlevel`=25 WHERE `entry`=2529;
 
+-- Deathsworn Captain
+UPDATE `creature_template` SET `minlevel`=25, `maxlevel`=25 WHERE `entry`=3872;
+
 -- Shadowfang Moonwalker
 UPDATE `creature_template` SET `maxlevel`=20 WHERE `entry`=3853;
 
@@ -66,3 +69,6 @@ UPDATE `creature_template` SET `minlevel`=24, `maxlevel`=24 WHERE `entry`=4279;
 
 -- Arugal's Voidwalker
 UPDATE `creature_template` SET `minlevel`=24, `maxlevel`=25 WHERE `entry`=4627;
+
+-- Wolfguard Worg
+UPDATE `creature_template` SET `maxlevel`=21 WHERE `entry`=4627;

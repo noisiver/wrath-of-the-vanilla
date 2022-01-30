@@ -2628,3 +2628,8 @@ DELETE FROM `reference_loot_template` WHERE `Entry`=600073;
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600073, 2941, 0, 0, 0, 1, 1, 1, 1, 'Prison Shank');
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600073, 2942, 0, 0, 0, 1, 1, 1, 1, 'Iron Knuckles');
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600073, 3228, 0, 0, 0, 1, 1, 1, 1, 'Jimmied Handcuffs');
+
+-- 30129 = 600074
+DELETE FROM `reference_loot_template` WHERE `Entry`=600074;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600074, 6641, 0, 0, 0, 1, 1, 1, 1, 'Haunting Blade');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600074, 6642, 0, 0, 0, 1, 1, 1, 1, 'Phantom Armor');

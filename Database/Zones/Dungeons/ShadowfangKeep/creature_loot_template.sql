@@ -1107,6 +1107,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3868, 600018, 600018, 1, 0, 1, 0, 1, 1, 'Blood Seeker - (ReferenceTable)');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3868, 600021, 600021, 1, 0, 1, 0, 1, 1, 'Blood Seeker - (ReferenceTable)');
 
+-- Deathsworn Captain
+DELETE FROM `creature_loot_template` WHERE `Entry`=3872;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3872, 1205, 0, 4, 0, 1, 0, 1, 1, 'Deathsworn Captain - Melon Juice');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3872, 2589, 0, 6, 0, 1, 0, 2, 5, 'Deathsworn Captain - Linen Cloth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3872, 2592, 0, 18, 0, 1, 0, 2, 4, 'Deathsworn Captain - Wool Cloth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3872, 4606, 0, 4, 0, 1, 0, 1, 1, 'Deathsworn Captain - Spongy Morel');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3872, 600074, 600074, 100, 0, 1, 0, 1, 1, 'Deathsworn Captain - (ReferenceTable)');
+
 -- Tormented Officer
 DELETE FROM `creature_loot_template` WHERE `Entry`=3873;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3873, 422, 0, 0.04, 0, 1, 0, 1, 1, 'Tormented Officer - Dwarven Mild');
@@ -1596,3 +1604,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4627, 600022, 600022, 0.01, 0, 1, 0, 1, 1, 'Arugal\'s Voidwalker - (ReferenceTable)');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4627, 600029, 600029, 0.5, 0, 1, 0, 1, 1, 'Arugal\'s Voidwalker - (ReferenceTable)');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4627, 600031, 600031, 0.01, 0, 1, 0, 1, 1, 'Arugal\'s Voidwalker - (ReferenceTable)');
+
+-- Wolfguard Worg
+DELETE FROM `creature_loot_template` WHERE `Entry`=5058;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5058, 3770, 0, 0.22, 0, 1, 0, 1, 1, 'Wolfguard Worg - Mutton Chop');
