@@ -57,7 +57,7 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [ ] The Temple of Atal'Hakkar
 - [ ] Blackrock Depths
 - [ ] Dire Maul
-- [ ] Scholomance
+- [X] Scholomance
 - [ ] Stratholme
 - [ ] Blackrock Spire
 
