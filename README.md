@@ -43,7 +43,7 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 **Dungeons**
 - [X] Ragefire Chasm
 - [ ] The Deadmines
-- [ ] Wailing Caverns
+- [X] Wailing Caverns
 - [X] Shadowfang Keep
 - [ ] Blackfathom Deeps
 - [X] The Stockade
