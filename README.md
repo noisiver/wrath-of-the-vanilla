@@ -49,7 +49,7 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [X] The Stockade
 - [ ] Razorfen Kraul
 - [ ] Gnomeregan
-- [ ] Scarlet Monastery
+- [X] Scarlet Monastery
 - [ ] Razorfen Downs
 - [ ] Uldaman
 - [ ] Maraudon
@@ -67,7 +67,7 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [ ] Ruins of Ahn'Qiraj
 - [ ] Temple of Ahn'Qiraj
 - [ ] Blackwing Lair
-- [ ] Onyxia's Lair [^1]
+- [ ] Onyxia's Lair
 - [ ] Naxxramas [^1]
 
 **General**
