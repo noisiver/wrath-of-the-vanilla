@@ -3244,3 +3244,28 @@ INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `
 DELETE FROM `reference_loot_template` WHERE `Entry`=600116;
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600116, 3334, 0, 25, 0, 1, 1, 1, 1, 'Farmer\'s Shovel');
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600116, 4261, 0, 75, 0, 1, 1, 1, 1, 'Solliden\'s Trousers');
+
+-- 12009 = 600117
+DELETE FROM `reference_loot_template` WHERE `Entry`=600117;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600117, 8153, 0, 9.6, 0, 1, 0, 1, 3, 'Wildvine');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600117, 8831, 0, 100, 0, 1, 0, 1, 3, 'Purple Lotus');
+
+-- 12010 = 600118
+DELETE FROM `reference_loot_template` WHERE `Entry`=600118;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600118, 8838, 0, 100, 0, 1, 0, 1, 3, 'Sungrass');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600118, 11514, 0, 50, 0, 1, 0, 1, 3, 'Fel Creep');
+
+-- 12012 = 600119
+DELETE FROM `reference_loot_template` WHERE `Entry`=600119;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600119, 11514, 0, 50, 0, 1, 0, 1, 3, 'Fel Creep');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600119, 13464, 0, 100, 0, 1, 0, 1, 3, 'Golden Sansam');
+
+-- 12013 = 600120
+DELETE FROM `reference_loot_template` WHERE `Entry`=600120;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600120, 11514, 0, 50, 0, 1, 0, 1, 3, 'Fel Creep');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600120, 13463, 0, 100, 0, 1, 0, 1, 3, 'Dreamfoil');
+
+-- 12014 = 600121
+DELETE FROM `reference_loot_template` WHERE `Entry`=600121;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600121, 11514, 0, 50, 0, 1, 0, 1, 3, 'Fel Creep');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600121, 13465, 0, 100, 0, 1, 0, 1, 3, 'Mountain Silversage');

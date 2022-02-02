@@ -1,4 +1,4 @@
--- Copper Vein
+-- Mining veins
 DELETE FROM `gameobject_loot_template` WHERE `Entry` IN (1502, 1735, 2626);
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1502, 774, 0, 1, 0, 1, 1, 1, 1, 'Copper Vein - Malachite');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1502, 818, 0, 1, 0, 1, 1, 1, 1, 'Copper Vein - Tigerseye');
@@ -17,8 +17,6 @@ INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, 
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2626, 2770, 0, 100, 0, 1, 0, 1, 1, 'Copper Vein - Copper Ore');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2626, 2835, 0, 67, 0, 1, 0, 1, 2, 'Copper Vein - Rough Stone');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2626, 5075, 0, 10, 0, 1, 0, 1, 3, 'Copper Vein - Blood Shard');
-
--- Tin Vein
 DELETE FROM `gameobject_loot_template` WHERE `Entry` IN (1503, 1736, 2627);
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1503, 1206, 0, 1, 0, 1, 1, 1, 1, 'Tin Vein - Moss Agate');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1503, 1210, 0, 1, 0, 1, 1, 1, 1, 'Tin Vein - Shadowgem');
@@ -41,8 +39,6 @@ INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, 
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2627, 2771, 0, 100, 0, 1, 0, 1, 1, 'Tin Vein - Tin Ore');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2627, 2836, 0, 66, 0, 1, 0, 1, 2, 'Tin Vein - Coarse Stone');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2627, 5075, 0, 10, 0, 1, 0, 1, 3, 'Tin Vein - Blood Shard');
-
--- Iron Deposit
 DELETE FROM `gameobject_loot_template` WHERE `Entry`=1505;
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1505, 1529, 0, 1.3, 0, 1, 0, 1, 1, 'Iron Deposit - Jade');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1505, 1705, 0, 1, 0, 1, 0, 1, 1, 'Iron Deposit - Lesser Moonstone');
@@ -50,15 +46,11 @@ INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, 
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1505, 2838, 0, 40, 0, 1, 0, 1, 3, 'Iron Deposit - Heavy Stone');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1505, 3864, 0, 0.7, 0, 1, 0, 1, 1, 'Iron Deposit - Citrine');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1505, 7909, 0, 0.2, 0, 1, 0, 1, 1, 'Iron Deposit - Aquamarine');
-
--- Silver Vein
 DELETE FROM `gameobject_loot_template` WHERE `Entry`=1504;
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1504, 1206, 0, 1.5, 0, 1, 0, 1, 1, 'Silver Vein - Moss Agate');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1504, 1210, 0, 1, 0, 1, 0, 1, 1, 'Silver Vein - Shadowgem');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1504, 1705, 0, 1, 0, 1, 0, 1, 1, 'Silver Vein - Lesser Moonstone');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1504, 2775, 0, 100, 0, 1, 0, 1, 1, 'Silver Vein - Silver Ore');
-
--- Gold Vein
 DELETE FROM `gameobject_loot_template` WHERE `Entry` IN (1506, 17939);
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1506, 1529, 0, 1, 0, 1, 0, 1, 1, 'Gold Vein - Jade');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1506, 1705, 0, 0.9, 0, 1, 0, 1, 1, 'Gold Vein - Lesser Moonstone');
@@ -70,8 +62,6 @@ INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, 
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17939, 2776, 0, 100, 0, 1, 0, 1, 1, 'Gold Vein - Gold Ore');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17939, 3864, 0, 1, 0, 1, 0, 1, 1, 'Gold Vein - Citrine');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17939, 11513, 0, 50, 0, 1, 0, 1, 1, 'Gold Vein - Tainted Vitriol');
-
--- Mithril Deposit
 DELETE FROM `gameobject_loot_template` WHERE `Entry` IN (1742, 13961);
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1742, 3858, 0, 100, 0, 1, 0, 1, 1, 'Mithril Deposit - Mithril Ore');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1742, 3864, 0, 0.8, 0, 1, 0, 1, 1, 'Mithril Deposit - Citrine');
@@ -87,8 +77,6 @@ INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, 
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13961, 7912, 0, 40, 0, 1, 0, 1, 4, 'Mithril Deposit - Solid Stone');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13961, 9262, 0, 1, 0, 1, 0, 1, 1, 'Mithril Deposit - Black Vitriol');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13961, 11513, 0, 50, 0, 1, 0, 1, 1, 'Mithril Deposit - Tainted Vitriol');
-
--- Truesilver Deposit
 DELETE FROM `gameobject_loot_template` WHERE `Entry` IN (5045, 17938);
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5045, 3864, 0, 1, 0, 1, 0, 1, 1, 'Truesilver Deposit - Citrine');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (5045, 7909, 0, 1.5, 0, 1, 0, 1, 1, 'Truesilver Deposit - Aquamarine');
@@ -100,8 +88,6 @@ INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, 
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17938, 7910, 0, 0.9, 0, 1, 0, 1, 1, 'Truesilver Deposit - Star Ruby');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17938, 7911, 0, 100, 0, 1, 0, 1, 1, 'Truesilver Deposit - Truesilver Ore');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17938, 11513, 0, 50, 0, 1, 0, 1, 1, 'Truesilver Deposit - Tainted Vitriol');
-
--- Thorium Vein
 DELETE FROM `gameobject_loot_template` WHERE `Entry` IN (9597, 12883, 13960, 17241);
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (9597, 7910, 0, 0.8, 0, 1, 0, 1, 1, 'Small Thorium Vein - Star Ruby');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (9597, 9262, 0, 1, 0, 1, 0, 1, 1, 'Small Thorium Vein - Black Vitriol');
@@ -138,13 +124,63 @@ INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, 
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17241, 12799, 0, 0.8, 0, 1, 0, 1, 1, 'Hakkari Thorium Vein - Large Opal');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17241, 12800, 0, 1.2, 0, 1, 0, 1, 1, 'Hakkari Thorium Vein - Azerothian Diamond');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17241, 19774, 0, 35.3, 0, 1, 0, 1, 1, 'Hakkari Thorium Vein - Souldarite');
-
--- Dark Iron Deposit
 DELETE FROM `gameobject_loot_template` WHERE `Entry`=11213;
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (11213, 9262, 0, 1, 0, 1, 0, 1, 1, 'Dark Iron Deposit - Black Vitriol');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (11213, 11370, 0, 100, 0, 1, 0, 1, 1, 'Dark Iron Deposit - Dark Iron Ore');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (11213, 11382, 0, 0.5, 0, 1, 0, 1, 1, 'Dark Iron Deposit - Blood of the Mountain');
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (11213, 11754, 0, 0.4, 0, 1, 0, 1, 1, 'Dark Iron Deposit - Black Diamond');
+
+-- Herbs
+DELETE FROM `gameobject_loot_template` WHERE `Entry` IN (1414, 1415, 1416, 1417, 1418, 1419, 1420, 1421, 1423, 1424, 1730, 1731, 1732, 1733, 1734, 2292, 2511, 2512, 2513, 2514, 2515, 2516, 6150, 6312, 6313, 13948, 13949, 13950, 13966, 13970, 13971, 17200, 17201, 17202, 17203, 17204);
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1414, 765, 0, 100, 0, 1, 0, 1, 3, 'Silverleaf - Silverleaf');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1415, 2447, 0, 100, 0, 1, 0, 1, 3, 'Peacebloom - Peacebloom');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1416, 2449, 0, 100, 0, 1, 0, 1, 3, 'Earthroot - Earthroot');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1417, 785, 0, 100, 0, 1, 0, 1, 3, 'Mageroyal - Mageroyal');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1417, 2452, 0, 20, 0, 1, 0, 1, 3, 'Mageroyal - Swiftthistle');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1418, 2450, 0, 100, 0, 1, 0, 1, 3, 'Briarthorn - Briarthorn');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1418, 2452, 0, 40, 0, 1, 0, 1, 3, 'Briarthorn - Swiftthistle');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1419, 2453, 0, 100, 0, 1, 0, 1, 3, 'Bruiseweed - Bruiseweed');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1420, 3355, 0, 100, 0, 1, 0, 1, 3, 'Wild Steelbloom - Wild Steelbloom');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1421, 3356, 0, 100, 0, 1, 0, 1, 3, 'Kingsblood - Kingsblood');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1423, 3358, 0, 100, 0, 1, 0, 1, 3, 'Khadgar\'s Whisker - Khadgar\'s Whisker');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1424, 3369, 0, 100, 0, 1, 0, 1, 3, 'Grave Moss - Grave Moss');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1730, 3357, 0, 100, 0, 1, 0, 1, 3, 'Liferoot - Liferoot');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1731, 3818, 0, 100, 0, 1, 0, 1, 3, 'Fadeleaf - Fadeleaf');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1732, 3819, 0, 100, 0, 1, 0, 1, 3, 'Wintersbite - Wintersbite');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1733, 3820, 0, 100, 0, 1, 0, 1, 3, 'Stranglekelp - Stranglekelp');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (1734, 3821, 0, 100, 0, 1, 0, 1, 3, 'Goldthorn - Goldthorn');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2292, 4625, 0, 100, 0, 1, 0, 1, 3, 'Firebloom - Firebloom');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2511, 765, 0, 100, 0, 1, 0, 2, 2, 'Silverleaf - Silverleaf');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2512, 2447, 0, 100, 0, 1, 0, 2, 2, 'Peacebloom - Peacebloom');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2513, 2449, 0, 100, 0, 1, 0, 2, 2, 'Earthroot - Earthroot');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2514, 785, 0, 100, 0, 1, 0, 2, 2, 'Mageroyal - Mageroyal');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2515, 2450, 0, 100, 0, 1, 0, 2, 2, 'Briarthorn - Briarthorn');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (2516, 2453, 0, 100, 0, 1, 0, 2, 2, 'Bruiseweed - Bruiseweed');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6150, 8836, 0, 100, 0, 1, 0, 1, 3, 'Arthas\' Tears - Arthas\' Tears');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6150, 11514, 0, 50, 0, 1, 0, 1, 3, 'Arthas\' Tears - Fel Creep');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6312, 8845, 0, 100, 0, 1, 0, 1, 3, 'Ghost Mushroom - Ghost Mushroom');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6313, 8846, 0, 100, 0, 1, 0, 1, 3, 'Gromsblood - Gromsblood');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6313, 11514, 0, 50, 0, 1, 0, 1, 3, 'Gromsblood - Fel Creep');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13948, 11514, 0, 50, 0, 1, 0, 1, 3, 'Plaguebloom - Fel Creep');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13948, 13466, 0, 100, 0, 1, 0, 1, 3, 'Plaguebloom - Plaguebloom');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13949, 13467, 0, 100, 0, 1, 0, 1, 3, 'Icecap - Icecap');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13950, 13468, 0, 100, 0, 1, 0, 1, 1, 'Black Lotus - Black Lotus');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13966, 8846, 0, 100, 0, 1, 0, 1, 3, 'Gromsblood - Gromsblood');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13966, 11514, 0, 50, 0, 1, 0, 1, 3, 'Gromsblood - Fel Creep');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13970, 8836, 0, 100, 0, 1, 0, 1, 3, 'Arthas\' Tears - Arthas\' Tears');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13970, 11514, 0, 50, 0, 1, 0, 1, 3, 'Arthas\' Tears - Fel Creep');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13971, 11514, 0, 50, 0, 1, 0, 1, 3, 'Plaguebloom - Fel Creep');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (13971, 13466, 0, 100, 0, 1, 0, 1, 3, 'Plaguebloom - Plaguebloom');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17200, 19726, 0, 15, 0, 1, 0, 1, 3, 'Purple Lotus - Bloodvine');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17200, 600117, 600117, 100, 0, 1, 0, 1, 1, 'Purple Lotus - (ReferenceTable)');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17201, 19726, 0, 15, 0, 1, 0, 1, 3, 'Sungrass - Bloodvine');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17201, 600118, 600118, 100, 0, 1, 0, 1, 1, 'Sungrass - (ReferenceTable)');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17202, 19726, 0, 15, 0, 1, 0, 1, 3, 'Golden Sansam - Bloodvine');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17202, 600119, 600119, 100, 0, 1, 0, 1, 1, 'Golden Sansam - (ReferenceTable)');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17203, 19726, 0, 15, 0, 1, 0, 1, 3, 'Dreamfoil - Bloodvine');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17203, 600120, 600120, 100, 0, 1, 0, 1, 1, 'Dreamfoil - (ReferenceTable)');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17204, 19726, 0, 15, 0, 1, 0, 1, 3, 'Mountain Silversage - Bloodvine');
+INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (17204, 600121, 600121, 100, 0, 1, 0, 1, 1, 'Mountain Silversage - (ReferenceTable)');
 
 -- Battered Chest / Tattered Chest / Solid Chest
 DELETE FROM `gameobject_loot_template` WHERE `Entry` IN (2281, 2282, 2283, 2284, 4073, 4074, 4075, 4076, 4077, 5278, 9931, 9932, 9933, 9934, 9935, 9936);

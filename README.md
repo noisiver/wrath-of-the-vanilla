@@ -72,8 +72,10 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 
 **General**
 - [ ] Change item prices
-- [ ] Change loot tables of chests found in the world
-- [ ] Change loot tables of mining veins and herbalism objects
+- [X] Change loot tables of chests found in the world
+- [X] Change loot tables of mining veins
+- [X] Change loot tables of herbalism objects
+- [ ] Change loot tables of fishing
 - [ ] Change the reputation gained from killing creatures and completing quests
 - [X] Disable transports that were added in the burning crusade and wrath of the lich king
 - [X] Change stat values of all races and classes
