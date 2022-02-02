@@ -1,29 +1,29 @@
 -- Houndmaster Loksey
-DELETE FROM `creature_loot_template` SET `Entry`=3974;
+DELETE FROM `creature_loot_template` WHERE `Entry`=3974;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3974, 4306, 0, 21, 0, 1, 0, 1, 4, 'Houndmaster Loksey - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3974, 5805, 0, 100, 1, 1, 0, 1, 1, 'Houndmaster Loksey - Heart of Zeal');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3974, 600106, 600106, 100, 0, 1, 0, 1, 1, 'Houndmaster Loksey - (ReferenceTable)');
 
 -- Herod <The Scarlet Champion>
-DELETE FROM `creature_loot_template` SET `Entry`=3975;
+DELETE FROM `creature_loot_template` WHERE `Entry`=3975;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3975, 4306, 0, 20, 0, 1, 0, 1, 4, 'Herod - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3975, 5805, 0, 100, 1, 1, 0, 1, 1, 'Herod - Heart of Zeal');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3975, 600115, 600115, 100, 0, 1, 0, 1, 1, 'Herod - (ReferenceTable)');
 
 -- Scarlet Commander Mograine
-DELETE FROM `creature_loot_template` SET `Entry`=3976;
+DELETE FROM `creature_loot_template` WHERE `Entry`=3976;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3976, 4306, 0, 21, 0, 1, 0, 1, 4, 'Scarlet Commander Mograine - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3976, 5805, 0, 100, 1, 1, 0, 1, 1, 'Scarlet Commander Mograine - Heart of Zeal');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3976, 600114, 600114, 100, 0, 1, 0, 1, 1, 'Scarlet Commander Mograine - (ReferenceTable)');
 
 -- High Inquisitor Whitemane
-DELETE FROM `creature_loot_template` SET `Entry`=3977;
+DELETE FROM `creature_loot_template` WHERE `Entry`=3977;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3977, 4306, 0, 21, 0, 1, 0, 1, 4, 'High Inquisitor Whitemane - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3977, 5805, 0, 100, 1, 1, 0, 1, 1, 'High Inquisitor Whitemane - Heart of Zeal');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3977, 600113, 600113, 100, 0, 1, 0, 1, 1, 'High Inquisitor Whitemane - (ReferenceTable)');
 
 -- Vorrel Sengutz
-DELETE FROM `creature_loot_template` SET `Entry`=3981;
+DELETE FROM `creature_loot_template` WHERE `Entry`=3981;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3981, 1707, 0, 20, 0, 1, 0, 1, 1, 'Vorrel Sengutz - Stormwind Brie');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3981, 1708, 0, 30, 0, 1, 0, 1, 1, 'Vorrel Sengutz - Sweet Nectar');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3981, 1710, 0, 10, 0, 1, 0, 1, 1, 'Vorrel Sengutz - Greater Healing Potion');
@@ -43,13 +43,13 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3981, 600075, 600075, 2.5, 0, 1, 0, 1, 1, 'Vorrel Sengutz - (ReferenceTable)');
 
 -- Interrogator Vishas
-DELETE FROM `creature_loot_template` SET `Entry`=3983;
+DELETE FROM `creature_loot_template` WHERE `Entry`=3983;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3983, 4306, 0, 25, 0, 1, 0, 1, 4, 'Interrogator Vishas - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3983, 5805, 0, 100, 1, 1, 0, 1, 1, 'Interrogator Vishas - Heart of Zeal');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3983, 600100, 600100, 100, 0, 1, 0, 1, 1, 'Interrogator Vishas - (ReferenceTable)');
 
 -- Scarlet Sentry
-DELETE FROM `creature_loot_template` SET `Entry`=4283;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4283;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4283, 804, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Sentry - Large Blue Sack');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4283, 857, 0, 0.0233, 0, 1, 0, 1, 1, 'Scarlet Sentry - Large Red Sack');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4283, 1206, 0, 0.24, 0, 1, 0, 1, 1, 'Scarlet Sentry - Moss Agate');
@@ -160,7 +160,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4283, 600098, 600098, 1, 0, 1, 0, 1, 1, 'Scarlet Sentry - (ReferenceTable)');
 
 -- Scarlet Soldier
-DELETE FROM `creature_loot_template` SET `Entry`=4286;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4286;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4286, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Soldier - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4286, 1477, 0, 0.34, 0, 1, 0, 1, 1, 'Scarlet Soldier - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4286, 1529, 0, 0.2742, 0, 1, 0, 1, 1, 'Scarlet Soldier - Jade');
@@ -307,7 +307,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4286, 600109, 600109, 0.025, 0, 1, 0, 1, 1, 'Scarlet Soldier - (ReferenceTable)');
 
 -- Scarlet Gallant
-DELETE FROM `creature_loot_template` SET `Entry`=4287;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4287;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4287, 929, 0, 0.0282, 0, 1, 0, 1, 3, 'Scarlet Gallant - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4287, 1477, 0, 0.36, 0, 1, 0, 1, 1, 'Scarlet Gallant - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4287, 1529, 0, 0.4539, 0, 1, 0, 1, 1, 'Scarlet Gallant - Jade');
@@ -436,7 +436,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4287, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Gallant - (ReferenceTable)');
 
 -- Scarlet Beastmaster
-DELETE FROM `creature_loot_template` SET `Entry`=4288;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4288;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4288, 1477, 0, 0.38, 0, 1, 0, 1, 1, 'Scarlet Beastmaster - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4288, 1529, 0, 0.4656, 0, 1, 0, 1, 1, 'Scarlet Beastmaster - Jade');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4288, 1705, 0, 0.1815, 0, 1, 0, 1, 1, 'Scarlet Beastmaster - Lesser Moonstone');
@@ -542,7 +542,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4288, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Beastmaster - (ReferenceTable)');
 
 -- Scarlet Evoker
-DELETE FROM `creature_loot_template` SET `Entry`=4289;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4289;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4289, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Evoker - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4289, 1477, 0, 0.52, 0, 1, 0, 1, 1, 'Scarlet Evoker - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4289, 1529, 0, 0.1026, 0, 1, 0, 1, 1, 'Scarlet Evoker - Jade');
@@ -652,7 +652,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4289, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Evoker - (ReferenceTable)');
 
 -- Scarlet Guardsman
-DELETE FROM `creature_loot_template` SET `Entry`=4290;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4290;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4290, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Guardsman - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4290, 1477, 0, 0.56, 0, 1, 0, 1, 1, 'Scarlet Guardsman - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4290, 1529, 0, 0.1203, 0, 1, 0, 1, 1, 'Scarlet Guardsman - Jade');
@@ -780,7 +780,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4290, 600109, 600109, 0.025, 0, 1, 0, 1, 1, 'Scarlet Guardsman - (ReferenceTable)');
 
 -- Scarlet Diviner
-DELETE FROM `creature_loot_template` SET `Entry`=4291;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4291;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4291, 929, 0, 0.0331, 0, 1, 0, 1, 1, 'Scarlet Diviner - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4291, 1477, 0, 0.36, 0, 1, 0, 1, 1, 'Scarlet Diviner - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4291, 1529, 0, 0.4888, 0, 1, 0, 1, 1, 'Scarlet Diviner - Jade');
@@ -908,7 +908,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4291, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Diviner - (ReferenceTable)');
 
 -- Scarlet Protector
-DELETE FROM `creature_loot_template` SET `Entry`=4292;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4292;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4292, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Protector - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4292, 1477, 0, 0.56, 0, 1, 0, 1, 1, 'Scarlet Protector - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4292, 1529, 0, 0.1153, 0, 1, 0, 1, 1, 'Scarlet Protector - Jade');
@@ -1037,7 +1037,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4292, 600109, 600109, 0.025, 0, 1, 0, 1, 1, 'Scarlet Protector - (ReferenceTable)');
 
 -- Scarlet Sorcerer
-DELETE FROM `creature_loot_template` SET `Entry`=4294;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4294;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4294, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Sorcerer - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4294, 1477, 0, 0.58, 0, 1, 0, 1, 1, 'Scarlet Sorcerer - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4294, 1529, 0, 0.1264, 0, 1, 0, 1, 1, 'Scarlet Sorcerer - Jade');
@@ -1157,7 +1157,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4294, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Sorcerer - (ReferenceTable)');
 
 -- Scarlet Myrmidon
-DELETE FROM `creature_loot_template` SET `Entry`=4295;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4295;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4295, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Myrmidon - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4295, 1477, 0, 0.54, 0, 1, 0, 1, 1, 'Scarlet Myrmidon - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4295, 1529, 0, 0.1174, 0, 1, 0, 1, 1, 'Scarlet Myrmidon - Jade');
@@ -1289,7 +1289,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4295, 600108, 600108, 0.025, 0, 1, 0, 1, 1, 'Scarlet Myrmidon - (ReferenceTable)');
 
 -- Scarlet Adept
-DELETE FROM `creature_loot_template` SET `Entry`=4296;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4296;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4296, 929, 0, 0.0338, 0, 1, 0, 1, 2, 'Scarlet Adept - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4296, 1477, 0, 0.34, 0, 1, 0, 1, 1, 'Scarlet Adept - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4296, 1529, 0, 0.4599, 0, 1, 0, 1, 1, 'Scarlet Adept - Jade');
@@ -1414,7 +1414,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4296, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Adept - (ReferenceTable)');
 
 -- Scarlet Conjuror
-DELETE FROM `creature_loot_template` SET `Entry`=4297;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4297;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4297, 1477, 0, 0.34, 0, 1, 0, 1, 1, 'Scarlet Conjuror - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4297, 1529, 0, 0.3887, 0, 1, 0, 1, 1, 'Scarlet Conjuror - Jade');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4297, 1705, 0, 0.0338, 0, 1, 0, 1, 1, 'Scarlet Conjuror - Lesser Moonstone');
@@ -1524,7 +1524,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4297, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Conjuror - (ReferenceTable)');
 
 -- Scarlet Defender
-DELETE FROM `creature_loot_template` SET `Entry`=4298;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4298;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4298, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Defender - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4298, 1477, 0, 0.5, 0, 1, 0, 1, 1, 'Scarlet Defender - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4298, 1529, 0, 0.1383, 0, 1, 0, 1, 1, 'Scarlet Defender - Jade');
@@ -1650,7 +1650,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4298, 600109, 600109, 0.025, 0, 1, 0, 1, 1, 'Scarlet Defender - (ReferenceTable)');
 
 -- Scarlet Chaplain
-DELETE FROM `creature_loot_template` SET `Entry`=4299;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4299;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4299, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Chaplain - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4299, 1477, 0, 0.17, 0, 1, 0, 1, 1, 'Scarlet Chaplain - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4299, 1529, 0, 0.3516, 0, 1, 0, 1, 1, 'Scarlet Chaplain - Jade');
@@ -1809,7 +1809,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4299, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Chaplain - (ReferenceTable)');
 
 -- Scarlet Wizard
-DELETE FROM `creature_loot_template` SET `Entry`=4300;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4300;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4300, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Wizard - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4300, 1477, 0, 0.52, 0, 1, 0, 1, 1, 'Scarlet Wizard - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4300, 1529, 0, 0.1288, 0, 1, 0, 1, 1, 'Scarlet Wizard - Jade');
@@ -1937,7 +1937,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4300, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Wizard - (ReferenceTable)');
 
 -- Scarlet Centurion
-DELETE FROM `creature_loot_template` SET `Entry`=4301;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4301;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4301, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Centurion - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4301, 1477, 0, 0.5, 0, 1, 0, 1, 1, 'Scarlet Centurion - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4301, 1529, 0, 0.1268, 0, 1, 0, 1, 1, 'Scarlet Centurion - Jade');
@@ -2064,7 +2064,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4301, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Centurion - (ReferenceTable)');
 
 -- Scarlet Champion
-DELETE FROM `creature_loot_template` SET `Entry`=4302;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4302;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4302, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Champion - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4302, 1477, 0, 0.26, 0, 1, 0, 1, 1, 'Scarlet Champion - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4302, 1529, 0, 0.1341, 0, 1, 0, 1, 1, 'Scarlet Champion - Jade');
@@ -2196,7 +2196,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4302, 600111, 600111, 0.005, 0, 1, 0, 1, 1, 'Scarlet Champion - (ReferenceTable)');
 
 -- Scarlet Abbot
-DELETE FROM `creature_loot_template` SET `Entry`=4303;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4303;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4303, 1477, 0, 0.42, 0, 1, 0, 1, 1, 'Scarlet Abbot - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4303, 1529, 0, 0.1513, 0, 1, 0, 1, 1, 'Scarlet Abbot - Jade');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4303, 1707, 0, 5.5444, 0, 1, 0, 1, 1, 'Scarlet Abbot - Stormwind Brie');
@@ -2303,7 +2303,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4303, 600111, 600111, 0.005, 0, 1, 0, 1, 1, 'Scarlet Abbot - (ReferenceTable)');
 
 -- Scarlet Tracking Hound
-DELETE FROM `creature_loot_template` SET `Entry`=4304;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4304;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4304, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Tracking Hound - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4304, 1529, 0, 0.6798, 0, 1, 0, 1, 1, 'Scarlet Tracking Hound - Jade');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4304, 1705, 0, 0.3119, 0, 1, 0, 1, 1, 'Scarlet Tracking Hound - Lesser Moonstone');
@@ -2395,7 +2395,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4304, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Tracking Hound - (ReferenceTable)');
 
 -- Scarlet Torturer
-DELETE FROM `creature_loot_template` SET `Entry`=4306;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4306;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4306, 785, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Torturer - Mageroyal');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4306, 804, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Torturer - Large Blue Sack');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4306, 857, 0, 0.02, 0, 1, 0, 1, 1, 'Scarlet Torturer - Large Red Sack');
@@ -2535,7 +2535,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4306, 600099, 600099, 0.025, 0, 1, 0, 1, 1, 'Scarlet Torturer - (ReferenceTable)');
 
 -- Unfettered Spirit
-DELETE FROM `creature_loot_template` SET `Entry`=4308;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4308;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4308, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Unfettered Spirit - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4308, 1477, 0, 0.36, 0, 1, 0, 1, 1, 'Unfettered Spirit - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4308, 1529, 0, 0.0892, 0, 1, 0, 1, 1, 'Unfettered Spirit - Jade');
@@ -2657,7 +2657,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4308, 600099, 600099, 0.01, 0, 1, 0, 1, 1, 'Unfettered Spirit - (ReferenceTable)');
 
 -- Scarlet Monk
-DELETE FROM `creature_loot_template` SET `Entry`=4540;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4540;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4540, 929, 0, 0.0203, 0, 1, 0, 1, 1, 'Scarlet Monk - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4540, 1477, 0, 0.36, 0, 1, 0, 1, 1, 'Scarlet Monk - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4540, 1529, 0, 0.3016, 0, 1, 0, 1, 1, 'Scarlet Monk - Jade');
@@ -2818,17 +2818,17 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4540, 600105, 600105, 1, 0, 1, 0, 1, 1, 'Scarlet Monk - (ReferenceTable)');
 
 -- High Inquisitor Fairbanks
-DELETE FROM `creature_loot_template` SET `Entry`=4542;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4542;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4542, 4306, 0, 18, 0, 1, 0, 1, 4, 'High Inquisitor Fairbanks - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4542, 600112, 600112, 100, 0, 1, 0, 1, 1, 'High Inquisitor Fairbanks - (ReferenceTable)');
 
 -- Bloodmage Thalnos
-DELETE FROM `creature_loot_template` SET `Entry`=4543;
+DELETE FROM `creature_loot_template` WHERE `Entry`=4543;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4543, 4306, 0, 22, 0, 1, 0, 1, 4, 'Bloodmage Thalnos - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (4543, 600104, 600104, 100, 0, 1, 0, 1, 1, 'Bloodmage Thalnos - (ReferenceTable)');
 
 -- Anguished Dead
-DELETE FROM `creature_loot_template` SET `Entry`=6426;
+DELETE FROM `creature_loot_template` WHERE `Entry`=6426;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6426, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Anguished Dead - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6426, 1477, 0, 0.32, 0, 1, 0, 1, 1, 'Anguished Dead - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6426, 1529, 0, 0.3784, 0, 1, 0, 1, 1, 'Anguished Dead - Jade');
@@ -2953,7 +2953,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6426, 600098, 600098, 1, 0, 1, 0, 1, 1, 'Anguished Dead - (ReferenceTable)');
 
 -- Haunting Phantasm
-DELETE FROM `creature_loot_template` SET `Entry`=6427;
+DELETE FROM `creature_loot_template` WHERE `Entry`=6427;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6427, 929, 0, 0.02, 0, 1, 0, 1, 1, 'Haunting Phantasm - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6427, 1477, 0, 0.38, 0, 1, 0, 1, 1, 'Haunting Phantasm - Scroll of Agility II');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6427, 1529, 0, 0.3908, 0, 1, 0, 1, 1, 'Haunting Phantasm - Jade');
@@ -3064,28 +3064,28 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6427, 600098, 600098, 1, 0, 1, 0, 1, 1, 'Haunting Phantasm - (ReferenceTable)');
 
 -- Arcanist Doan
-DELETE FROM `creature_loot_template` SET `Entry`=6487;
+DELETE FROM `creature_loot_template` WHERE `Entry`=6487;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6487, 4306, 0, 20, 0, 1, 0, 1, 4, 'Arcanist Doan - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6487, 5805, 0, 100, 1, 1, 0, 1, 1, 'Arcanist Doan - Heart of Zeal');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6487, 600107, 600107, 100, 0, 1, 0, 1, 1, 'Arcanist Doan - (ReferenceTable)');
 
 -- Fallen Champion
-DELETE FROM `creature_loot_template` SET `Entry`=6488;
+DELETE FROM `creature_loot_template` WHERE `Entry`=6488;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6488, 4306, 0, 25, 0, 1, 0, 1, 2, 'Fallen Champion - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6488, 600102, 600102, 100, 0, 1, 0, 1, 1, 'Fallen Champion - (ReferenceTable)');
 
 -- Ironspine
-DELETE FROM `creature_loot_template` SET `Entry`=6489;
+DELETE FROM `creature_loot_template` WHERE `Entry`=6489;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6489, 4306, 0, 21, 0, 1, 0, 1, 2, 'Ironspine - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6489, 600101, 600101, 100, 0, 1, 0, 1, 1, 'Ironspine - (ReferenceTable)');
 
 -- Azshir the Sleepless
-DELETE FROM `creature_loot_template` SET `Entry`=6490;
+DELETE FROM `creature_loot_template` WHERE `Entry`=6490;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6490, 4306, 0, 19, 0, 1, 0, 1, 2, 'Azshir the Sleepless - Silk Cloth');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6490, 600103, 600103, 100, 0, 1, 0, 1, 1, 'Azshir the Sleepless - (ReferenceTable)');
 
 -- Suffering Victim
-DELETE FROM `creature_loot_template` SET `Entry`=6547;
+DELETE FROM `creature_loot_template` WHERE `Entry`=6547;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6547, 857, 0, 0.02, 0, 1, 0, 1, 1, 'Suffering Victim - Large Red Sack');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6547, 929, 0, 1.6016, 0, 1, 0, 1, 1, 'Suffering Victim - Healing Potion');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6547, 954, 0, 0.72, 0, 1, 0, 1, 1, 'Suffering Victim - Scroll of Strength');
@@ -3159,7 +3159,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6547, 600075, 600075, 2.5, 0, 1, 0, 1, 1, 'Suffering Victim - (ReferenceTable)');
 
 -- Scarlet Trainee
-DELETE FROM `creature_loot_template` SET `Entry`=6575;
+DELETE FROM `creature_loot_template` WHERE `Entry`=6575;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6575, 804, 0, 0.0109, 0, 1, 0, 1, 1, 'Scarlet Trainee - Large Blue Sack');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6575, 857, 0, 0.0123, 0, 1, 0, 1, 1, 'Scarlet Trainee - Large Red Sack');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (6575, 1206, 0, 0.12, 0, 1, 0, 1, 1, 'Scarlet Trainee - Moss Agate');

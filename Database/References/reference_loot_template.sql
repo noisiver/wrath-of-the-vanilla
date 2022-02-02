@@ -3239,3 +3239,8 @@ INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600115, 7718, 0, 0, 0, 1, 1, 1, 1, 'Herod\'s Shoulder');
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600115, 7719, 0, 0, 0, 1, 1, 1, 1, 'Raging Berserker\'s Helm');
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600115, 10330, 0, 0, 0, 1, 1, 1, 1, 'Scarlet Leggings');
+
+-- 30498 = 600116
+DELETE FROM `reference_loot_template` WHERE `Entry`=600116;
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600116, 3334, 0, 25, 0, 1, 1, 1, 1, 'Farmer\'s Shovel');
+INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (600116, 4261, 0, 75, 0, 1, 1, 1, 1, 'Solliden\'s Trousers');
