@@ -29,7 +29,7 @@ class VanillaConfig : public WorldScript
         }
 };
 
-void AddWrathOfTheVanillaScripts()
+void mod_wrath_of_the_vanilla()
 {
     new DisableAchievements();
     new VanillaConfig();
