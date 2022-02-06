@@ -24,10 +24,51 @@
 #include "ObjectMgr.h"
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
-#include "../../../../src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/blackrock_spire.h"
-#include "../../../../src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/instance_blackrock_spire.cpp"
+#include "../../../src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/blackrock_spire.h"
 
-#include "Chat.h"
+uint32 const DragonspireMobs[3] = { NPC_BLACKHAND_DREADWEAVER, NPC_BLACKHAND_SUMMONER, NPC_BLACKHAND_VETERAN };
+
+enum EventIds
+{
+    EVENT_DARGONSPIRE_ROOM_STORE = 1,
+    EVENT_DARGONSPIRE_ROOM_CHECK = 2,
+    EVENT_SOLAKAR_WAVE           = 3,
+    EVENT_UBRS_DOOR              = 4
+};
+
+enum Timers
+{
+    TIMER_SOLAKAR_WAVE = 30000,
+    TIMER_UBRS_DOOR    = 3000
+};
+
+enum SolakarWaves
+{
+    MAX_WAVE_COUNT = 5
+};
+
+Position _SolakarPosLeft = Position(78.0f, -280.0f, 93.0f, 3.0f * M_PI / 2.0);
+Position _SolakarPosRight = Position(84.0f, -280.0f, 93.0f, 3.0f * M_PI / 2.0);
+Position _SolakarPosBoss = Position(80.0f, -280.0f, 93.0f, 3.0f * M_PI / 2.0);
+
+enum Texts
+{
+    SAY_NEFARIUS_REND_WIPE = 11,
+    SAY_SOLAKAR_FIRST_HATCHER = 0
+};
+
+MinionData const minionData[] =
+{
+    { NPC_CHROMATIC_ELITE_GUARD, DATA_GENERAL_DRAKKISATH }
+};
+
+DoorData const doorData[] =
+{
+    { GO_GYTH_EXIT_DOOR,    DATA_WARCHIEF_REND_BLACKHAND,  DOOR_TYPE_PASSAGE, BOUNDARY_NONE },
+    { GO_DRAKKISATH_DOOR_1, DATA_GENERAL_DRAKKISATH,       DOOR_TYPE_PASSAGE, BOUNDARY_NONE },
+    { GO_DRAKKISATH_DOOR_2, DATA_GENERAL_DRAKKISATH,       DOOR_TYPE_PASSAGE, BOUNDARY_NONE },
+    { 0,                 0,          DOOR_TYPE_ROOM,                          BOUNDARY_NONE } // END
+};
 
 enum GameObjects
 {
@@ -40,8 +81,7 @@ enum GameObjects
     GO_BRAZIER_6 = 175533
 };
 
-ObjectGuid goDoorUbrs;
-ObjectGuid goBrazier[6];
+#define ITEM_SEAL_OF_ASCENSION 12344
 
 class instance_blackrock_spire_vanilla : public InstanceMapScript
 {
@@ -53,6 +93,8 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
             uint32 CurrentSolakarWave = 0;
             uint32 SolakarState       = NOT_STARTED; // there should be a global instance encounter state, where is it?
             std::vector<TempSummon*> SolakarSummons;
+            uint32 CurrentUbrsDoorCount = 0;
+            uint32 UbrsDoorState = NOT_STARTED;
 
             instance_blackrock_spire_vanillaMapScript(InstanceMap* map) : InstanceScript(map)
             {
@@ -253,32 +295,39 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
                         go_urokChallenge = go->GetGUID();
                         break;
                     case GO_DOOR_UBRS:
-                        goDoorUbrs = go->GetGUID();
-                        HandleGameObject(ObjectGuid::Empty, GetBossState(DATA_DRAGONSPIRE_ROOM) == DONE, go);
+                        go_door_ubrs = go->GetGUID();
+                        if (GetData(DATA_DRAGONSPIRE_ROOM) == DONE)
+                            HandleGameObject(ObjectGuid::Empty, true, go);
                         break;
                     case GO_BRAZIER_1:
-                        goBrazier[0] = go->GetGUID();
-                        HandleGameObject(ObjectGuid::Empty, GetBossState(DATA_DRAGONSPIRE_ROOM) == DONE, go);
+                        go_braziers[0] = go->GetGUID();
+                        if (GetData(DATA_DRAGONSPIRE_ROOM) == DONE)
+                            HandleGameObject(ObjectGuid::Empty, true, go);
                         break;
                     case GO_BRAZIER_2:
-                        goBrazier[1] = go->GetGUID();
-                        HandleGameObject(ObjectGuid::Empty, GetBossState(DATA_DRAGONSPIRE_ROOM) == DONE, go);
+                        go_braziers[1] = go->GetGUID();
+                        if (GetData(DATA_DRAGONSPIRE_ROOM) == DONE)
+                            HandleGameObject(ObjectGuid::Empty, true, go);
                         break;
                     case GO_BRAZIER_3:
-                        goBrazier[2] = go->GetGUID();
-                        HandleGameObject(ObjectGuid::Empty, GetBossState(DATA_DRAGONSPIRE_ROOM) == DONE, go);
+                        go_braziers[2] = go->GetGUID();
+                        if (GetData(DATA_DRAGONSPIRE_ROOM) == DONE)
+                            HandleGameObject(ObjectGuid::Empty, true, go);
                         break;
                     case GO_BRAZIER_4:
-                        goBrazier[3] = go->GetGUID();
-                        HandleGameObject(ObjectGuid::Empty, GetBossState(DATA_DRAGONSPIRE_ROOM) == DONE, go);
+                        go_braziers[3] = go->GetGUID();
+                        if (GetData(DATA_DRAGONSPIRE_ROOM) == DONE)
+                            HandleGameObject(ObjectGuid::Empty, true, go);
                         break;
                     case GO_BRAZIER_5:
-                        goBrazier[4] = go->GetGUID();
-                        HandleGameObject(ObjectGuid::Empty, GetBossState(DATA_DRAGONSPIRE_ROOM) == DONE, go);
+                        go_braziers[4] = go->GetGUID();
+                        if (GetData(DATA_DRAGONSPIRE_ROOM) == DONE)
+                            HandleGameObject(ObjectGuid::Empty, true, go);
                         break;
                     case GO_BRAZIER_6:
-                        goBrazier[5] = go->GetGUID();
-                        HandleGameObject(ObjectGuid::Empty, GetBossState(DATA_DRAGONSPIRE_ROOM) == DONE, go);
+                        go_braziers[5] = go->GetGUID();
+                        if (GetData(DATA_DRAGONSPIRE_ROOM) == DONE)
+                            HandleGameObject(ObjectGuid::Empty, true, go);
                         break;
                     default:
                         break;
@@ -350,6 +399,9 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
                         {
                             if (GetBossState(DATA_DRAGONSPIRE_ROOM) != DONE)
                                 Events.ScheduleEvent(EVENT_DARGONSPIRE_ROOM_STORE, 1000);
+
+                            if (UbrsDoorState == NOT_STARTED)
+                                Events.ScheduleEvent(EVENT_UBRS_DOOR, TIMER_UBRS_DOOR);
                         }
                         break;
                     case DATA_SOLAKAR_FLAMEWREATH:
@@ -428,8 +480,8 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
             {
                 if (number < MAX_WAVE_COUNT)
                 {
-                    SolakarSummons.push_back(instance->SummonCreature(NPC_ROOKERY_GUARDIAN, SolakarPosLeft));
-                    SolakarSummons.push_back(instance->SummonCreature(NPC_ROOKERY_HATCHER, SolakarPosRight));
+                    SolakarSummons.push_back(instance->SummonCreature(NPC_ROOKERY_GUARDIAN, _SolakarPosLeft));
+                    SolakarSummons.push_back(instance->SummonCreature(NPC_ROOKERY_HATCHER, _SolakarPosRight));
                     if (number == 0)
                     {
                         if (Creature* FirstHatcher = SolakarSummons.back()) // works because we spawned a hatcher second
@@ -440,7 +492,7 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
                 }
                 else if (number == MAX_WAVE_COUNT)
                 {
-                    SolakarSummons.push_back(instance->SummonCreature(NPC_SOLAKAR, SolakarPosBoss));
+                    SolakarSummons.push_back(instance->SummonCreature(NPC_SOLAKAR, _SolakarPosBoss));
                 }
             }
 
@@ -517,26 +569,19 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
                     case GO_UROK_CHALLENGE:
                         return go_urokChallenge;
                     case GO_DOOR_UBRS:
-                        return goDoorUbrs;
-                        break;
+                        return go_door_ubrs;
                     case GO_BRAZIER_1:
-                        return goBrazier[0];
-                        break;
+                        return go_braziers[0];
                     case GO_BRAZIER_2:
-                        return goBrazier[1];
-                        break;
+                        return go_braziers[1];
                     case GO_BRAZIER_3:
-                        return goBrazier[2];
-                        break;
+                        return go_braziers[2];
                     case GO_BRAZIER_4:
-                        return goBrazier[3];
-                        break;
+                        return go_braziers[3];
                     case GO_BRAZIER_5:
-                        return goBrazier[4];
-                        break;
+                        return go_braziers[4];
                     case GO_BRAZIER_6:
-                        return goBrazier[5];
-                        break;
+                        return go_braziers[5];
                     default:
                         break;
                 }
@@ -567,6 +612,47 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
                             {
                                 Events.ScheduleEvent(EVENT_SOLAKAR_WAVE, TIMER_SOLAKAR_WAVE);
                                 CurrentSolakarWave++;
+                            }
+                            break;
+                        case EVENT_UBRS_DOOR:
+                            if (UbrsDoorState == NOT_STARTED)
+                                UbrsDoorState = DONE;
+
+                            switch (CurrentUbrsDoorCount)
+                            {
+                                case 0:
+                                    if (GameObject* brazier = instance->GetGameObject(go_braziers[0]))
+                                        brazier->SetGoState(GO_STATE_ACTIVE);
+                                    if (GameObject* brazier = instance->GetGameObject(go_braziers[1]))
+                                        brazier->SetGoState(GO_STATE_ACTIVE);
+
+                                    CurrentUbrsDoorCount++;
+                                    Events.ScheduleEvent(EVENT_UBRS_DOOR, TIMER_UBRS_DOOR);
+                                    break;
+                                case 1:
+                                    if (GameObject* brazier = instance->GetGameObject(go_braziers[2]))
+                                        brazier->SetGoState(GO_STATE_ACTIVE);
+                                    if (GameObject* brazier = instance->GetGameObject(go_braziers[3]))
+                                        brazier->SetGoState(GO_STATE_ACTIVE);
+
+                                    CurrentUbrsDoorCount++;
+                                    Events.ScheduleEvent(EVENT_UBRS_DOOR, TIMER_UBRS_DOOR);
+                                    break;
+                                case 2:
+                                    if (GameObject* brazier = instance->GetGameObject(go_braziers[4]))
+                                        brazier->SetGoState(GO_STATE_ACTIVE);
+                                    if (GameObject* brazier = instance->GetGameObject(go_braziers[5]))
+                                        brazier->SetGoState(GO_STATE_ACTIVE);
+
+                                    CurrentUbrsDoorCount++;
+                                    Events.ScheduleEvent(EVENT_UBRS_DOOR, TIMER_UBRS_DOOR);
+                                    break;
+                                case 3:
+                                    if (GameObject* door = instance->GetGameObject(go_door_ubrs))
+                                        door->SetGoState(GO_STATE_ACTIVE);
+                                    break;
+                                default:
+                                    break;
                             }
                             break;
                         default:
@@ -743,6 +829,8 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
             ObjectGuid go_urokChallenge;
             std::vector<ObjectGuid> go_urokOgreCirles;
             std::vector<ObjectGuid> UrokMobs;
+            ObjectGuid go_door_ubrs;
+            ObjectGuid go_braziers[6];
         };
 
         InstanceScript* GetInstanceScript(InstanceMap* map) const override
@@ -766,21 +854,11 @@ class at_dragonspire_hall_vanilla : public AreaTriggerScript
             {
                 if (InstanceScript* instance = player->GetInstanceScript())
                 {
-                    instance->SetData(AREATRIGGER, AREATRIGGER_DRAGONSPIRE_HALL);
-
-                    if (player->HasItemCount(12344, 1))
+                    if (player->HasItemCount(ITEM_SEAL_OF_ASCENSION, 1))
                     {
-                        if (GameObject* door = player->GetMap()->GetGameObject(goDoorUbrs))
-                            door->SetGoState(GO_STATE_ACTIVE);
-
-                        for (uint8 i = 0; i < 6; i++)
-                        {
-                            if (GameObject* brazier = player->GetMap()->GetGameObject(goBrazier[i]))
-                                brazier->SetGoState(GO_STATE_ACTIVE);
-                        }
+                        instance->SetData(AREATRIGGER, AREATRIGGER_DRAGONSPIRE_HALL);
+                        return true;
                     }
-
-                    return true;
                 }
             }
 
