@@ -127,6 +127,14 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [ ] Change the loot tables
 - [ ] Change the spawn points and respawn times
 
+**The Barrens**
+- [X] Change the name, subname, level, faction and rank of all creatures
+- [X] Change the items sold by NPCs
+- [X] Change the trainers
+- [ ] Change the quests
+- [X] Change the loot tables
+- [ ] Change the spawn points and respawn times
+
 **Blasted Lands**
 - [ ] Change the name, subname, level, faction and rank of all creatures
 - [ ] Change the items sold by NPCs
@@ -250,6 +258,14 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [ ] Change the loot tables
 - [ ] Change the spawn points and respawn times
 
+**The Hinterlands**
+- [ ] Change the name, subname, level, faction and rank of all creatures
+- [ ] Change the items sold by NPCs
+- [ ] Change the trainers
+- [ ] Change the quests
+- [ ] Change the loot tables
+- [ ] Change the spawn points and respawn times
+
 **Ironforge**
 - [ ] Change the name, subname, level, faction and rank of all creatures
 - [ ] Change the items sold by NPCs
@@ -363,22 +379,6 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [ ] Change the spawn points and respawn times
 
 **Teldrassil**
-- [ ] Change the name, subname, level, faction and rank of all creatures
-- [ ] Change the items sold by NPCs
-- [ ] Change the trainers
-- [ ] Change the quests
-- [ ] Change the loot tables
-- [ ] Change the spawn points and respawn times
-
-**The Barrens**
-- [ ] Change the name, subname, level, faction and rank of all creatures
-- [ ] Change the items sold by NPCs
-- [ ] Change the trainers
-- [ ] Change the quests
-- [ ] Change the loot tables
-- [ ] Change the spawn points and respawn times
-
-**The Hinterlands**
 - [ ] Change the name, subname, level, faction and rank of all creatures
 - [ ] Change the items sold by NPCs
 - [ ] Change the trainers
