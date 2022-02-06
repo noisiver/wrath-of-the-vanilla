@@ -3,4 +3,4 @@ DELETE FROM `reference_loot_template` WHERE `Entry` IN (12900, 20006, 20016, 350
 DELETE FROM `creature_questender` WHERE `id`=3412;
 DELETE FROM `creature_queststarter` WHERE `id`=3412;
 DELETE FROM `game_event_creature` WHERE `guid` IN (208146, 208159, 208185, 208207, 208240, 208251, 208355, 208368, 208394, 208407);
-DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=1 AND `SourceGroup` IN (3977, 4286, 4287, 4288, 4289, 4290, 4291, 4292, 4294, 4295, 4298, 4299, 4300, 4301, 4302, 4303, 4304, 4308, 4540, 6426) AND `SourceEntry`=20976;
+DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=1 AND `SourceGroup` IN (3977, 4286, 4287, 4288, 4289, 4290, 4291, 4292, 4294, 4295, 4298, 4299, 4300, 4301, 4302, 4303, 4304, 4308, 4540, 6426, 12865) AND `SourceEntry`=20976;
