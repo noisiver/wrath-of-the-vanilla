@@ -24,64 +24,22 @@
 #include "ObjectMgr.h"
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
+#include "../../../src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/instance_blackrock_spire.cpp"
 #include "../../../src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/blackrock_spire.h"
 
-uint32 const DragonspireMobs[3] = { NPC_BLACKHAND_DREADWEAVER, NPC_BLACKHAND_SUMMONER, NPC_BLACKHAND_VETERAN };
-
-enum EventIds
+enum UbrsDoorIds
 {
-    EVENT_DARGONSPIRE_ROOM_STORE = 1,
-    EVENT_DARGONSPIRE_ROOM_CHECK = 2,
-    EVENT_SOLAKAR_WAVE           = 3,
-    EVENT_UBRS_DOOR              = 4
+    EVENT_UBRS_DOOR        = 4,
+    TIMER_UBRS_DOOR        = 3000,
+    GO_DOOR_UBRS           = 164725,
+    GO_BRAZIER_1           = 175528,
+    GO_BRAZIER_2           = 175529,
+    GO_BRAZIER_3           = 175530,
+    GO_BRAZIER_4           = 175531,
+    GO_BRAZIER_5           = 175532,
+    GO_BRAZIER_6           = 175533,
+    ITEM_SEAL_OF_ASCENSION = 12344
 };
-
-enum Timers
-{
-    TIMER_SOLAKAR_WAVE = 30000,
-    TIMER_UBRS_DOOR    = 3000
-};
-
-enum SolakarWaves
-{
-    MAX_WAVE_COUNT = 5
-};
-
-Position _SolakarPosLeft = Position(78.0f, -280.0f, 93.0f, 3.0f * M_PI / 2.0);
-Position _SolakarPosRight = Position(84.0f, -280.0f, 93.0f, 3.0f * M_PI / 2.0);
-Position _SolakarPosBoss = Position(80.0f, -280.0f, 93.0f, 3.0f * M_PI / 2.0);
-
-enum Texts
-{
-    SAY_NEFARIUS_REND_WIPE = 11,
-    SAY_SOLAKAR_FIRST_HATCHER = 0
-};
-
-MinionData const minionData[] =
-{
-    { NPC_CHROMATIC_ELITE_GUARD, DATA_GENERAL_DRAKKISATH }
-};
-
-DoorData const doorData[] =
-{
-    { GO_GYTH_EXIT_DOOR,    DATA_WARCHIEF_REND_BLACKHAND,  DOOR_TYPE_PASSAGE, BOUNDARY_NONE },
-    { GO_DRAKKISATH_DOOR_1, DATA_GENERAL_DRAKKISATH,       DOOR_TYPE_PASSAGE, BOUNDARY_NONE },
-    { GO_DRAKKISATH_DOOR_2, DATA_GENERAL_DRAKKISATH,       DOOR_TYPE_PASSAGE, BOUNDARY_NONE },
-    { 0,                 0,          DOOR_TYPE_ROOM,                          BOUNDARY_NONE } // END
-};
-
-enum GameObjects
-{
-    GO_DOOR_UBRS = 164725,
-    GO_BRAZIER_1 = 175528,
-    GO_BRAZIER_2 = 175529,
-    GO_BRAZIER_3 = 175530,
-    GO_BRAZIER_4 = 175531,
-    GO_BRAZIER_5 = 175532,
-    GO_BRAZIER_6 = 175533
-};
-
-#define ITEM_SEAL_OF_ASCENSION 12344
 
 class instance_blackrock_spire_vanilla : public InstanceMapScript
 {
@@ -93,7 +51,7 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
             uint32 CurrentSolakarWave = 0;
             uint32 SolakarState       = NOT_STARTED; // there should be a global instance encounter state, where is it?
             std::vector<TempSummon*> SolakarSummons;
-            uint32 CurrentUbrsDoorCount = 0;
+            uint32 CurrentUbrsDoorStage = 0;
             uint32 UbrsDoorState = NOT_STARTED;
 
             instance_blackrock_spire_vanillaMapScript(InstanceMap* map) : InstanceScript(map)
@@ -480,8 +438,8 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
             {
                 if (number < MAX_WAVE_COUNT)
                 {
-                    SolakarSummons.push_back(instance->SummonCreature(NPC_ROOKERY_GUARDIAN, _SolakarPosLeft));
-                    SolakarSummons.push_back(instance->SummonCreature(NPC_ROOKERY_HATCHER, _SolakarPosRight));
+                    SolakarSummons.push_back(instance->SummonCreature(NPC_ROOKERY_GUARDIAN, SolakarPosLeft));
+                    SolakarSummons.push_back(instance->SummonCreature(NPC_ROOKERY_HATCHER, SolakarPosRight));
                     if (number == 0)
                     {
                         if (Creature* FirstHatcher = SolakarSummons.back()) // works because we spawned a hatcher second
@@ -492,7 +450,7 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
                 }
                 else if (number == MAX_WAVE_COUNT)
                 {
-                    SolakarSummons.push_back(instance->SummonCreature(NPC_SOLAKAR, _SolakarPosBoss));
+                    SolakarSummons.push_back(instance->SummonCreature(NPC_SOLAKAR, SolakarPosBoss));
                 }
             }
 
@@ -618,7 +576,7 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
                             if (UbrsDoorState == NOT_STARTED)
                                 UbrsDoorState = DONE;
 
-                            switch (CurrentUbrsDoorCount)
+                            switch (CurrentUbrsDoorStage)
                             {
                                 case 0:
                                     if (GameObject* brazier = instance->GetGameObject(go_braziers[0]))
@@ -626,7 +584,7 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
                                     if (GameObject* brazier = instance->GetGameObject(go_braziers[1]))
                                         brazier->SetGoState(GO_STATE_ACTIVE);
 
-                                    CurrentUbrsDoorCount++;
+                                    CurrentUbrsDoorStage++;
                                     Events.ScheduleEvent(EVENT_UBRS_DOOR, TIMER_UBRS_DOOR);
                                     break;
                                 case 1:
@@ -635,7 +593,7 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
                                     if (GameObject* brazier = instance->GetGameObject(go_braziers[3]))
                                         brazier->SetGoState(GO_STATE_ACTIVE);
 
-                                    CurrentUbrsDoorCount++;
+                                    CurrentUbrsDoorStage++;
                                     Events.ScheduleEvent(EVENT_UBRS_DOOR, TIMER_UBRS_DOOR);
                                     break;
                                 case 2:
@@ -644,7 +602,7 @@ class instance_blackrock_spire_vanilla : public InstanceMapScript
                                     if (GameObject* brazier = instance->GetGameObject(go_braziers[5]))
                                         brazier->SetGoState(GO_STATE_ACTIVE);
 
-                                    CurrentUbrsDoorCount++;
+                                    CurrentUbrsDoorStage++;
                                     Events.ScheduleEvent(EVENT_UBRS_DOOR, TIMER_UBRS_DOOR);
                                     break;
                                 case 3:
