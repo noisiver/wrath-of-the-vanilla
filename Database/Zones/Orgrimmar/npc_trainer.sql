@@ -1,5 +1,6 @@
 -- Snarl <Expert Blacksmith>
 DELETE FROM `npc_trainer` WHERE `ID`=1383;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1383, -310000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1383, -310001);
 
 -- Snang <Journeyman Tailor>
@@ -16,14 +17,18 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3332, -360000);
 
 -- Godan <Expert Enchanter>
 DELETE FROM `npc_trainer` WHERE `ID`=3345;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3345, -330000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3345, -330001);
 
 -- Yelmak <Expert Alchemist>
 DELETE FROM `npc_trainer` WHERE `ID`=3347;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3347, -300000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3347, -300001);
 
 -- Saru Steelfury <Artisan Blacksmith>
 DELETE FROM `npc_trainer` WHERE `ID`=3355;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3355, -310000);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3355, -310001);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3355, -310002);
 
 -- Makaru <Mining Trainer>
@@ -32,10 +37,12 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3357, -390000);
 
 -- Magar <Expert Tailor>
 DELETE FROM `npc_trainer` WHERE `ID`=3363;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3363, -410000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3363, -410001);
 
 -- Karolek <Expert Leatherworker>
 DELETE FROM `npc_trainer` WHERE `ID`=3365;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3365, -380000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3365, -380001);
 
 -- Arnok <First Aid Trainer>
@@ -48,6 +55,7 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3399, -320000);
 
 -- Nogg <Expert Engineer>
 DELETE FROM `npc_trainer` WHERE `ID`=3412;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3412, -340000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3412, -340001);
 
 -- Kildar <Riding Trainer>
@@ -68,6 +76,8 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10266, -310000);
 
 -- Roxxik <Artisan Engineer>
 DELETE FROM `npc_trainer` WHERE `ID`=11017;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11017, -340000);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11017, -340001);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11017, -340002);
 
 -- Whuut <Journeyman Alchemist>
