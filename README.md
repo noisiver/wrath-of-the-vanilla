@@ -75,7 +75,7 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [X] Change loot tables of chests found in the world
 - [X] Change loot tables of mining veins
 - [X] Change loot tables of herbalism objects
-- [ ] Change loot tables of fishing
+- [X] Change loot tables of fishing
 - [ ] Change loot tables of skinning
 - [ ] Change loot tables of disenchanting
 - [ ] Change the reputation gained from killing creatures and completing quests
