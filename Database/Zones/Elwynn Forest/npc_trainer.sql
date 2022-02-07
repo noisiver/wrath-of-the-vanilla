@@ -28,4 +28,6 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4732, -450000);
 
 -- Kitta Firewind <Enchanting Trainer>
 DELETE FROM `npc_trainer` WHERE `ID`=11072;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11072, -330000);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11072, -330001);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11072, -330002);
