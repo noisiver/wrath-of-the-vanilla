@@ -4,6 +4,7 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2798, -350000);
 
 -- Karn Stonehoof <Expert Blacksmith>
 DELETE FROM `npc_trainer` WHERE `ID`=2998;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2998, -310000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2998, -310001);
 
 -- Brek Stonehoof <Mining Trainer>
@@ -12,10 +13,13 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3001, -390000);
 
 -- Tepa <Expert Tailor>
 DELETE FROM `npc_trainer` WHERE `ID`=3004;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3004, -410000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3004, -410001);
 
 -- Una <Artisan Leatherworker>
 DELETE FROM `npc_trainer` WHERE `ID`=3007;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3007, -380000);
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3007, -380001);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3007, -380002);
 
 -- Mak <Journeyman Leatherworker>
@@ -24,10 +28,12 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3008, -380000);
 
 -- Bena Winterhoof <Expert Alchemist>
 DELETE FROM `npc_trainer` WHERE `ID`=3009;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3009, -300000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3009, -300001);
 
 -- Teg Dawnstrider <Expert Enchanter>
 DELETE FROM `npc_trainer` WHERE `ID`=3011;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3011, -330000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3011, -330001);
 
 -- Komin Winterhoof
@@ -64,4 +70,5 @@ INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11071, -330000);
 
 -- Tarn <Expert Leatherworker>
 DELETE FROM `npc_trainer` WHERE `ID`=11084;
+INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11084, -380000);
 INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11084, -380001);

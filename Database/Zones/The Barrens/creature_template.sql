@@ -1,5 +1,5 @@
 -- Grub
-UPDATE `creature_template` SET `npcflag`=2 WHERE `entry`=3443;
+UPDATE `creature_template` SET `gossip_menu_id`=0, `npcflag`=2 WHERE `entry`=3443;
 
 -- Gilthares Firebough
 UPDATE `creature_template` SET `modelid1`=4244 WHERE `entry`=3465;
