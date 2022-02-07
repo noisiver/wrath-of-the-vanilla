@@ -133,7 +133,7 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [X] Change the trainers
 - [ ] Change the quests
 - [X] Change the loot tables
-- [ ] Change the spawn points and respawn times
+- [X] Change the spawn points and respawn times
 
 **Blasted Lands**
 - [ ] Change the name, subname, level, faction and rank of all creatures

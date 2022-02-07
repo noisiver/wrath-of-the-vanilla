@@ -4,6 +4,9 @@ UPDATE `creature` SET `spawntimesecs`=300 WHERE `id1`=3101;
 -- Felstalker
 UPDATE `creature` SET `spawntimesecs`=300 WHERE `id1`=3102;
 
+-- Dreadmaw Crocolisk
+UPDATE `creature` SET `spawntimesecs`=300 WHERE `id1`=3110;
+
 -- Clattering Scorpid
 UPDATE `creature` SET `spawntimesecs`=300 WHERE `id1`=3125;
 
