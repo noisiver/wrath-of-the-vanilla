@@ -163,8 +163,8 @@ INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 3,
 -- INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 6, 0, 'New Year\'s Eve');
 -- DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=7;
 -- INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 7, 0, 'Lunar Festival');
--- DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=8;
--- INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 8, 0, 'Love is in the Air');
+DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=8;
+INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 8, 0, 'Love is in the Air');
 DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=9;
 INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 9, 0, 'Noblegarden');
 -- DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=10;
