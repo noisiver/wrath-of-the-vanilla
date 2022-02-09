@@ -131,7 +131,7 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [X] Change the name, subname, level, faction and rank of all creatures
 - [X] Change the items sold by NPCs
 - [X] Change the trainers
-- [ ] Change the quests
+- [X] Change the quests
 - [X] Change the loot tables
 - [X] Change the spawn points and respawn times
 

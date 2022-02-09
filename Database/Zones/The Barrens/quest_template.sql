@@ -9,3 +9,6 @@ UPDATE `quest_template` SET `LogDescription`='Speak with Ziz Fizziks in Windshea
 
 -- Call of Water (Shaman)
 UPDATE `quest_template` SET `LogDescription`='Find Brine in Southern Barrens.' WHERE `ID`=1530;
+
+-- Mura Runetotem
+UPDATE `quest_template` SET `LogDescription`='Speak with Mura Runetotem in the Sepulcher.' WHERE `ID`=3301;

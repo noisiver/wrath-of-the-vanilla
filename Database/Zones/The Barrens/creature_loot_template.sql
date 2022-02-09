@@ -1728,6 +1728,51 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3256, 15019, 0, 0.0093, 0, 1, 0, 1, 1, 'Sunscale Scytheclaw - Lupine Mantle');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3256, 15496, 0, 0.0093, 0, 1, 0, 1, 1, 'Sunscale Scytheclaw - Bloodspattered Shoulder Pads');
 
+-- Ishamuhale
+DELETE FROM `creature_loot_template` WHERE `Entry`=3257;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 818, 0, 0.36, 0, 1, 0, 1, 1, 'Ishamuhale - Tigerseye');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 856, 0, 0.75, 0, 1, 0, 1, 1, 'Ishamuhale - Blue Leather Bag');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 1206, 0, 0.1, 0, 1, 0, 1, 1, 'Ishamuhale - Moss Agate');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 1210, 0, 0.28, 0, 1, 0, 1, 1, 'Ishamuhale - Shadowgem');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 2406, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Pattern: Fine Leather Boots');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 2409, 0, 0.04, 0, 1, 0, 1, 1, 'Ishamuhale - Pattern: Dark Leather Tunic');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 2447, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Peacebloom');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 2450, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Briarthorn');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 2452, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Swiftthistle');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 2657, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Red Leather Bag');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 3180, 0, 9.3539, 0, 1, 0, 1, 1, 'Ishamuhale - Flecked Raptor Scale');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 3393, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Recipe: Minor Magic Resistance Potion');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 3610, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Plans: Gemmed Copper Gauntlets');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 4293, 0, 0.04, 0, 1, 0, 1, 1, 'Ishamuhale - Pattern: Hillman\'s Leather Vest');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 4345, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Pattern: Red Woolen Boots');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 5055, 0, 80, 1, 1, 0, 1, 1, 'Ishamuhale - Intact Raptor Horn');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 5062, 0, 100, 1, 1, 0, 1, 1, 'Ishamuhale - Raptor Head');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 5101, 0, 100, 1, 1, 0, 1, 1, 'Ishamuhale - Ishamuhale\'s Fang');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 5124, 0, 34.4262, 0, 1, 0, 1, 1, 'Ishamuhale - Small Raptor Tooth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 5503, 0, 0.12, 0, 1, 0, 1, 1, 'Ishamuhale - Clam Meat');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 5573, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Green Leather Bag');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 5574, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - White Leather Bag');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 5635, 0, 3.1823, 0, 1, 0, 1, 1, 'Ishamuhale - Sharp Claw');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 5972, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Pattern: Fine Leather Pants');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 6271, 0, 0.04, 0, 1, 0, 1, 1, 'Ishamuhale - Pattern: Red Linen Vest');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 6344, 0, 0.04, 0, 1, 0, 1, 1, 'Ishamuhale - Formula: Enchant Bracer - Minor Spirit');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 6347, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Formula: Enchant Bracer - Minor Strength');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 6348, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Formula: Enchant Weapon - Minor Beastslayer');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 6661, 0, 0.04, 0, 1, 0, 1, 1, 'Ishamuhale - Recipe: Savory Deviate Delight');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 6663, 0, 0.04, 0, 1, 0, 1, 1, 'Ishamuhale - Recipe: Elixir of Giant Growth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 6716, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Schematic: EZ-Thro Dynamite');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 7288, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Pattern: Rugged Leather Pants');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 11039, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Formula: Enchant Cloak - Minor Agility');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 14169, 0, 0.0964, 0, 1, 0, 1, 1, 'Ishamuhale - Aboriginal Shoulder Pads');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 14368, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Mystic\'s Shoulder Pads');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 14728, 0, 0.06, 0, 1, 0, 1, 1, 'Ishamuhale - War Paint Shoulder Pads');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 15019, 0, 0.06, 0, 1, 0, 1, 1, 'Ishamuhale - Lupine Mantle');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 15496, 0, 0.02, 0, 1, 0, 1, 1, 'Ishamuhale - Bloodspattered Shoulder Pads');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 600003, 600003, 0.5, 0, 1, 0, 1, 1, 'Ishamuhale - (ReferenceTable)');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 600004, 600004, 0.5, 0, 1, 0, 1, 1, 'Ishamuhale - (ReferenceTable)');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 600015, 600015, 0.5, 0, 1, 0, 1, 1, 'Ishamuhale - (ReferenceTable)');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3257, 600018, 600018, 0.5, 0, 1, 0, 1, 1, 'Ishamuhale - (ReferenceTable)');
+
 -- Bristleback Hunter
 DELETE FROM `creature_loot_template` WHERE `Entry`=3258;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3258, 414, 0, 0.02, 0, 1, 0, 1, 1, 'Bristleback Hunter - Dalaran Sharp');
@@ -5231,6 +5276,16 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3394, 600004, 600004, 0.5, 0, 1, 0, 1, 1, 'Barak Kodobane - (ReferenceTable)');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3394, 600011, 600011, 2.5, 0, 1, 0, 1, 1, 'Barak Kodobane - (ReferenceTable)');
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3394, 600015, 600015, 0.5, 0, 1, 0, 1, 1, 'Barak Kodobane - (ReferenceTable)');
+
+-- Verog the Dervish
+DELETE FROM `creature_loot_template` WHERE `Entry`=3395;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3395, 1179, 0, 2, 0, 1, 0, 1, 1, 'Verog the Dervish - Ice Cold Milk');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3395, 2287, 0, 4, 0, 1, 0, 1, 2, 'Verog the Dervish - Haunch of Meat');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3395, 2589, 0, 18, 0, 1, 0, 1, 3, 'Verog the Dervish - Linen Cloth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3395, 2592, 0, 18, 0, 1, 0, 1, 3, 'Verog the Dervish - Wool Cloth');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3395, 5023, 0, 100, 1, 1, 0, 1, 1, 'Verog the Dervish - Verog\'s Head');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3395, 5030, 0, 100, 1, 1, 0, 1, 1, 'Verog the Dervish - Centaur Bracers');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES (3395, 6661, 0, 0.02, 0, 1, 0, 1, 1, 'Verog the Dervish - Recipe: Savory Deviate Delight');
 
 -- Hezrul Bloodmark
 DELETE FROM `creature_loot_template` WHERE `Entry`=3396;
