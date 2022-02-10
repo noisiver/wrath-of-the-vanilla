@@ -1,2 +1,0 @@
-DELETE FROM `game_event` WHERE `eventEntry`=22;
-INSERT INTO `game_event` (`eventEntry`, `start_time`, `end_time`, `occurence`, `length`, `holiday`, `holidayStage`, `description`, `world_event`, `announce`) VALUES (22, '2000-01-01 00:00:00', '2030-01-01 00:00:00', 1, 2592000, 0, 0, 'AQ War Effort', 0, 2);
