@@ -460,4 +460,4 @@ A lot of credit goes to the wonderful people working on [AzerothCore](https://gi
 - [ ] Change the loot tables
 - [ ] Change the spawn points and respawn times
 
-[^1]: This is, unfortunately, not possible using the 3.3.5 client. There may be a way around it, but for the time being it will be marked as not doable.
+[^1]: This is, unfortunately, not possible to fully restore using the original Wrath of the Lich King client. A workaround, however, is possible and is planned for the very distant future.
