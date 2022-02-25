@@ -1,12 +1,3 @@
--- Guild Vault
-DELETE FROM `gameobject` WHERE `id`=187299;
-
--- Lexicon of Power
-DELETE FROM `gameobject` WHERE `id`=193981;
-
--- Portal to Blasted Lands
-DELETE FROM `gameobject` WHERE `id` IN (195141, 195142);
-
 -- Meeting Stone: Blackrock Depths
 DELETE FROM `gameobject` WHERE `guid`=427 AND `id`=179584;
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneid`, `areaid`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`) VALUES (427, 179584, 0, 0, 0, -7590.69, -1139.77, 260.681, -2.76635, 0, 0, 0.98245, -0.186524, 7200, 100, 1);
@@ -19,15 +10,9 @@ INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneid`, `areaid`, `position_x`,
 DELETE FROM `gameobject` WHERE `guid`=6855 AND `id`=179596;
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneid`, `areaid`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`) VALUES (6855, 179596, 1, 1637, 1637, 1818.3, -4402.07, -17.8275, 2.68781, 0, 0, 0.97437, 0.224951, 900, 100, 1);
 
--- Meeting Stone: Onyxia's Lair
-DELETE FROM `gameobject` WHERE `guid`=7013 AND `id`=185321;
-
 -- Meeting Stone: Gnomeregan
 DELETE FROM `gameobject` WHERE `guid`=9649 AND `id`=179555;
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneid`, `areaid`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`) VALUES (9649, 179555, 0, 1, 133, -5203.7, 606.7, 411.465, 1.9984, 0, 0, 0.841039, 0.540974, 900, 100, 1);
-
--- Meeting Stone: Zul'Gurub
-DELETE FROM `gameobject` WHERE `guid`=10124 AND `id`=185433;
 
 -- Meeting Stone: Uldaman
 DELETE FROM `gameobject` WHERE `guid`=10645 AND `id`=178833;
@@ -41,15 +26,9 @@ INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneid`, `areaid`, `position_x`,
 DELETE FROM `gameobject` WHERE `guid`=13540 AND `id`=178825;
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneid`, `areaid`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`) VALUES (13540, 178825, 1, 17, 1717, -4465.69, -1807.09, 86.6898, -3.00197, 0, 0, 0.997564, -0.069756, 900, 100, 1);
 
--- Meeting Stone: Karazhan
-DELETE FROM `gameobject` WHERE `guid`=14003 AND `id`=184463;
-
 -- Meeting Stone: Wailing Caverns
 DELETE FROM `gameobject` WHERE `guid`=15686 AND `id`=178884;
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneid`, `areaid`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`) VALUES (15686, 178884, 1, 17, 17, -793.299, -2135.61, 92.3452, 2.98451, 0, 0, 0.996917, 0.078459, 900, 100, 1);
-
--- Meeting Stone: Caverns of Time
-DELETE FROM `gameobject` WHERE `guid`=17269 AND `id`=182560;
 
 -- Meeting Stone: Zul'Farrak
 DELETE FROM `gameobject` WHERE `guid`=17337 AND `id`=178829;
@@ -86,9 +65,6 @@ INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneid`, `areaid`, `position_x`,
 -- Meeting Stone: Blackfathom Deeps
 DELETE FROM `gameobject` WHERE `guid`=48006 AND `id`=178828;
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneid`, `areaid`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`) VALUES (48006, 178828, 1, 0, 0, 4075.15, 814.207, 2.121, 1.5708, 0, 0, 0.707107, 0.707107, 900, 100, 1);
-
--- Meeting Stone: Ahn'Qiraj
-DELETE FROM `gameobject` WHERE `guid`=49434 AND `id`=185322;
 
 -- Meeting Stone: Dire Maul
 DELETE FROM `gameobject` WHERE `guid`=50056 AND `id`=178826;
