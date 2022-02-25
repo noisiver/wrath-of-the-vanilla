@@ -17,12 +17,12 @@ DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=11;
 INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 11, 'The Ring of Valor');
 
 -- Battlegrounds
--- DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=1;
--- INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 1, 'Alterac Valley');
--- DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=2;
--- INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 2, 'Warsong Gulch');
--- DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=3;
--- INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 3, 'Arathi Basin');
+DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=1;
+INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 1, 'Alterac Valley');
+DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=2;
+INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 2, 'Warsong Gulch');
+DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=3;
+INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 3, 'Arathi Basin');
 DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=7;
 INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 7, 'Eye of the Storm');
 DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=9;
