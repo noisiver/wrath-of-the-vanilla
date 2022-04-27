@@ -13,6 +13,8 @@ The spawn points and respawn times of creatures and objects will be worked on wh
 
 The plan is to add progression on top of this, unlocking content gradually. That is, however, very far from happening - so is progressing into The Burning Crusade and beyond.
 
+**Note**: I have to apologize for the lack of updates. I'm just very busy with both work-related and personal projects on top of a lot of other stuff. I will get back to it eventually, but for now it unfortunately has a low priority.
+
 # Important information
 Do **not** import the file spell_proc_event.sql found in the folder called extra unless you have the same talent changes that I do. It's there to prevent errors caused by my changes to the talent trees.
 
