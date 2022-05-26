@@ -16,7 +16,7 @@ The plan is to add progression on top of this, unlocking content gradually. That
 **Note**: I have to apologize for the lack of updates. I'm just very busy with both work-related and personal projects on top of a lot of other stuff. I will get back to it eventually, but for now it unfortunately has a low priority.
 
 # Important information
-Do **not** import the file spell_proc_event.sql found in the folder called extra unless you have the same talent changes that I do. It's there to prevent errors caused by my changes to the talent trees.
+Do **not** import the files spell_proc_event.sql and npc_trainer.sql found in the folder called extra unless you have the same talent changes that I do. It's there to prevent errors caused by my changes to the talent trees.
 
 # Credit
 A lot of credit goes to the wonderful people working on [AzerothCore](https://github.com/azerothcore/azerothcore-wotlk) and [vMaNGOS](https://github.com/vmangos).
