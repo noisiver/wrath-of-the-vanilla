@@ -17,12 +17,12 @@ DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=11;
 INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 11, 'The Ring of Valor');
 
 -- Battlegrounds
-DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=1;
+/*DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=1;
 INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 1, 'Alterac Valley');
 DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=2;
 INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 2, 'Warsong Gulch');
 DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=3;
-INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 3, 'Arathi Basin');
+INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 3, 'Arathi Basin');*/
 DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=7;
 INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 7, 'Eye of the Storm');
 DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=9;
@@ -33,10 +33,10 @@ DELETE FROM `disables` WHERE `sourceType`=3 AND `entry`=32;
 INSERT INTO `disables` (`sourceType`, `entry`, `comment`) VALUES (3, 32, 'Random Battleground');
 
 -- Dungeons
-DELETE FROM `disables` WHERE `sourceType`=2 AND `entry`=349;
-INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (2, 349, 1, 'Maraudon');
-DELETE FROM `disables` WHERE `sourceType`=2 AND `entry`=429;
-INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (2, 429, 1, 'Dire Maul');
+/*DELETE FROM `disables` WHERE `sourceType`=2 AND `entry`=349;
+INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (2, 349, 1, 'Maraudon');*/
+/*DELETE FROM `disables` WHERE `sourceType`=2 AND `entry`=429;
+INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (2, 429, 1, 'Dire Maul');*/
 DELETE FROM `disables` WHERE `sourceType`=2 AND `entry`=269;
 INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (2, 269, 3, 'Caverns Of Time: Black Morass');
 DELETE FROM `disables` WHERE `sourceType`=2 AND `entry`=540;
@@ -179,8 +179,8 @@ INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 9,
 -- INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 14, 0, 'Stranglethorn Fishing Extravaganza Announce');
 -- DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=15;
 -- INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 15, 0, 'Stranglethorn Fishing Extravaganza Fishing Pools');
-DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=16;
-INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 16, 0, 'Gurubashi Arena Booty Run');
+/*DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=16;
+INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 16, 0, 'Gurubashi Arena Booty Run');*/
 -- DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=17;
 -- INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `comment`) VALUES (9, 17, 0, 'Scourge Invasion');
 -- DELETE FROM `disables` WHERE `sourceType`=9 AND `entry`=18;
