@@ -100,7 +100,7 @@ class boss_lord_kazzak : public CreatureScript
                 Talk(SAY_KILL);
             }
 
-            void EnterEvadeMode() override
+            void EnterEvadeMode(EvadeReason /*why*/) override
             {
                 Talk(SAY_WIPE);
                 ScriptedAI::EnterEvadeMode();
