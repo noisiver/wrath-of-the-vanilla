@@ -15,6 +15,11 @@ The plan is to add progression on top of this, unlocking content gradually. That
 
 **Note**: I have to apologize for the lack of updates. I'm just very busy with both work-related and personal projects on top of a lot of other stuff. I will get back to it eventually, but for now it unfortunately has a low priority.
 
+# Talents
+To get the talent trees I use with any sort of progression you can find them over at [Filebin](https://filebin.net/s387jdhzivcot47v).
+
+The reason why the archive contain talent trees for Vanilla and The Burning Crusade is because the new system I started working on handles patches from 1.1 to 3.3.5 so I needed talent trees through all that. At least now no one has to ask me for these.
+
 # Important information
 Do **not** import the files spell_proc_event.sql and npc_trainer.sql found in the folder called extra unless you have the same talent changes that I do. It's there to prevent errors caused by my changes to the talent trees.
 
